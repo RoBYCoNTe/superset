@@ -79,19 +79,6 @@ CACHE_CONFIG = {
 }
 DATA_CACHE_CONFIG = CACHE_CONFIG
 
-# Begin Superset embedded dashboard config.
-PUBLIC_ROLE_LIKE_GAMMA = True
-FEATURE_FLAGS = {
-    "EMBEDDED_SUPERSET": True
-}
-
-CORS_OPTIONS = {
-  'supports_credentials': True,
-  'allow_headers': ['*'],
-  'resources':['*'],
-  'origins': ['*']
-}
-# End Superset embedded dashboard config.
 
 class CeleryConfig(object):
     BROKER_URL = f"redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_CELERY_DB}"
