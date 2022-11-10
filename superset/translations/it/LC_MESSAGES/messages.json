@@ -1127,13 +1127,13 @@
       ") by using": [""],
       "Edit template parameters": [""],
       "Invalid JSON": [""],
-      "Create a new chart": [""],
+      "Create a new chart": ["Crea un nuovo grafico"],
       "Choose a dataset": ["Seleziona una destinazione"],
       "If the dataset you are looking for is not available in the list, follow the instructions on how to add it in the Superset tutorial.": [
         ""
       ],
       "Choose a visualization type": [""],
-      "Create new chart": ["Creato il"],
+      "Create new chart": ["Crea nuovo grafico"],
       "An error occurred while loading the SQL": [
         "Errore nel creare il datasource"
       ],
@@ -1825,7 +1825,7 @@
       "Notification method": [""],
       "Execution log": [""],
       "Actions": ["Azione"],
-      "Bulk select": ["Seleziona %s"],
+      "Bulk select": ["Seleziona"],
       "No %s yet": [""],
       "Created by": ["Creato il"],
       "An error occurred while fetching created by values: %s": [
