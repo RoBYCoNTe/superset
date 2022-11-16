@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-11-14 15:51+0100\n"
-"PO-Revision-Date: 2022-11-14 17:37+0100\n"
+"PO-Revision-Date: 2022-11-16 16:37+0100\n"
 "Last-Translator: Raffaele Spangaro <raffa@raffaelespangaro.it>\n"
 "Language-Team: Italiano <>\n"
 "Language: it\n"
@@ -1195,7 +1195,7 @@ msgstr ""
 
 #: superset/connectors/sqla/views.py:292
 msgid "Show Row level security filter"
-msgstr ""
+msgstr "Visualizza Row level security filter"
 
 #: superset/connectors/sqla/views.py:293
 msgid "Add Row level security filter"
@@ -2941,7 +2941,7 @@ msgstr ""
 
 #: superset/views/annotations.py:61
 msgid "Show Annotation"
-msgstr ""
+msgstr "Mostra Annotazione"
 
 #: superset/views/annotations.py:62
 msgid "Add Annotation"
@@ -2983,7 +2983,7 @@ msgstr "Metadati JSON"
 
 #: superset/views/annotations.py:117
 msgid "Show Annotation Layer"
-msgstr ""
+msgstr "Mostra Annotation Layer"
 
 #: superset/views/annotations.py:118
 msgid "Add Annotation Layer"
@@ -3300,7 +3300,7 @@ msgstr ""
 
 #: superset/views/chart/mixin.py:27
 msgid "Show Chart"
-msgstr "Mostra grafico"
+msgstr "Mostra Grafico"
 
 #: superset/views/chart/mixin.py:28
 msgid "Add Chart"
@@ -3343,7 +3343,7 @@ msgstr "Tipo di Visualizzazione"
 
 #: superset/views/dashboard/mixin.py:26
 msgid "Show Dashboard"
-msgstr ""
+msgstr "Mostra Dashboard"
 
 #: superset/views/dashboard/mixin.py:27
 msgid "Add Dashboard"
@@ -3922,7 +3922,7 @@ msgstr ""
 
 #: superset/views/log/__init__.py:22
 msgid "Show Log"
-msgstr "Mostra colonna"
+msgstr "Visualizza Log"
 
 #: superset/views/log/__init__.py:23
 msgid "Add Log"
@@ -3950,7 +3950,7 @@ msgstr "Visualizza query salvate"
 
 #: superset/views/sql_lab/views.py:53
 msgid "Show Saved Query"
-msgstr "Mostra query salvate"
+msgstr "Visualizza Query Salvata"
 
 #: superset/views/sql_lab/views.py:54
 msgid "Add Saved Query"
@@ -4058,7 +4058,7 @@ msgstr ""
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/InfoTooltipWithTrigger.tsx:52
 msgid "Show info tooltip"
-msgstr ""
+msgstr "Visualizza Tooltip Informativo"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/SQLPopover.tsx:64
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:233
@@ -4865,7 +4865,7 @@ msgstr ""
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/components/ColumnConfigControl/ColumnConfigControl.tsx:168
 msgid "Show less columns"
-msgstr "Mostra meno colonne"
+msgstr "Visualizza meno colonne"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/components/ColumnConfigControl/ColumnConfigControl.tsx:173
 msgid "Show all columns"
@@ -5153,7 +5153,7 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:179
 msgid "Show Metric Names"
-msgstr "Mostra Nomi delle Metriche"
+msgstr "Visualizza Nomi delle Metriche"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:182
 msgid "Whether to display the metric name as a title"
@@ -5703,7 +5703,7 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:302
 msgid "Show percentage"
-msgstr ""
+msgstr "Visualizza Percentuale"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:304
 msgid "Whether to include the percentage in the tooltip"
@@ -6395,7 +6395,7 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/metrics.tsx:105
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:362
 msgid "Show totals"
-msgstr ""
+msgstr "Visualizza totali"
 
 #: superset-frontend/plugins/legacy-plugin-chart-pivot-table/src/controlPanel.ts:79
 msgid "Display total row/column"
@@ -6444,9 +6444,8 @@ msgstr ""
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:105
 #: superset-frontend/src/explore/controlUtils/controlUtils.test.tsx:113
 #: superset-frontend/src/explore/fixtures.tsx:43
-#, fuzzy
 msgid "Use Area Proportions"
-msgstr "Elenco Dashboard"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:106
 #: superset-frontend/src/explore/controlUtils/controlUtils.test.tsx:114
@@ -6464,9 +6463,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/index.js:29
-#, fuzzy
 msgid "Nightingale Rose Chart"
-msgstr "Esplora grafico"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/index.js:32
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:45
@@ -6498,9 +6496,8 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sankey-loop/src/controlPanel.ts:44
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/controlPanel.ts:38
-#, fuzzy
 msgid "Choose a source and a target"
-msgstr "Seleziona una destinazione"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/controlPanel.ts:48
 msgid ""
@@ -6546,18 +6543,16 @@ msgid "Sankey Diagram with Loops"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:61
-#, fuzzy
 msgid "Primary Metric"
-msgstr "Metrica"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:62
 msgid "The primary metric is used to define the arc segment sizes"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:67
-#, fuzzy
 msgid "Secondary Metric"
-msgstr "Mostra metrica"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:69
 msgid ""
@@ -6576,9 +6571,8 @@ msgid "When a secondary metric is provided, a linear color scale is used."
 msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:96
-#, fuzzy
 msgid "Hierarchy"
-msgstr "Cerca"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:97
 msgid "This defines the level of the hierarchy"
@@ -6593,9 +6587,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/index.js:32
-#, fuzzy
 msgid "Sunburst Chart"
-msgstr "Esplora grafico"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/index.js:33
 #: superset-frontend/plugins/legacy-plugin-chart-treemap/src/index.js:44
@@ -6632,9 +6625,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:82
-#, fuzzy
 msgid "Show Bubbles"
-msgstr "Mostra Tabelle"
+msgstr "Visualizza Bubbles"
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:85
 msgid "Whether to display bubbles on top of countries"
@@ -6642,14 +6634,12 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:96
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/controlPanel.ts:60
-#, fuzzy
 msgid "Max Bubble Size"
-msgstr "Grandezza della bolla"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:116
-#, fuzzy
 msgid "Color by"
-msgstr "Seleziona la metrica"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:122
 msgid ""
@@ -6658,14 +6648,12 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:135
-#, fuzzy
 msgid "Country Column"
-msgstr "Controlli del filtro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:136
-#, fuzzy
 msgid "3 letter code of the country"
-msgstr "Codice a 3 lettere della nazione"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:140
 msgid "Metric that defines the size of the bubble"
@@ -6716,9 +6704,8 @@ msgstr ""
 
 # | msgid "All charts"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/controlPanel.js:37
-#, fuzzy
 msgid "deck.gl charts"
-msgstr "Grafico a Proiettile"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/controlPanel.js:40
 msgid "Pick a set of deck.gl charts to layer on top of one another"
@@ -6727,25 +6714,22 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/controlPanel.js:45
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:103
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:138
-#, fuzzy
 msgid "Select charts"
-msgstr "Grafico a Proiettile"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/controlPanel.js:46
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:104
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:139
-#, fuzzy
 msgid "Error while fetching charts"
-msgstr "Errore nel recupero dati"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/index.js:27
 msgid "Compose multiple layers together to form complex visuals."
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/index.js:28
-#, fuzzy
 msgid "deck.gl Multiple Layers"
-msgstr "Serie Temporali - Grafico Lineare"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/Multi/index.js:31
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/index.js:33
@@ -6770,9 +6754,8 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:54
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:66
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:309
-#, fuzzy
 msgid "Point to your spatial columns"
-msgstr "La tua query non può essere salvata"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:64
 msgid "End Longitude & Latitude"
@@ -6783,9 +6766,8 @@ msgid "Arc"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:92
-#, fuzzy
 msgid "Target Color"
-msgstr "Database"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:93
 msgid "Color of the target location"
@@ -6892,9 +6874,8 @@ msgid "Experimental"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:67
-#, fuzzy
 msgid "Dynamic Aggregation Function"
-msgstr "Testa la Connessione"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:68
 msgid "The function to use when aggregating points into groups"
@@ -6919,18 +6900,16 @@ msgid "deck.gl Path"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:68
-#, fuzzy
 msgid "Polygon Column"
-msgstr "Controlli del filtro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:77
 msgid "Polygon Encoding"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:88
-#, fuzzy
 msgid "Elevation"
-msgstr "Descrizione"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:106
 msgid "Polygon Settings"
@@ -6958,18 +6937,16 @@ msgstr ""
 
 # | msgid "Filter results"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:163
-#, fuzzy
 msgid "Emit Filter Events"
-msgstr "Risultati della ricerca"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:166
 msgid "Whether to apply filter when items are clicked"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:173
-#, fuzzy
 msgid "Multiple filtering"
-msgstr "Seleziona %s"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:176
 msgid "Allow sending multiple polygons as a filter event"
@@ -6987,19 +6964,16 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:71
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:320
-#, fuzzy
 msgid "Point Size"
-msgstr "Importa"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:79
-#, fuzzy
 msgid "Point Unit"
-msgstr "Importa"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:101
-#, fuzzy
 msgid "Minimum Radius"
-msgstr "minuto"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:106
 msgid ""
@@ -7037,9 +7011,8 @@ msgstr ""
 
 # | msgid "Height"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Screengrid/controlPanel.ts:77
-#, fuzzy
 msgid "Weight"
-msgstr "Altezza"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Screengrid/controlPanel.ts:78
 msgid "Metric used as a weight for the grid's coloring"
@@ -7087,9 +7060,8 @@ msgid "When checked, the map will zoom to your data after each query"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:111
-#, fuzzy
 msgid "Select a dimension"
-msgstr "Importa dashboard"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:121
 msgid "Extra data for JS"
@@ -7130,19 +7102,16 @@ msgid "Define a function that returns a URL to navigate to when user clicks"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:162
-#, fuzzy
 msgid "Legend Format"
-msgstr "Formato Datetime"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:163
-#, fuzzy
 msgid "Choose the format for legend values"
-msgstr "Seleziona una metrica per l'asse destro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:176
-#, fuzzy
 msgid "Legend Position"
-msgstr "Testa la Connessione"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:177
 msgid "Choose the position of the legend"
@@ -7151,9 +7120,8 @@ msgstr ""
 # | msgid "Time column"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:196
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/sharedDndControls.jsx:27
-#, fuzzy
 msgid "Lines column"
-msgstr "Colonna del Tempo"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:198
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/sharedDndControls.jsx:28
@@ -7182,9 +7150,8 @@ msgstr ""
 
 # | msgid "Broker Port"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:234
-#, fuzzy
 msgid "Stroke Color"
-msgstr "Porta Broker"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:248
 msgid "Filled"
@@ -7199,15 +7166,13 @@ msgid "Stroked"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:261
-#, fuzzy
 msgid "Whether to display the stroke"
-msgstr "Seleziona una metrica da visualizzare"
+msgstr ""
 
 # | msgid "Extra"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:270
-#, fuzzy
 msgid "Extruded"
-msgstr "Extra"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:281
 msgid "Grid Size"
@@ -7230,9 +7195,8 @@ msgid "Fixed point radius"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:333
-#, fuzzy
 msgid "Multiplier"
-msgstr "Serie Temporali - Grafico Lineare"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:337
 msgid "Factor to multiply the metric by"
@@ -7252,28 +7216,25 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:390
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/sharedDndControls.jsx:36
-#, fuzzy
 msgid "GeoJson Column"
-msgstr "descrizione"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:392
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/sharedDndControls.jsx:37
-#, fuzzy
 msgid "Select the geojson column"
-msgstr "Seleziona data finale"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:53
-#, fuzzy
 msgid "Right Axis Format"
-msgstr "Metrica asse destro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:64
 msgid "Show Markers"
-msgstr ""
+msgstr "Visualizza Markers"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:67
 msgid "Show data points as circle markers on the lines"
-msgstr ""
+msgstr "Visualizza punti come cerchi sulle linee"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:91
 msgid "Y bounds"
@@ -7297,9 +7258,8 @@ msgid "Line interpolation as defined by d3.js"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:132
-#, fuzzy
 msgid "Show Range Filter"
-msgstr "Cerca / Filtra"
+msgstr "Visualizza Filtri di tipo Intervallo"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:141
 msgid "Whether to display the time range interactive selector"
@@ -7330,9 +7290,8 @@ msgid "The way the ticks are laid out on the X-axis"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:215
-#, fuzzy
 msgid "X Axis Format"
-msgstr "Formato Datetime"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:227
 msgid "Y Log Scale"
@@ -7379,9 +7338,8 @@ msgid "Whether to display the min and max values of the X-axis"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:294
-#, fuzzy
 msgid "Bar Values"
-msgstr "Valore del filtro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:297
 msgid "Show the value on top of the bar"
@@ -7455,9 +7413,8 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:41
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/controlPanel.tsx:92
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:89
-#, fuzzy
 msgid "Area Chart"
-msgstr "Esplora grafico"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:46
 msgid "Continuous"
@@ -7471,9 +7428,8 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/index.ts:83
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/index.ts:83
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:68
-#, fuzzy
 msgid "Line"
-msgstr "Min"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:54
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:46
@@ -7491,15 +7447,13 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:55
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/index.js:45
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:38
-#, fuzzy
 msgid "Deprecated"
-msgstr "Creato il"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:54
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:335
-#, fuzzy
 msgid "Series Limit Sort By"
-msgstr "Serie Temporali - Stacked"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:55
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:336
@@ -7510,9 +7464,8 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:73
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:354
-#, fuzzy
 msgid "Series Limit Sort Descending"
-msgstr "Importa"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/controlPanel.ts:75
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:356
@@ -7526,9 +7479,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:35
-#, fuzzy
 msgid "Time-series Bar Chart"
-msgstr "Serie Temporali - Grafico Barre"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bar/index.js:38
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/index.js:41
@@ -7565,9 +7517,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/controlPanel.ts:39
-#, fuzzy
 msgid "Ranges"
-msgstr "Gestisci"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/controlPanel.ts:41
 msgid "Ranges to highlight with shading"
@@ -7634,23 +7585,20 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Compare/index.js:30
-#, fuzzy
 msgid "Time-series Percent Change"
-msgstr "Serie Temporali - Cambiamento Percentuale"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/controlPanel.ts:83
-#, fuzzy
 msgid "Sort Bars"
-msgstr "Importa dashboard"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/controlPanel.ts:86
 msgid "Sort bars by x labels."
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/controlPanel.ts:123
-#, fuzzy
 msgid "Breakdowns"
-msgstr "Creato il"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/controlPanel.ts:124
 msgid "Defines how each series is broken down"
@@ -7664,22 +7612,19 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/index.js:38
-#, fuzzy
 msgid "Bar Chart"
-msgstr "Esplora grafico"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/index.js:40
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/index.ts:39
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/index.ts:55
 #: superset-frontend/plugins/plugin-chart-table/src/index.ts:43
-#, fuzzy
 msgid "Additive"
-msgstr "Aggiungi filtro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DistBar/index.js:44
-#, fuzzy
 msgid "Discrete"
-msgstr "è stata creata"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:40
 msgid "Y Axis 1"
@@ -7690,14 +7635,12 @@ msgid "Y Axis 2"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:68
-#, fuzzy
 msgid "Left Axis Metric"
-msgstr "Metrica asse destro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:69
-#, fuzzy
 msgid "Choose a metric for left axis"
-msgstr "Seleziona una metrica per l'asse destro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/controlPanel.ts:72
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:166
@@ -7711,9 +7654,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/DualLine/index.js:30
-#, fuzzy
 msgid "Dual Line Chart"
-msgstr "Grafico a Proiettile"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/controlPanel.ts:59
 msgid "Propagate"
@@ -7733,9 +7675,8 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Line/index.js:38
 #: superset-frontend/plugins/preset-chart-xy/src/Line/createMetadata.ts:26
-#, fuzzy
 msgid "Line Chart"
-msgstr "Grafico a torta"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:64
 msgid "Prefix metric name with slice name"
@@ -7750,23 +7691,20 @@ msgid "Left Axis chart(s)"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:100
-#, fuzzy
 msgid "Choose one or more charts for left axis"
-msgstr "Seleziona una metrica per l'asse destro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:123
 msgid "Y Axis Right"
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:132
-#, fuzzy
 msgid "Right Axis chart(s)"
-msgstr "Metrica asse destro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/controlPanel.ts:135
-#, fuzzy
 msgid "Choose one or more charts for right axis"
-msgstr "Seleziona una metrica per l'asse destro"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:27
 msgid ""
@@ -7776,18 +7714,16 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/LineMulti/index.js:30
-#, fuzzy
 msgid "Multiple Line Charts"
-msgstr "Serie Temporali - Grafico Lineare"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:47
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:86
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:100
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:107
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:96
-#, fuzzy
 msgid "Label Type"
-msgstr "Tipo"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:58
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:103
@@ -7799,9 +7735,8 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:83
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:222
-#, fuzzy
 msgid "Donut"
-msgstr "mese"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:86
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:225
@@ -7813,9 +7748,8 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:151
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:95
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:72
-#, fuzzy
 msgid "Show Labels"
-msgstr "Mostra Tabelle"
+msgstr "Visualizza Labels"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/controlPanel.ts:99
 msgid ""
@@ -7834,7 +7768,6 @@ msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Pie/index.js:27
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/index.ts:63
-#, fuzzy
 msgid "Pie Chart"
 msgstr "Grafico a torta"
 
@@ -7858,21 +7791,18 @@ msgstr ""
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/vendor/superset/AnnotationTypes.js:33
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:429
 #: superset-frontend/src/modules/AnnotationTypes.js:32
-#, fuzzy
 msgid "Formula"
-msgstr "Formato D3"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/vendor/superset/AnnotationTypes.js:37
 #: superset-frontend/src/modules/AnnotationTypes.js:36
-#, fuzzy
 msgid "Event"
-msgstr "Nome Completo"
+msgstr ""
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/vendor/superset/AnnotationTypes.js:42
 #: superset-frontend/src/modules/AnnotationTypes.js:41
-#, fuzzy
 msgid "Interval"
-msgstr "Filtrabile"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/constants.ts:82
 msgid "Stack"
@@ -7884,7 +7814,7 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:37
 msgid "Show legend"
-msgstr ""
+msgstr "Visualizza legenda"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:40
 msgid "Whether to display a legend for the chart"
@@ -7911,9 +7841,8 @@ msgid "Legend type"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:81
-#, fuzzy
 msgid "Orientation"
-msgstr "Azione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:83
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:354
@@ -7922,19 +7851,16 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:84
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:355
-#, fuzzy
 msgid "Bottom"
-msgstr "dttm"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:90
-#, fuzzy
 msgid "Legend Orientation"
-msgstr "Azione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:108
-#, fuzzy
 msgid "Show Value"
-msgstr "Mostra Tabelle"
+msgstr "Visualizza Valore"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:111
 msgid "Show series values on the chart"
@@ -7980,14 +7906,12 @@ msgid "Shows a list of all series available at that point in time"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:188
-#, fuzzy
 msgid "Tooltip time format"
-msgstr "Formato Datetime"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:198
-#, fuzzy
 msgid "Tooltip sort by metric"
-msgstr "Lista Metriche"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:201
 msgid "Whether to sort tooltip by the selected metric in descending order."
@@ -8027,9 +7951,8 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/sharedControls.ts:35
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/sharedControls.ts:69
-#, fuzzy
 msgid "Tiny"
-msgstr "Min"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/sharedControls.ts:39
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/sharedControls.ts:73
@@ -8058,9 +7981,8 @@ msgid "Subheader Font Size"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:38
-#, fuzzy
 msgid "Display settings"
-msgstr "Valore del filtro"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:47
 msgid "Subheader"
@@ -8072,9 +7994,8 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:83
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:158
-#, fuzzy
 msgid "Force date format"
-msgstr "Formato Datetime"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:86
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:161
@@ -8088,9 +8009,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/index.ts:34
-#, fuzzy
 msgid "A Big Number"
-msgstr "Numero Grande"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/index.ts:35
 msgid "With a subheader"
@@ -8099,9 +8019,8 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/index.ts:41
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/index.ts:39
 #: superset-frontend/plugins/plugin-chart-table/src/index.ts:45
-#, fuzzy
 msgid "Formattable"
-msgstr "Formato D3"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:55
 msgid "Comparison Period Lag"
@@ -8112,9 +8031,8 @@ msgid "Based on granularity, number of time periods to compare against"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:68
-#, fuzzy
 msgid "Comparison suffix"
-msgstr "Colonna del Tempo"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:69
 msgid "Suffix to apply after the percentage display"
@@ -8212,17 +8130,15 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:42
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts:61
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:129
-#, fuzzy
 msgid "ECharts"
-msgstr "Grafici"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:80
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:94
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:89
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:66
-#, fuzzy
 msgid "Labels"
-msgstr "Tabelle"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/controlPanel.tsx:131
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:154
@@ -8238,9 +8154,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/index.ts:52
-#, fuzzy
 msgid "Funnel Chart"
-msgstr "Grafico a torta"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/index.ts:58
 #: superset-frontend/plugins/plugin-chart-table/src/index.ts:49
@@ -8248,9 +8163,8 @@ msgid "Sequential"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:43
-#, fuzzy
 msgid "Columns to group by"
-msgstr "Uno o più controlli per 'Raggruppa per'"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:78
 msgid "General"
@@ -8276,9 +8190,8 @@ msgid "Maximum value on the gauge axis"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:108
-#, fuzzy
 msgid "Start angle"
-msgstr "Ultima Modifica"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:109
 msgid "Angle at which to start progress axis"
@@ -8302,9 +8215,8 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:163
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:271
-#, fuzzy
 msgid "Value format"
-msgstr "Formato Datetime"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:164
 msgid "Additional text to add before or after the value, e.g. unit"
@@ -8319,9 +8231,8 @@ msgid "Whether to show the pointer"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:189
-#, fuzzy
 msgid "Animation"
-msgstr "Azione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:190
 msgid "Whether to animate the progress and the value or just display them"
@@ -8348,9 +8259,8 @@ msgid "Whether to show the split lines on the axis"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:228
-#, fuzzy
 msgid "Split number"
-msgstr "Numero Grande"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:229
 msgid "Number of split segments on the axis"
@@ -8361,18 +8271,16 @@ msgid "Progress"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:243
-#, fuzzy
 msgid "Show progress"
-msgstr "Elenco Dashboard"
+msgstr "Visualizza Progress"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:244
 msgid "Whether to show the progress of gauge chart"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:255
-#, fuzzy
 msgid "Overlap"
-msgstr "Mappa del Mondo"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:256
 msgid ""
@@ -8380,23 +8288,20 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:269
-#, fuzzy
 msgid "Round cap"
-msgstr "Mappa della Nazione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:270
 msgid "Style the ends of the progress bar with a round cap"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:278
-#, fuzzy
 msgid "Intervals"
-msgstr "Filtrabile"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:284
-#, fuzzy
 msgid "Interval bounds"
-msgstr "Controlli del filtro"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:285
 msgid ""
@@ -8423,9 +8328,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/index.ts:42
-#, fuzzy
 msgid "Gauge Chart"
-msgstr "Grafico a torta"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:54
 msgid "Name of the source nodes"
@@ -8455,9 +8359,8 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:97
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:108
-#, fuzzy
 msgid "Chart options"
-msgstr "Azione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:102
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:111
@@ -8469,9 +8372,8 @@ msgid "Graph layout"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:112
-#, fuzzy
 msgid "Force"
-msgstr "Sorgente"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:115
 msgid "Layout type of graph"
@@ -8517,9 +8419,8 @@ msgstr ""
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:166
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:186
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:275
-#, fuzzy
 msgid "Disabled"
-msgstr "Modifica Tabella"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:167
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:276
@@ -8542,9 +8443,8 @@ msgid "Whether to enable changing graph position and scaling."
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:183
-#, fuzzy
 msgid "Node select mode"
-msgstr "Seleziona una colonna"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:187
 msgid "Single"
@@ -8555,9 +8455,8 @@ msgid "Multiple"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:190
-#, fuzzy
 msgid "Allow node selections"
-msgstr "Seleziona una colonna"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:199
 msgid "Label threshold"
@@ -8568,9 +8467,8 @@ msgid "Minimum value for label to be displayed on graph."
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:214
-#, fuzzy
 msgid "Node size"
-msgstr "Grandezza della bolla"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:218
 msgid ""
@@ -8578,9 +8476,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:227
-#, fuzzy
 msgid "Edge width"
-msgstr "Larghezza"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:231
 msgid ""
@@ -8605,18 +8502,16 @@ msgid "Strength to pull the graph toward center"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:284
-#, fuzzy
 msgid "Repulsion"
-msgstr "Espressione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:290
 msgid "Repulsion strength between nodes"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:305
-#, fuzzy
 msgid "Friction"
-msgstr "Azione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:311
 msgid "Friction between nodes"
@@ -8631,9 +8526,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/index.ts:37
-#, fuzzy
 msgid "Graph Chart"
-msgstr "Grafico a torta"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/index.ts:45
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:45
@@ -8641,9 +8535,8 @@ msgid "Structural"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:146
-#, fuzzy
 msgid "Series type"
-msgstr "Tipo"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:158
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:81
@@ -8652,9 +8545,8 @@ msgid "Series chart type (line, bar etc)"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:179
-#, fuzzy
 msgid "Area chart"
-msgstr "Esplora grafico"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:182
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/controlPanel.tsx:95
@@ -8711,33 +8603,28 @@ msgstr ""
 
 # | msgid "Shared query"
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:292
-#, fuzzy
 msgid "Shared query fields"
-msgstr "query condivisa"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:297
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:308
-#, fuzzy
 msgid "Query A"
-msgstr "condividi query"
+msgstr ""
 
 # | msgid "Advanced analytics"
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:298
-#, fuzzy
 msgid "Advanced analytics Query A"
-msgstr "Analytics avanzate"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:299
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:309
-#, fuzzy
 msgid "Query B"
-msgstr "condividi query"
+msgstr ""
 
 # | msgid "Advanced analytics"
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:300
-#, fuzzy
 msgid "Advanced analytics Query B"
-msgstr "Analytics avanzate"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:315
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:170
@@ -8866,9 +8753,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/index.ts:72
-#, fuzzy
 msgid "Mixed Chart"
-msgstr "Grafico a torta"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/index.ts:72
 msgid "Mixed Time-Series"
@@ -8888,9 +8774,8 @@ msgstr ""
 
 # | msgid "Show Table"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:193
-#, fuzzy
 msgid "Show Total"
-msgstr "Mostra Tabelle"
+msgstr "Visualizza Totale"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:196
 msgid "Whether to display the aggregate count"
@@ -8937,9 +8822,8 @@ msgid "The maximum value of metrics. It is an optional configuration"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:124
-#, fuzzy
 msgid "Label position"
-msgstr "Testa la Connessione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:162
 msgid "Radar"
@@ -8969,9 +8853,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/index.ts:53
-#, fuzzy
 msgid "Radar Chart"
-msgstr "Esplora grafico"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:51
 msgid ""
@@ -8987,14 +8870,12 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:64
-#, fuzzy
 msgid "Generic Chart"
-msgstr "Grafico a torta"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:64
-#, fuzzy
 msgid "Time-series Chart"
-msgstr "Serie Temporali - Stacked"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/transformProps.ts:430
 msgid "zoom area"
@@ -9006,16 +8887,14 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:71
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/controlPanel.tsx:70
-#, fuzzy
 msgid "Series Style"
-msgstr "Serie Temporali - Stacked"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:90
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/controlPanel.tsx:106
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:103
-#, fuzzy
 msgid "Area chart opacity"
-msgstr "Esplora grafico"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:96
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/controlPanel.tsx:112
@@ -9045,21 +8924,18 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/index.ts:71
-#, fuzzy
 msgid "Area Chart v2"
-msgstr "Esplora grafico"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/index.ts:72
-#, fuzzy
 msgid "Time-series Area Chart"
-msgstr "Serie Temporali - Grafico Barre"
+msgstr ""
 
 # | msgid "Title"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:64
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:95
-#, fuzzy
 msgid "Axis Title"
-msgstr "Titolo"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:80
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:111
@@ -9075,9 +8951,8 @@ msgid "Rotate axis label"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:189
-#, fuzzy
 msgid "Axis Format"
-msgstr "Formato Datetime"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:200
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:203
@@ -9108,25 +8983,21 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:268
-#, fuzzy
 msgid "Chart Orientation"
-msgstr "Azione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:277
-#, fuzzy
 msgid "Bar orientation"
-msgstr "Azione"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:281
-#, fuzzy
 msgid "Horizontal"
-msgstr "Grafici d'orizzonte"
+msgstr ""
 
 # | msgid "Distribution - Bar Chart"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:283
-#, fuzzy
 msgid "Orientation of bar chart"
-msgstr "Distribuzione - Grafico Barre"
+msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/index.ts:63
 msgid "Bar Charts are used to show metrics as a series of bars."
@@ -9617,9 +9488,8 @@ msgid "Display row level total"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:226
-#, fuzzy
 msgid "Show columns total"
-msgstr "Mostra colonna"
+msgstr "Visualizza totale colonne"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:229
 msgid "Display column level total"
@@ -10869,7 +10739,7 @@ msgstr ""
 #: superset-frontend/src/components/Chart/ChartRenderer.jsx:277
 #: superset-frontend/src/explore/components/DataTablesPane/components/useResultsPane.tsx:133
 msgid "No results were returned for this query"
-msgstr ""
+msgstr "Nessun dato restituito per la query di ricerca"
 
 #: superset-frontend/src/components/Chart/ChartRenderer.jsx:280
 msgid ""
@@ -12016,9 +11886,8 @@ msgid "This action will permanently delete %s."
 msgstr ""
 
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:322
-#, fuzzy
 msgid "Delete Report?"
-msgstr "Template CSS"
+msgstr "Cancellare Report?"
 
 #: superset-frontend/src/components/Select/AsyncSelect.tsx:492
 #: superset-frontend/src/components/Select/Select.tsx:285
@@ -12030,18 +11899,16 @@ msgstr ""
 
 # | msgid "Filter name"
 #: superset-frontend/src/components/Table/index.tsx:171
-#, fuzzy
 msgid "Filter menu"
-msgstr "Valore del filtro"
+msgstr "Menu Filtri"
 
 #: superset-frontend/src/components/Table/index.tsx:173
 msgid "Reset"
 msgstr ""
 
 #: superset-frontend/src/components/Table/index.tsx:174
-#, fuzzy
 msgid "No filters"
-msgstr "Aggiungi filtro"
+msgstr "Nessun filtro"
 
 # | msgid "Select parent filters"
 #: superset-frontend/src/components/Table/index.tsx:175
@@ -12126,9 +11993,8 @@ msgid "Force refresh table list"
 msgstr ""
 
 #: superset-frontend/src/components/TimezoneSelector/index.tsx:129
-#, fuzzy
 msgid "Timezone selector"
-msgstr "Seleziona una colonna"
+msgstr "Selezionatore di Timezone"
 
 #: superset-frontend/src/dashboard/actions/dashboardInfo.ts:162
 msgid "Sorry, an unknown error occurred."
@@ -12183,9 +12049,8 @@ msgid "You do not have permissions to edit this dashboard."
 msgstr "Non hai i permessi per accedere alla/e sorgente/i dati: %(name)s."
 
 #: superset-frontend/src/dashboard/actions/dashboardState.js:242
-#, fuzzy
 msgid "[ untitled dashboard ]"
-msgstr "Aggiungi ad una nuova dashboard"
+msgstr "[ dashboard senza titolo ]"
 
 #: superset-frontend/src/dashboard/actions/dashboardState.js:294
 #: superset-frontend/src/dashboard/actions/dashboardState.js:332
@@ -12221,14 +12086,12 @@ msgstr ""
 
 # | msgid "Change dataset"
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:80
-#, fuzzy
 msgid "Changes saved."
-msgstr "Seleziona una destinazione"
+msgstr "Modifiche salvate."
 
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:98
-#, fuzzy
 msgid "Disable embedding?"
-msgstr "Modifica Tabella"
+msgstr "Disattivare Embedded Dashboard?"
 
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:99
 msgid "This will remove your current embed configuration."
@@ -12272,20 +12135,17 @@ msgstr ""
 
 # | msgid "Active"
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:215
-#, fuzzy
 msgid "Deactivate"
-msgstr "Azione"
+msgstr "Disattiva"
 
 # | msgid "Save as"
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:223
-#, fuzzy
 msgid "Save changes"
-msgstr "Salva come"
+msgstr "Salva modifiche"
 
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:232
-#, fuzzy
 msgid "Enable embedding"
-msgstr "Importa"
+msgstr "Abilita Embedded Dashboard"
 
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:244
 msgid "Embed"
@@ -12317,9 +12177,8 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/DashboardBuilder/DashboardBuilder.tsx:470
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:209
-#, fuzzy
 msgid "Edit the dashboard"
-msgstr "Aggiungi ad una nuova dashboard"
+msgstr "Modifica la dashboard"
 
 #: superset-frontend/src/dashboard/components/FilterBoxMigrationModal.tsx:64
 msgid "Ready to review filters in this dashboard?"
@@ -12352,9 +12211,8 @@ msgstr ""
 
 # | msgid "Refresh dashboard"
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:79
-#, fuzzy
 msgid "Refresh interval saved"
-msgstr "Rimuovi il grafico dalla dashboard"
+msgstr "Intervallo di aggiornamento salvato"
 
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:111
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:116
@@ -12400,15 +12258,13 @@ msgstr ""
 
 # | msgid "Tab name"
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:73
-#, fuzzy
 msgid "name"
-msgstr "Nome"
+msgstr "nome"
 
 # | msgid "Viz type"
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:74
-#, fuzzy
 msgid "viz type"
-msgstr "Tipo"
+msgstr "tipo visualizzazione"
 
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:76
 msgid "recent"
@@ -12419,9 +12275,9 @@ msgid "Filter your charts"
 msgstr "Controlli del filtro"
 
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:322
-#, fuzzy, python-format
+#, python-format
 msgid "Sort by %s"
-msgstr "Importa"
+msgstr "Ordina per %s"
 
 #: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:122
 #: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:149
@@ -12458,18 +12314,17 @@ msgid "Live CSS editor"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/DashboardBuilder/DashboardBuilder.tsx:463
-#, fuzzy
 msgid "There are no charts added to this dashboard"
-msgstr "Non hai i permessi per accedere alla/e sorgente/i dati: %(name)s."
+msgstr "Non sono stati aggiunti grafici a questa dashboard"
 
 #: superset-frontend/src/dashboard/components/DashboardBuilder/DashboardBuilder.tsx:466
 msgid "Go to the edit mode to configure the dashboard and add charts"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/FiltersBadge/DetailsPanel/index.tsx:186
-#, fuzzy, python-format
+#, python-format
 msgid "Applied Cross Filters (%d)"
-msgstr "Aggiungi filtro"
+msgstr "Filtro Cross Applicati (%d)"
 
 #: superset-frontend/src/dashboard/components/FiltersBadge/DetailsPanel/index.tsx:210
 #, python-format
@@ -12505,15 +12360,13 @@ msgstr "Aggiungi ad una nuova dashboard"
 
 # | msgid "Dashboard Emails"
 #: superset-frontend/src/dashboard/components/Header/index.jsx:517
-#, fuzzy
 msgid "Dashboard title"
-msgstr "Elenco Dashboard"
+msgstr "Titolo Dashboard"
 
 # | msgid "Annotation"
 #: superset-frontend/src/dashboard/components/Header/index.jsx:552
-#, fuzzy
 msgid "Undo the action"
-msgstr "Azione"
+msgstr "Annulla azione"
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:572
 msgid "Redo the action"
@@ -12521,9 +12374,8 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:597
 #: superset-frontend/src/dashboard/components/Header/index.jsx:599
-#, fuzzy
 msgid "Discard"
-msgstr "è stata creata"
+msgstr "Scarta"
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:631
 #: superset-frontend/src/dashboard/components/Header/index.jsx:633
@@ -12537,9 +12389,8 @@ msgstr "Errore nel recupero dei metadati della tabella"
 
 # | msgid "Refresh dashboard"
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:166
-#, fuzzy
 msgid "Refreshing charts"
-msgstr "Rimuovi il grafico dalla dashboard"
+msgstr ""
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:236
 msgid "Superset dashboard"
@@ -12561,7 +12412,7 @@ msgstr ""
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:268
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:370
 msgid "Enter fullscreen"
-msgstr ""
+msgstr "Modalità schermo intero"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:276
 msgid "Edit properties"
@@ -12654,15 +12505,13 @@ msgstr ""
 
 # | msgid "JSON metadata"
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:314
-#, fuzzy
 msgid "JSON metadata is invalid!"
-msgstr "Metadati JSON"
+msgstr "Metadati JSON non validi!"
 
 # | msgid "Dashboard properties"
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:374
-#, fuzzy
 msgid "Dashboard properties updated"
-msgstr "Elenco Dashboard"
+msgstr "Proprietà dashboard aggiornate"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:392
 msgid "The dashboard has been saved"
@@ -12796,7 +12645,7 @@ msgstr ""
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:355
 #, python-format
 msgid "Fetched %s"
-msgstr ""
+msgstr "Aggiornato %s"
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:364
 #, python-format
@@ -12805,7 +12654,7 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:383
 msgid "Force refresh"
-msgstr ""
+msgstr "Forza aggiornamento"
 
 # | msgid "description"
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:396
@@ -13015,19 +12864,17 @@ msgstr ""
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterControls/FilterValue.tsx:179
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:503
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:520
-#, fuzzy
 msgid "Check configuration"
-msgstr "Controlli del filtro"
+msgstr "Controllo configurazione"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterControls/FilterValue.tsx:257
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1171
-#, fuzzy
 msgid "Cannot load filter"
-msgstr "Cerca / Filtra"
+msgstr "Impossibile caricare il filtro"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/EditSection.tsx:118
 msgid "Editing filter set:"
-msgstr ""
+msgstr "Stai modificando il Filter set:"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/EditSection.tsx:142
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/Footer.tsx:83
@@ -13035,9 +12882,8 @@ msgid "Filter set with this name already exists"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/EditSection.tsx:143
-#, fuzzy
 msgid "Filter set already exists"
-msgstr "Una o più metriche da mostrare"
+msgstr "Filtro (Set) già esistente"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/EditSection.tsx:164
 #, python-format
@@ -13053,9 +12899,9 @@ msgid "Rebuild"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/FiltersHeader.tsx:88
-#, fuzzy, python-format
+#, python-format
 msgid "Filters (%d)"
-msgstr "Aggiungi filtro"
+msgstr "Filtri (%d)"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/FiltersHeader.tsx:109
 msgid "This filter doesn't exist in dashboard. It will not be applied."
@@ -13113,14 +12959,12 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterCard/TypeRow.tsx:31
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:761
-#, fuzzy
 msgid "Filter type"
-msgstr "Valore del filtro"
+msgstr "Tipo Filtro"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/DividerConfigForm.tsx:44
-#, fuzzy
 msgid "Title is required"
-msgstr "Sorgente Dati"
+msgstr "Il titolo è obbligatorio"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FilterTitleContainer.tsx:115
 msgid "(Removed)"
@@ -13132,7 +12976,7 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FilterTitlePane.tsx:109
 msgid "Add filters and dividers"
-msgstr ""
+msgstr "Aggiungi filtri e divisori"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigModal.tsx:265
 #, fuzzy

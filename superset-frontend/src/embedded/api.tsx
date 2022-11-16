@@ -1,3 +1,5 @@
+import { bootstrapData } from '../preamble';
+import { getDashboardPermalink as getDashboardPermalinkUtil } from '../utils/urlUtils';
 /**
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -17,8 +19,6 @@
  * under the License.
  */
 import { store } from '../views/store';
-import { bootstrapData } from '../preamble';
-import { getDashboardPermalink as getDashboardPermalinkUtil } from '../utils/urlUtils';
 
 type Size = {
   width: number;
@@ -29,6 +29,7 @@ type EmbeddedSupersetApi = {
   getScrollSize: () => Size;
   getDashboardPermalink: ({ anchor }: { anchor: string }) => Promise<string>;
   getActiveTabs: () => string[];
+  getDashboardState: () => any;
 };
 
 const getScrollSize = (): Size => ({
@@ -57,10 +58,18 @@ const getDashboardPermalink = async ({
   });
 };
 
+const getDashboardState = async () => {
+  const state = store?.getState();
+  return Promise.resolve({
+    dashboard: state?.dashboardInfo,
+  });
+};
+
 const getActiveTabs = () => store?.getState()?.dashboardState?.activeTabs || [];
 
 export const embeddedApi: EmbeddedSupersetApi = {
   getScrollSize,
   getDashboardPermalink,
   getActiveTabs,
+  getDashboardState,
 };

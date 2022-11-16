@@ -366,7 +366,9 @@
       "Extra": ["Extra"],
       "Warning Message": [""],
       "Row level security filter": [""],
-      "Show Row level security filter": [""],
+      "Show Row level security filter": [
+        "Visualizza Row level security filter"
+      ],
       "Add Row level security filter": [""],
       "Edit Row level security filter": [""],
       "Choose a unique name": ["Scegli un nome univoco"],
@@ -873,7 +875,7 @@
       "annotation start time or end time is required.": [""],
       "Annotation end time must be no earlier than start time.": [""],
       "Annotations": [""],
-      "Show Annotation": [""],
+      "Show Annotation": ["Mostra Annotazione"],
       "Add Annotation": [""],
       "Edit Annotation": [""],
       "Layer": [""],
@@ -881,7 +883,7 @@
       "Start": [""],
       "End": [""],
       "JSON Metadata": ["Metadati JSON"],
-      "Show Annotation Layer": [""],
+      "Show Annotation Layer": ["Mostra Annotation Layer"],
       "Add Annotation Layer": [""],
       "Edit Annotation Layer": [""],
       "Table [%{table}s] could not be found, please double check your database connection, schema, and table name, error: {}": [
@@ -976,7 +978,7 @@
       "The dataset associated with this chart no longer exists": [""],
       "Could not determine datasource type": [""],
       "Could not find viz object": [""],
-      "Show Chart": ["Mostra grafico"],
+      "Show Chart": ["Mostra Grafico"],
       "Add Chart": ["Aggiungi grafico"],
       "Edit Chart": ["Modifica grafico"],
       "These parameters are generated dynamically when clicking the save or overwrite button in the explore view. This JSON object is exposed here for reference and for power users who may want to alter specific parameters.": [
@@ -988,7 +990,7 @@
       "Last Modified": ["Ultima Modifica"],
       "Parameters": ["Parametri"],
       "Visualization Type": ["Tipo di Visualizzazione"],
-      "Show Dashboard": [""],
+      "Show Dashboard": ["Mostra Dashboard"],
       "Add Dashboard": [""],
       "Edit Dashboard": [""],
       "This json object describes the positioning of the widgets in the dashboard. It is dynamically generated when adjusting the widgets size and positions by using drag & drop in the dashboard view": [
@@ -1185,14 +1187,14 @@
       ],
       "Duplicate column name(s): %(columns)s": [""],
       "Logs": [""],
-      "Show Log": ["Mostra colonna"],
+      "Show Log": ["Visualizza Log"],
       "Add Log": [""],
       "Edit Log": ["Modifica"],
       "Action": ["Azione"],
       "dttm": ["dttm"],
       "JSON": ["JSON"],
       "List Saved Query": ["Visualizza query salvate"],
-      "Show Saved Query": ["Mostra query salvate"],
+      "Show Saved Query": ["Visualizza Query Salvata"],
       "Add Saved Query": ["Aggiungi query salvata"],
       "Edit Saved Query": ["Modifica query salvata"],
       "End Time": [""],
@@ -1212,7 +1214,7 @@
       "description": ["descrizione"],
       "bolt": [""],
       "Changing this control takes effect instantly": [""],
-      "Show info tooltip": [""],
+      "Show info tooltip": ["Visualizza Tooltip Informativo"],
       "SQL expression": ["Espressione SQL"],
       "Column name": ["Nome colonna"],
       "Metric name": ["Nome metrica"],
@@ -1380,7 +1382,7 @@
       "Dimension to use on y-axis.": [""],
       "X-axis": [""],
       "Dimension to use on x-axis.": [""],
-      "Show less columns": ["Mostra meno colonne"],
+      "Show less columns": ["Visualizza meno colonne"],
       "Show all columns": ["Mostra tutte le colonne"],
       "Emit Target": ["Emetti Target"],
       "If you wish to specify a different target column than the original column, it can be entered here": [
@@ -1447,7 +1449,7 @@
       "Whether to display the legend (toggles)": [""],
       "Show Values": ["Visualizza Valori"],
       "Whether to display the numerical values within the cells": [""],
-      "Show Metric Names": ["Mostra Nomi delle Metriche"],
+      "Show Metric Names": ["Visualizza Nomi delle Metriche"],
       "Whether to display the metric name as a title": [""],
       "Number Format": ["Formato Numerico"],
       "Correlation": ["Correlazione"],
@@ -1554,7 +1556,7 @@
       ],
       "Sort X Axis": [""],
       "Sort Y Axis": [""],
-      "Show percentage": [""],
+      "Show percentage": ["Visualizza Percentuale"],
       "Whether to include the percentage in the tooltip": [""],
       "Normalized": [""],
       "Whether to apply a normal distribution based on rank on the color scale": [
@@ -1721,7 +1723,7 @@
       "Aggregate function to apply when pivoting and computing the total rows and columns": [
         ""
       ],
-      "Show totals": [""],
+      "Show totals": ["Visualizza totali"],
       "Display total row/column": [""],
       "Combine Metrics": [""],
       "Display metrics side by side within each column, as opposed to each column being displayed side by side for each metric.": [
@@ -1733,15 +1735,18 @@
       "Used to summarize a set of data by grouping together multiple statistics along two axes. Examples: Sales numbers by region and month, tasks by status and assignee, active users by age and location.\n\n  This chart is being deprecated and we recommend checking out Pivot Table V2 instead!": [
         ""
       ],
+      "Use Area Proportions": [""],
       "Check if the Rose Chart should use segment area instead of segment radius for proportioning": [
         ""
       ],
       "A polar coordinate chart where the circle is broken into wedges of equal angle, and the value represented by any wedge is illustrated by its area, rather than its radius or sweep angle.": [
         ""
       ],
+      "Nightingale Rose Chart": [""],
       "Advanced-Analytics": [""],
       "Multi-Layers": [""],
       "Source / Target": [""],
+      "Choose a source and a target": [""],
       "Limiting rows may result in incomplete data and misleading charts. Consider filtering or grouping source/target names instead.": [
         ""
       ],
@@ -1753,7 +1758,9 @@
       "Sankey Diagram": [""],
       "Percentages": [""],
       "Sankey Diagram with Loops": [""],
+      "Primary Metric": [""],
       "The primary metric is used to define the arc segment sizes": [""],
+      "Secondary Metric": [""],
       "[optional] this secondary metric is used to define the color as a ratio against the primary metric. When omitted, the color is categorical and based on labels": [
         ""
       ],
@@ -1763,10 +1770,12 @@
       "When a secondary metric is provided, a linear color scale is used.": [
         ""
       ],
+      "Hierarchy": [""],
       "This defines the level of the hierarchy": [""],
       "Uses circles to visualize the flow of data through different stages of a system. Hover over individual paths in the visualization to understand the stages a value took. Useful for multi-stage, multi-group visualizing funnels and pipelines.": [
         ""
       ],
+      "Sunburst Chart": [""],
       "Multi-Levels": [""],
       "Target aspect ratio for treemap tiles.": [""],
       "Shows the composition of a dataset by segmenting a given rectangle as smaller rectangles with areas proportional to their value or contribution to the whole. Those rectangles may also, in turn, be further segmented hierarchically.": [
@@ -1779,10 +1788,15 @@
       "The country code standard that Superset should expect to find in the [country] column": [
         ""
       ],
+      "Show Bubbles": ["Visualizza Bubbles"],
       "Whether to display bubbles on top of countries": [""],
+      "Max Bubble Size": [""],
+      "Color by": [""],
       "Choose whether a country should be shaded by the metric, or assigned a color based on a categorical color palette": [
         ""
       ],
+      "Country Column": [""],
+      "3 letter code of the country": [""],
       "Metric that defines the size of the bubble": [""],
       "Bubble Color": [""],
       "Country Color Scheme": [""],
@@ -1792,13 +1806,19 @@
       "Multi-Dimensions": [""],
       "Multi-Variables": [""],
       "Popular": [""],
+      "deck.gl charts": [""],
       "Pick a set of deck.gl charts to layer on top of one another": [""],
+      "Select charts": [""],
+      "Error while fetching charts": [""],
       "Compose multiple layers together to form complex visuals.": [""],
+      "deck.gl Multiple Layers": [""],
       "deckGL": [""],
       "Data has no time steps": [""],
       "Start Longitude & Latitude": [""],
+      "Point to your spatial columns": [""],
       "End Longitude & Latitude": [""],
       "Arc": [""],
+      "Target Color": [""],
       "Color of the target location": [""],
       "Categorical Color": [""],
       "Pick a dimension from which categorical colors are defined": [""],
@@ -1823,6 +1843,7 @@
       ],
       "deck.gl Grid": [""],
       "Experimental": [""],
+      "Dynamic Aggregation Function": [""],
       "The function to use when aggregating points into groups": [""],
       "Overlays a hexagonal grid on a map, and aggregates data within the boundary of each cell.": [
         ""
@@ -1830,19 +1851,26 @@
       "deck.gl 3D Hexagon": [""],
       "Visualizes connected points, which form a path, on a map.": [""],
       "deck.gl Path": [""],
+      "Polygon Column": [""],
       "Polygon Encoding": [""],
+      "Elevation": [""],
       "Polygon Settings": [""],
       "Opacity, expects values between 0 and 100": [""],
       "Number of buckets to group data": [""],
       "How many buckets should the data be grouped in.": [""],
       "Bucket break points": [""],
       "List of n+1 values for bucketing metric into n buckets.": [""],
+      "Emit Filter Events": [""],
       "Whether to apply filter when items are clicked": [""],
+      "Multiple filtering": [""],
       "Allow sending multiple polygons as a filter event": [""],
       "Visualizes geographic areas from your data as polygons on a Mapbox rendered map. Polygons can be colored using a metric.": [
         ""
       ],
       "deck.gl Polygon": [""],
+      "Point Size": [""],
+      "Point Unit": [""],
+      "Minimum Radius": [""],
       "Minimum radius size of the circle, in pixels. As the zoom level changes, this insures that the circle respects this minimum radius.": [
         ""
       ],
@@ -1856,6 +1884,7 @@
       ],
       "deck.gl Scatterplot": [""],
       "Grid": [""],
+      "Weight": [""],
       "Metric used as a weight for the grid's coloring": [""],
       "Aggregates data within the boundary of grid cells and maps the aggregated values to a dynamic color scale": [
         ""
@@ -1872,6 +1901,7 @@
       "Whether to ignore locations that are null": [""],
       "Auto Zoom": [""],
       "When checked, the map will zoom to your data after each query": [""],
+      "Select a dimension": [""],
       "Extra data for JS": [""],
       "List of extra columns made available in Javascript functions": [""],
       "Javascript data interceptor": [""],
@@ -1886,7 +1916,11 @@
       "Define a function that returns a URL to navigate to when user clicks": [
         ""
       ],
+      "Legend Format": [""],
+      "Choose the format for legend values": [""],
+      "Legend Position": [""],
       "Choose the position of the legend": [""],
+      "Lines column": [""],
       "The database columns that contains lines information": [""],
       "Line width": ["Larghezza"],
       "The width of the lines": [""],
@@ -1894,25 +1928,35 @@
       " Set the opacity to 0 if you do not want to override the color specified in the GeoJSON": [
         ""
       ],
+      "Stroke Color": [""],
       "Filled": [""],
       "Whether to fill the objects": [""],
       "Stroked": [""],
+      "Whether to display the stroke": [""],
+      "Extruded": [""],
       "Grid Size": [""],
       "Defines the grid size in pixels": [""],
       "Parameters related to the view and perspective on the map": [""],
       "Longitude & Latitude": [""],
       "Fixed point radius": [""],
+      "Multiplier": [""],
       "Factor to multiply the metric by": [""],
       "Lines encoding": [""],
       "The encoding format of the lines": [""],
       "Reverse Lat & Long": [""],
-      "Show Markers": [""],
-      "Show data points as circle markers on the lines": [""],
+      "GeoJson Column": [""],
+      "Select the geojson column": [""],
+      "Right Axis Format": [""],
+      "Show Markers": ["Visualizza Markers"],
+      "Show data points as circle markers on the lines": [
+        "Visualizza punti come cerchi sulle linee"
+      ],
       "Y bounds": [""],
       "Whether to display the min and max values of the Y-axis": [""],
       "Y 2 bounds": [""],
       "Line Style": [""],
       "Line interpolation as defined by d3.js": [""],
+      "Show Range Filter": ["Visualizza Filtri di tipo Intervallo"],
       "Whether to display the time range interactive selector": [""],
       "Extra Controls": [""],
       "Whether to show extra controls or not. Extra controls include things like making mulitBar charts stacked or side by side.": [
@@ -1920,6 +1964,7 @@
       ],
       "X Tick Layout": [""],
       "The way the ticks are laid out on the X-axis": [""],
+      "X Axis Format": [""],
       "Y Log Scale": [""],
       "Use a log scale for the Y-axis": [""],
       "Y Axis Bounds": [""],
@@ -1929,6 +1974,7 @@
       "Y Axis 2 Bounds": [""],
       "X bounds": [""],
       "Whether to display the min and max values of the X-axis": [""],
+      "Bar Values": [""],
       "Show the value on top of the bar": [""],
       "Stacked Bars": [""],
       "Reduce X ticks": [""],
@@ -1945,17 +1991,23 @@
       "Stacked style": [""],
       "Video game consoles": [""],
       "Vehicle Types": [""],
+      "Area Chart": [""],
       "Continuous": [""],
+      "Line": [""],
       "nvd3": [""],
+      "Deprecated": [""],
+      "Series Limit Sort By": [""],
       "Metric used to order the limit if a series limit is present. If undefined reverts to the first metric (where appropriate).": [
         ""
       ],
+      "Series Limit Sort Descending": [""],
       "Whether to sort descending or ascending if a series limit is present": [
         ""
       ],
       "Visualize how a metric changes over time using bars. Add a group by column to visualize group level metrics and how they change over time.": [
         ""
       ],
+      "Time-series Bar Chart": [""],
       "Bar": [""],
       "Vertical": [""],
       "Box Plot": ["Box Plot"],
@@ -1964,6 +2016,7 @@
       "Visualizes a metric across three dimensions of data in a single chart (X axis, Y axis, and bubble size). Bubbles from the same group can be showcased using bubble color.": [
         ""
       ],
+      "Ranges": [""],
       "Ranges to highlight with shading": [""],
       "Range labels": [""],
       "Labels for the ranges": [""],
@@ -1982,50 +2035,75 @@
       "Visualizes many different time-series objects in a single chart. This chart is being deprecated and we recommend using the Time-series Chart instead.": [
         ""
       ],
+      "Time-series Percent Change": [""],
+      "Sort Bars": [""],
       "Sort bars by x labels.": [""],
+      "Breakdowns": [""],
       "Defines how each series is broken down": [""],
       "Compares metrics from different categories using bars. Bar lengths are used to indicate the magnitude of each value and color is used to differentiate groups.": [
         ""
       ],
+      "Bar Chart": [""],
+      "Additive": [""],
+      "Discrete": [""],
       "Y Axis 1": [""],
       "Y Axis 2": [""],
+      "Left Axis Metric": [""],
+      "Choose a metric for left axis": [""],
       "Left Axis Format": [""],
       "Visualizes 2 metrics as line plots using the same x-axis. This chart is useful for comparing metrics across the same time range.": [
         ""
       ],
+      "Dual Line Chart": [""],
       "Propagate": [""],
       "Send range filter events to other charts": [""],
       "Classic chart that visualizes how metrics change over time.": [""],
       "Battery level over time": [""],
+      "Line Chart": [""],
       "Prefix metric name with slice name": [""],
       "Y Axis Left": [""],
       "Left Axis chart(s)": [""],
+      "Choose one or more charts for left axis": [""],
       "Y Axis Right": [""],
+      "Right Axis chart(s)": [""],
+      "Choose one or more charts for right axis": [""],
       "Visualize two different time series using the same x-axis time range. This chart is being deprecated and we recommend using the Mixed Timeseries Chart instead!": [
         ""
       ],
+      "Multiple Line Charts": [""],
+      "Label Type": [""],
       "What should be shown on the label?": [""],
+      "Donut": [""],
       "Do you want a donut or a pie?": [""],
+      "Show Labels": ["Visualizza Labels"],
       "Whether to display the labels. Note that the label only displays when the the 5% threshold.": [
         ""
       ],
       "Put labels outside": [""],
       "Put the labels outside the pie?": [""],
+      "Pie Chart": ["Grafico a torta"],
       "Frequency": [""],
       "The periodicity over which to pivot time. Users can provide\n            \"Pandas\" offset alias.\n            Click on the info bubble for more details on accepted \"freq\" expressions.": [
         ""
       ],
       "Time-series Period Pivot": [""],
+      "Formula": [""],
+      "Event": [""],
+      "Interval": [""],
       "Stack": [""],
       "Expand": [""],
-      "Show legend": [""],
+      "Show legend": ["Visualizza legenda"],
       "Whether to display a legend for the chart": [""],
       "Margin": [""],
       "Additional padding for legend.": [""],
       "Scroll": [""],
       "Plain": [""],
       "Legend type": [""],
+      "Orientation": [""],
       "Top": [""],
+      "Bottom": [""],
+      "Legend Orientation": [""],
+      "Show Value": ["Visualizza Valore"],
       "Show series values on the chart": [""],
       "Stack series": [""],
       "Stack series on top of each other": [""],
@@ -2037,6 +2115,8 @@
       "Minimum threshold in percentage points for showing labels.": [""],
       "Rich tooltip": [""],
       "Shows a list of all series available at that point in time": [""],
+      "Tooltip time format": [""],
+      "Tooltip sort by metric": [""],
       "Whether to sort tooltip by the selected metric in descending order.": [
         ""
       ],
@@ -2051,20 +2131,26 @@
         ""
       ],
       "Big Number Font Size": [""],
+      "Tiny": [""],
       "Small": [""],
       "Normal": [""],
       "Large": [""],
       "Huge": [""],
       "Subheader Font Size": [""],
+      "Display settings": [""],
       "Subheader": [""],
       "Description text that shows up below your Big Number": [""],
+      "Force date format": [""],
       "Use date formatting even when metric value is not a timestamp": [""],
       "Showcases a single metric front-and-center. Big number is best used to call attention to a KPI or the one thing you want your audience to focus on.": [
         ""
       ],
+      "A Big Number": [""],
       "With a subheader": [""],
+      "Formattable": [""],
       "Comparison Period Lag": [""],
       "Based on granularity, number of time periods to compare against": [""],
+      "Comparison suffix": [""],
       "Suffix to apply after the percentage display": [""],
       "Show Timestamp": [""],
       "Whether to display the timestamp": [""],
@@ -2090,24 +2176,31 @@
       "Also known as a box and whisker plot, this visualization compares the distributions of a related metric across multiple groups. The box in the middle emphasizes the mean, median, and inner 2 quartiles. The whiskers around each box visualize the min, max, range, and outer 2 quartiles.": [
         ""
       ],
+      "ECharts": [""],
+      "Labels": [""],
       "Whether to display the labels.": [""],
       "Showcases how a metric changes as the funnel progresses. This classic chart is useful for visualizing drop-off between stages in a pipeline or lifecycle.": [
         ""
       ],
+      "Funnel Chart": [""],
       "Sequential": [""],
+      "Columns to group by": [""],
       "General": [""],
       "Min": ["Min"],
       "Minimum value on the gauge axis": [""],
       "Max": ["Max"],
       "Maximum value on the gauge axis": [""],
+      "Start angle": [""],
       "Angle at which to start progress axis": [""],
       "End angle": [""],
       "Angle at which to end progress axis": [""],
       "Font size": [""],
       "Font size for axis labels, detail value and other text elements": [""],
+      "Value format": [""],
       "Additional text to add before or after the value, e.g. unit": [""],
       "Show pointer": [""],
       "Whether to show the pointer": [""],
+      "Animation": [""],
       "Whether to animate the progress and the value or just display them": [
         ""
       ],
@@ -2116,13 +2209,19 @@
       "Whether to show minor ticks on the axis": [""],
       "Show split lines": [""],
       "Whether to show the split lines on the axis": [""],
+      "Split number": [""],
       "Number of split segments on the axis": [""],
       "Progress": [""],
+      "Show progress": ["Visualizza Progress"],
       "Whether to show the progress of gauge chart": [""],
+      "Overlap": [""],
       "Whether the progress bar overlaps when there are multiple groups of data": [
         ""
       ],
+      "Round cap": [""],
       "Style the ends of the progress bar with a round cap": [""],
+      "Intervals": [""],
+      "Interval bounds": [""],
       "Comma-separated interval bounds, e.g. 2,4,5 for intervals 0-2, 2-4 and 4-5. Last number should match the value provided for MAX.": [
         ""
       ],
@@ -2133,6 +2232,7 @@
       "Uses a gauge to showcase progress of a metric towards a target. The position of the dial represents the progress and the terminal value in the gauge represents the target value.": [
         ""
       ],
+      "Gauge Chart": [""],
       "Name of the source nodes": [""],
       "Name of the target nodes": [""],
       "Source category": [""],
@@ -2141,8 +2241,10 @@
       ],
       "Target category": [""],
       "Category of target nodes": [""],
+      "Chart options": [""],
       "Layout": [""],
       "Graph layout": [""],
+      "Force": [""],
       "Layout type of graph": [""],
       "Edge symbols": [""],
       "Symbol of two ends of edge line": [""],
@@ -2153,17 +2255,22 @@
       "Enable node dragging": [""],
       "Whether to enable node dragging in force layout mode.": [""],
       "Enable graph roaming": [""],
+      "Disabled": [""],
       "Scale only": [""],
       "Move only": [""],
       "Scale and Move": [""],
       "Whether to enable changing graph position and scaling.": [""],
+      "Node select mode": [""],
       "Single": [""],
       "Multiple": [""],
+      "Allow node selections": [""],
       "Label threshold": [""],
       "Minimum value for label to be displayed on graph.": [""],
+      "Node size": [""],
       "Median node size, the largest node will be 4 times larger than the smallest": [
         ""
       ],
+      "Edge width": [""],
       "Median edge width, the thickest edge will be 4 times thicker than the thinnest.": [
         ""
       ],
@@ -2171,13 +2278,18 @@
       "Edge length between nodes": [""],
       "Gravity": [""],
       "Strength to pull the graph toward center": [""],
+      "Repulsion": [""],
       "Repulsion strength between nodes": [""],
+      "Friction": [""],
       "Friction between nodes": [""],
       "Displays connections between entities in a graph structure. Useful for mapping relationships and showing which nodes are important in a network. Graph charts can be configured to be force-directed or circulate. If your data has a geospatial component, try the deck.gl Arc chart.": [
         ""
       ],
+      "Graph Chart": [""],
       "Structural": [""],
+      "Series type": [""],
       "Series chart type (line, bar etc)": [""],
+      "Area chart": [""],
       "Draw area under curves. Only applicable for line types.": [""],
       "Opacity of area chart.": [""],
       "Marker": [""],
@@ -2187,6 +2299,11 @@
       "Primary": [""],
       "Secondary": [""],
       "Primary or secondary y-axis": [""],
+      "Shared query fields": [""],
+      "Query A": [""],
+      "Advanced analytics Query A": [""],
+      "Query B": [""],
+      "Advanced analytics Query B": [""],
       "Data Zoom": [""],
       "Enable data zooming controls": [""],
       "Rotate x axis label": [""],
@@ -2209,10 +2326,12 @@
       "Visualize two different time series using the same x-axis. Note that each time series can be visualized differently (e.g. 1 using bars and 1 using a line).": [
         ""
       ],
+      "Mixed Chart": [""],
       "Mixed Time-Series": [""],
       "Put the labels outside of the pie?": [""],
       "Label Line": [""],
       "Draw line from Pie to label when labels outside?": [""],
+      "Show Total": ["Visualizza Totale"],
       "Whether to display the aggregate count": [""],
       "Pie shape": [""],
       "Outer Radius": [""],
@@ -2224,6 +2343,7 @@
       ],
       "Total: %s": [""],
       "The maximum value of metrics. It is an optional configuration": [""],
+      "Label position": [""],
       "Radar": [""],
       "Customize Metrics": [""],
       "Further customize how to display each metric": [""],
@@ -2232,14 +2352,19 @@
       "Visualize a parallel set of metrics across multiple groups. Each group is visualized using its own line of points and each metric is represented as an edge in the chart.": [
         ""
       ],
+      "Radar Chart": [""],
       "Swiss army knife for visualizing data. Choose between  step, line, scatter, and bar charts. This viz type has many customization options as well.": [
         ""
       ],
       "Swiss army knife for visualizing time series data. Choose between  step, line, scatter, and bar charts. This viz type has many customization options as well.": [
         ""
       ],
+      "Generic Chart": [""],
+      "Time-series Chart": [""],
       "zoom area": [""],
       "restore zoom": [""],
+      "Series Style": [""],
+      "Area chart opacity": [""],
       "Opacity of Area Chart. Also applies to confidence band.": [""],
       "Marker Size": [""],
       "Area charts are similar to line charts in that they represent variables with the same scale, but area charts stack the metrics on top of each other.": [
@@ -2248,9 +2373,13 @@
       "Time-series Area chart are similar to line chart in that they represent variables with the same scale, but area charts stack the metrics on top of each other. An area chart in Superset can be stream, stack, or expand.": [
         ""
       ],
+      "Area Chart v2": [""],
+      "Time-series Area Chart": [""],
+      "Axis Title": [""],
       "AXIS TITLE MARGIN": [""],
       "AXIS TITLE POSITION": [""],
       "Rotate axis label": [""],
+      "Axis Format": [""],
       "Logarithmic axis": [""],
       "Draw split lines for minor axis ticks": [""],
       "Truncate Axis": [""],
@@ -2259,6 +2388,10 @@
       "Bounds for the axis. When left empty, the bounds are dynamically defined based on the min/max of the data. Note that this feature will only expand the axis range. It won't narrow the data's extent.": [
         ""
       ],
+      "Chart Orientation": [""],
+      "Bar orientation": [""],
+      "Horizontal": [""],
+      "Orientation of bar chart": [""],
       "Bar Charts are used to show metrics as a series of bars.": [""],
       "Time-series Bar Charts are used to show the changes in a metric over time as a series of bars.": [
         ""
@@ -2365,6 +2498,7 @@
       ],
       "Show rows total": [""],
       "Display row level total": [""],
+      "Show columns total": ["Visualizza totale colonne"],
       "Display column level total": [""],
       "Transpose pivot": [""],
       "Swap rows and columns": [""],
@@ -2657,7 +2791,9 @@
         ""
       ],
       "click here": [""],
-      "No results were returned for this query": [""],
+      "No results were returned for this query": [
+        "Nessun dato restituito per la query di ricerca"
+      ],
       "Make sure that the controls are configured properly and the datasource contains data for the selected time range": [
         ""
       ],
@@ -2921,8 +3057,11 @@
       "Email reports active": [""],
       "Schedule email report": [""],
       "This action will permanently delete %s.": [""],
+      "Delete Report?": ["Cancellare Report?"],
       "Loading...": [""],
+      "Filter menu": ["Menu Filtri"],
       "Reset": [""],
+      "No filters": ["Nessun filtro"],
       "Expand row": [""],
       "Collapse row": [""],
       "Access to user activity data is restricted": [""],
@@ -2931,6 +3070,7 @@
       "See table schema": [""],
       "Select table or type table name": [""],
       "Force refresh table list": [""],
+      "Timezone selector": ["Selezionatore di Timezone"],
       "Sorry, an unknown error occurred.": [""],
       "Sorry, there was an error saving this dashboard: %s": [""],
       "You do not have permission to edit this dashboard": [
@@ -2950,6 +3090,7 @@
       "You do not have permissions to edit this dashboard.": [
         "Non hai i permessi per accedere alla/e sorgente/i dati: %(name)s."
       ],
+      "[ untitled dashboard ]": ["[ dashboard senza titolo ]"],
       "This dashboard was saved successfully.": [""],
       "Sorry, an unknown error occurred": [""],
       "Please confirm the overwrite values.": [""],
@@ -2959,6 +3100,8 @@
         ""
       ],
       "You have unsaved changes.": [""],
+      "Changes saved.": ["Modifiche salvate."],
+      "Disable embedding?": ["Disattivare Embedded Dashboard?"],
       "This will remove your current embed configuration.": [""],
       "Embedding deactivated.": [""],
       "Sorry, something went wrong. Embedding could not be deactivated.": [""],
@@ -2974,6 +3117,9 @@
       "A list of domain names that can embed this dashboard. Leaving this field empty will allow embedding from any domain.": [
         ""
       ],
+      "Deactivate": ["Disattiva"],
+      "Save changes": ["Salva modifiche"],
+      "Enable embedding": ["Abilita Embedded Dashboard"],
       "Embed": [""],
       "Drag and drop components and charts to the dashboard": [""],
       "You can create a new chart or use existing ones from the panel on the right": [
@@ -2982,6 +3128,7 @@
       "Drag and drop components to this tab": [""],
       "There are no components added to this tab": [""],
       "You can add the components in the edit mode.": [""],
+      "Edit the dashboard": ["Modifica la dashboard"],
       "Ready to review filters in this dashboard?": [""],
       "Remind me in 24 hours": [""],
       "Start Review": [""],
@@ -2992,6 +3139,7 @@
         ""
       ],
       "Delete this container and save to remove this message.": [""],
+      "Refresh interval saved": ["Intervallo di aggiornamento salvato"],
       "Refresh interval": [""],
       "Refresh frequency": [""],
       "Are you sure you want to proceed?": [""],
@@ -3002,8 +3150,11 @@
       "Save as:": [""],
       "[dashboard name]": [""],
       "also copy (duplicate) charts": [""],
+      "name": ["nome"],
+      "viz type": ["tipo visualizzazione"],
       "recent": [""],
       "Filter your charts": ["Controlli del filtro"],
+      "Sort by %s": ["Ordina per %s"],
       "Added": [""],
       "Viz type": ["Tipo"],
       "Superset chart": ["Esplora grafico"],
@@ -3014,7 +3165,11 @@
       "Cross Filter Scoping": [""],
       "Load a CSS template": [""],
       "Live CSS editor": [""],
+      "There are no charts added to this dashboard": [
+        "Non sono stati aggiunti grafici a questa dashboard"
+      ],
       "Go to the edit mode to configure the dashboard and add charts": [""],
+      "Applied Cross Filters (%d)": ["Filtro Cross Applicati (%d)"],
       "Applied Filters (%d)": ["Filtri Applicati (%d)"],
       "Incompatible Filters (%d)": [""],
       "Unset Filters (%d)": [""],
@@ -3024,15 +3179,19 @@
       "Your dashboard is too large. Please reduce its size before saving it.": [
         ""
       ],
+      "Dashboard title": ["Titolo Dashboard"],
+      "Undo the action": ["Annulla azione"],
       "Redo the action": [""],
+      "Discard": ["Scarta"],
       "An error occurred while fetching available CSS templates": [
         "Errore nel recupero dei metadati della tabella"
       ],
+      "Refreshing charts": [""],
       "Superset dashboard": ["Importa dashboard"],
       "Check out this dashboard: ": ["Guarda questa dashboard: "],
       "Refresh dashboard": ["Rimuovi il grafico dalla dashboard"],
       "Exit fullscreen": [""],
-      "Enter fullscreen": [""],
+      "Enter fullscreen": ["Modalità schermo intero"],
       "Edit properties": [""],
       "Edit CSS": [""],
       "Download as image": [""],
@@ -3044,6 +3203,8 @@
       "Are you sure you intend to overwrite the following values?": [""],
       "Apply": ["Applica"],
       "A valid color scheme is required": [""],
+      "JSON metadata is invalid!": ["Metadati JSON non validi!"],
+      "Dashboard properties updated": ["Proprietà dashboard aggiornate"],
       "The dashboard has been saved": [""],
       "Access": ["Accesso"],
       "Owners is a list of users who can alter the dashboard. Searchable by name or username.": [
@@ -3082,9 +3243,9 @@
       "Click to clear emitted filters": [""],
       "Data refreshed": [""],
       "Cached %s": [""],
-      "Fetched %s": [""],
+      "Fetched %s": ["Aggiornato %s"],
       "Query %s: %s": [""],
-      "Force refresh": [""],
+      "Force refresh": ["Forza aggiornamento"],
       "Hide chart description": [""],
       "Show chart description": [""],
       "View query": ["Visualizza query"],
@@ -3132,11 +3293,15 @@
       "Vertical (Left)": [""],
       "Horizontal (Top)": [""],
       "Filters out of scope (%d)": [""],
-      "Editing filter set:": [""],
+      "Check configuration": ["Controllo configurazione"],
+      "Cannot load filter": ["Impossibile caricare il filtro"],
+      "Editing filter set:": ["Stai modificando il Filter set:"],
       "Filter set with this name already exists": [""],
+      "Filter set already exists": ["Filtro (Set) già esistente"],
       "This filter set is identical to: \"%s\"": [""],
       "Remove invalid filters": [""],
       "Rebuild": [""],
+      "Filters (%d)": ["Filtri (%d)"],
       "This filter doesn't exist in dashboard. It will not be applied.": [""],
       "Filter metadata changed in dashboard. It will not be applied.": [""],
       "Create new filter set": ["Crea nuovo set di filtri"],
@@ -3150,9 +3315,11 @@
       ],
       "All charts": ["Grafico a Proiettile"],
       "Scope": [""],
+      "Filter type": ["Tipo Filtro"],
+      "Title is required": ["Il titolo è obbligatorio"],
       "(Removed)": [""],
       "Undo?": [""],
-      "Add filters and dividers": [""],
+      "Add filters and dividers": ["Aggiungi filtri e divisori"],
       "Cyclic dependency detected": [""],
       "No compatible columns found": [""],
       "(deleted or invalid type)": [""],
