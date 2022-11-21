@@ -79,7 +79,7 @@ import {
 } from 'src/filters/components';
 import { PivotTableChartPlugin as PivotTableChartPluginV2 } from '@superset-ui/plugin-chart-pivot-table';
 import { HandlebarsChartPlugin } from '@superset-ui/plugin-chart-handlebars';
-import { PluginHightcharts } from 'plugin-hightcharts';
+import { PluginChartHighcharts } from 'plugin-chart-highcharts';
 
 import FilterBoxChartPlugin from '../FilterBox/FilterBoxChartPlugin';
 import TimeTableChartPlugin from '../TimeTable';
@@ -168,7 +168,7 @@ export default class MainPreset extends Preset {
         new TimeGrainFilterPlugin().configure({ key: 'filter_timegrain' }),
         new EchartsTreeChartPlugin().configure({ key: 'tree_chart' }),
         new HandlebarsChartPlugin().configure({ key: 'handlebars' }),
-        new PluginHightcharts().configure({ key: 'hightcharts' }),
+        new PluginChartHighcharts().configure({ key: 'highcharts' }),
         ...experimentalplugins,
       ],
     });
