@@ -33,11 +33,11 @@ const SCRIPTS_TO_LOAD = [
 ];
 
 const Styles = styled.div<PluginChartHighchartsStylesProps>`
-  padding: ${({ theme }) => theme.gridUnit * 4}px;
   border-radius: ${({ theme }) => theme.gridUnit * 2}px;
   height: ${({ height }) => height}px;
   width: ${({ width }) => width}px;
-  overflow: scroll;
+  overflow-x: scroll;
+  background-color: 'transparent';
 `;
 
 export default function PluginHightcharts(props: PluginChartHighchartsProps) {

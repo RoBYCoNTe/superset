@@ -62,7 +62,7 @@ const config: ControlPanelConfig = {
       ],
     },
     {
-      label: t('Chart config'),
+      label: t('Highchart'),
       expanded: true,
       controlSetRows: [[jsConfig], [jsInit]],
     },
