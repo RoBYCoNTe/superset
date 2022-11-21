@@ -37,11 +37,11 @@ const Styles = styled.div<PluginChartHighchartsStylesProps>`
   border-radius: ${({ theme }) => theme.gridUnit * 2}px;
   height: ${({ height }) => height}px;
   width: ${({ width }) => width}px;
-  overflow: auto;
+  overflow: scroll;
 `;
 
 export default function PluginHightcharts(props: PluginChartHighchartsProps) {
-  const { height, width, config } = props;
+  const { height, width, config, init } = props;
   const [isReady, setIsReady] = React.useState(false);
   const rootElem = createRef<HTMLDivElement>();
 
@@ -63,9 +63,15 @@ export default function PluginHightcharts(props: PluginChartHighchartsProps) {
         ...props,
         element: rootElem?.current,
       });
+      if (typeof init === 'string' && init.length > 0) {
+        new Function(init).call({
+          ...props,
+          element: rootElem?.current,
+        });
+      }
       Highcharts.chart(rootElem.current, chartConfig);
     }
-  }, [isReady, config, rootElem, props]);
+  }, [isReady, config, init, rootElem, props]);
 
   return <Styles ref={rootElem} height={height} width={width} />;
 }

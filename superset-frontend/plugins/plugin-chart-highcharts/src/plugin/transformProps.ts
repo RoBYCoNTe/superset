@@ -49,7 +49,7 @@ export default function transformProps(chartProps: ChartProps) {
    * be seen until restarting the development server.
    */
   const { width, height, formData, queriesData } = chartProps;
-  const { config } = formData;
+  const { config, init } = formData;
   const data = queriesData[0].data as TimeseriesDataRecord[];
 
   return {
@@ -57,5 +57,6 @@ export default function transformProps(chartProps: ChartProps) {
     height,
     data,
     config,
+    init,
   };
 }

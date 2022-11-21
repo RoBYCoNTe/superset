@@ -76,7 +76,7 @@ export const CodeEditor: FC<CodeEditorProps> = ({
           showLineNumbers: true,
           tabSize: 2,
           showGutter: true,
-          wrap: true,
+          wrap: false,
         }}
         style={{
           border: '1px solid #d3d3d3',
