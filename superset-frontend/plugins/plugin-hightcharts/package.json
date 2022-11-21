@@ -1,0 +1,45 @@
+{
+  "name": "plugin-hightcharts",
+  "version": "0.1.0",
+  "description": "Workbench to create highcharts charts from scratch using javascript code",
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "private": true,
+  "scripts": {
+    "build": "npm run build-cjs && npm run build-esm && npm run ts-types",
+    "build-cjs": "babel src --extensions \".ts,.tsx,.js,.jsx\" --copy-files --out-dir lib",
+    "build-clean": "npm run clean && npm run build",
+    "build-esm": "BABEL_OUTPUT=esm babel src --extensions \".ts,.tsx,.js,.jsx\" --copy-files --out-dir esm",
+    "dev": "BABEL_OUTPUT=esm babel src --extensions \".ts,.tsx,.js,.jsx\" --watch --copy-files --out-dir esm",
+    "prebuild": "rimraf {lib,esm,tsconfig.tsbuildinfo}",
+    "postbuild": "npm run test",
+    "ts-types": "tsc --build",
+    "test": "jest"
+  },
+  "author": "Roberto Conte Rosito",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@superset-ui/chart-controls": "*",
+    "@superset-ui/core": "*",
+    "ace-builds": "^1.4.14",
+    "lodash": "^4.17.11",
+    "moment": "^2.26.0",
+    "react": "^16.13.1",
+    "react-ace": "^9.4.4",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/lodash": "^4.14.149",
+    "jest": "^26.0.1"
+  }
+}
