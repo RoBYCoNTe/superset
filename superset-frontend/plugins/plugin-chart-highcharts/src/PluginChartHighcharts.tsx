@@ -37,6 +37,7 @@ const Styles = styled.div<PluginChartHighchartsStylesProps>`
   height: ${({ height }) => height}px;
   width: ${({ width }) => width}px;
   overflow-x: scroll;
+  overflow-y: hidden;
   background-color: 'transparent';
 `;
 
