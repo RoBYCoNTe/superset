@@ -27,12 +27,13 @@ import { CodeEditor } from '../../components/CodeEditor';
 import { ControlHeader } from '../../components/ControlHeader';
 import { debounceFunc } from '../../consts';
 
-interface HandlebarsCustomControlProps {
+interface CodeEditorControlProps {
   value: string;
+  height: number;
 }
 
-const HandlebarsTemplateControl = (
-  props: CustomControlConfig<HandlebarsCustomControlProps>,
+const CodeEditorControl = (
+  props: CustomControlConfig<CodeEditorControlProps>,
 ) => {
   const val = String(
     props?.value ? props?.value : props?.default ? props?.default : '',
@@ -44,6 +45,7 @@ const HandlebarsTemplateControl = (
       <CodeEditor
         theme="light"
         value={val}
+        height={props.height}
         onChange={source => {
           debounceFunc(props.onChange, source || '');
         }}
@@ -56,8 +58,9 @@ export const jsConfig: ControlSetItem = {
   name: 'config',
   config: {
     ...sharedControls.entity,
-    type: HandlebarsTemplateControl,
+    type: CodeEditorControl,
     label: t('Config'),
+    height: 600,
     description: t('Default highchart config to pass to the chart'),
     default: `const { data, element } = this;
 return {
@@ -78,7 +81,8 @@ export const jsInit: ControlSetItem = {
   name: 'init',
   config: {
     ...sharedControls.entity,
-    type: HandlebarsTemplateControl,
+    type: CodeEditorControl,
+    height: 200,
     label: t('Init'),
     description: t('Hook to initialize the chart'),
     default: `const { data, element } = this;

@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-11-14 15:51+0100\n"
-"PO-Revision-Date: 2022-11-23 11:31+0100\n"
+"PO-Revision-Date: 2022-11-23 12:06+0100\n"
 "Last-Translator: Raffaele Spangaro <raffa@raffaelespangaro.it>\n"
 "Language-Team: Italiano <>\n"
 "Language: it\n"
@@ -10626,7 +10626,7 @@ msgstr ""
 #: superset-frontend/src/addSlice/AddSliceContainer.tsx:418
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:306
 msgid "Create new chart"
-msgstr "Creato il"
+msgstr "Crea nuovo chart"
 
 #: superset-frontend/src/components/AlteredSliceTag/index.jsx:201
 msgid "Click to see difference"
@@ -14876,7 +14876,7 @@ msgstr ""
 
 #: superset-frontend/src/profile/components/App.tsx:62
 msgid "Created content"
-msgstr "Creato il"
+msgstr "Contenuto creato"
 
 #: superset-frontend/src/profile/components/App.tsx:72
 msgid "Recent activity"
@@ -16154,7 +16154,7 @@ msgstr "Database supportati"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:755
 msgid "Choose a database..."
-msgstr "Seleziona un database"
+msgstr "Seleziona un database…"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:779
 msgid "Want to add a new database?"

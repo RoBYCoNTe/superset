@@ -2841,7 +2841,7 @@
       "Dataset": ["Database"],
       "Choose chart type": ["Choose chart type"],
       "Please select both a Dataset and a Chart type to proceed": [""],
-      "Create new chart": ["Creato il"],
+      "Create new chart": ["Crea nuovo chart"],
       "Click to see difference": [""],
       "Altered": [""],
       "Chart changes": ["Ultima Modifica"],
@@ -3932,7 +3932,7 @@
       "Time grain filter plugin": [""],
       "Time series": ["Time series"],
       "Favorites": [""],
-      "Created content": ["Creato il"],
+      "Created content": ["Contenuto creato"],
       "Recent activity": [""],
       "Security & Access": [""],
       "No charts": ["Grafici"],
@@ -4272,7 +4272,7 @@
       "Sorry there was an error fetching database information: %s": [""],
       "Or choose from a list of other databases we support:": [""],
       "Supported databases": ["Database supportati"],
-      "Choose a database...": ["Seleziona un database"],
+      "Choose a database...": ["Seleziona un database…"],
       "Want to add a new database?": [""],
       "Any databases that allow connections via SQL Alchemy URIs can be added. ": [
         ""

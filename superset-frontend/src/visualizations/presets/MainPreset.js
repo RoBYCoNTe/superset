@@ -80,7 +80,7 @@ import {
 import { PivotTableChartPlugin as PivotTableChartPluginV2 } from '@superset-ui/plugin-chart-pivot-table';
 import { HandlebarsChartPlugin } from '@superset-ui/plugin-chart-handlebars';
 import { PluginChartHighcharts } from 'plugin-chart-highcharts';
-
+import { PluginChartJavascript } from 'plugin-chart-javascript';
 import FilterBoxChartPlugin from '../FilterBox/FilterBoxChartPlugin';
 import TimeTableChartPlugin from '../TimeTable';
 
@@ -169,6 +169,7 @@ export default class MainPreset extends Preset {
         new EchartsTreeChartPlugin().configure({ key: 'tree_chart' }),
         new HandlebarsChartPlugin().configure({ key: 'handlebars' }),
         new PluginChartHighcharts().configure({ key: 'highcharts' }),
+        new PluginChartJavascript().configure({ key: 'javascript' }),
         ...experimentalplugins,
       ],
     });
