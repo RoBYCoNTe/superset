@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2022-11-14 15:51+0100\n"
-"PO-Revision-Date: 2022-11-16 16:37+0100\n"
+"PO-Revision-Date: 2022-11-23 11:31+0100\n"
 "Last-Translator: Raffaele Spangaro <raffa@raffaelespangaro.it>\n"
 "Language-Team: Italiano <>\n"
 "Language: it\n"
@@ -755,7 +755,7 @@ msgstr ""
 #: superset/datasets/commands/exceptions.py:41
 #: superset/reports/commands/exceptions.py:36
 msgid "Database does not exist"
-msgstr ""
+msgstr "Il database non esiste"
 
 #: superset/charts/commands/exceptions.py:91
 msgid "Dashboards do not exist"
@@ -9010,14 +9010,12 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/index.ts:79
-#, fuzzy
 msgid "Bar Chart v2"
-msgstr "Esplora grafico"
+msgstr "Bar Chart v2"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/index.ts:80
-#, fuzzy
 msgid "Time-series Bar Chart v2"
-msgstr "Serie Temporali - Grafico Barre"
+msgstr "Time-series Bar Chart v2"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/index.ts:62
 msgid ""
@@ -9036,14 +9034,12 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/index.ts:76
-#, fuzzy
 msgid "Line Chart v2"
-msgstr "Grafico a torta"
+msgstr "Line Chart v2"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Line/index.ts:77
-#, fuzzy
 msgid "Time-series Line Chart"
-msgstr "Serie Temporali - Grafico Lineare"
+msgstr "Time-series Line Chart"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Scatter/index.ts:61
 msgid ""
@@ -9065,9 +9061,8 @@ msgid "Scatter Plot"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Scatter/index.ts:76
-#, fuzzy
 msgid "Time-series Scatter Plot"
-msgstr "Serie Temporali - Stacked"
+msgstr "Time-series Scatter Plot"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/index.ts:61
 msgid ""
@@ -9082,19 +9077,16 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/index.ts:75
-#, fuzzy
 msgid "Smooth Line"
-msgstr "Serie Temporali - Stacked"
+msgstr "Smooth Line"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/SmoothLine/index.ts:76
-#, fuzzy
 msgid "Time-series Smooth Line"
-msgstr "Serie Temporali - Stacked"
+msgstr "Time-series Smooth Line"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:69
-#, fuzzy
 msgid "Step type"
-msgstr "Tipo"
+msgstr "Step type"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:77
 msgid ""
@@ -9119,23 +9111,20 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/index.ts:66
-#, fuzzy
 msgid "Stepped Line"
-msgstr "Serie Temporali - Stacked"
+msgstr "Stepped Line"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/index.ts:67
-#, fuzzy
 msgid "Time-series Stepped Line"
-msgstr "Serie Temporali - Stacked"
+msgstr "Time-series Stepped Line"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:51
 msgid "Id"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:52
-#, fuzzy
 msgid "Name of the id column"
-msgstr "Colonna del Tempo"
+msgstr "Name of the id column"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:61
 msgid "Parent"
@@ -9179,9 +9168,8 @@ msgid "Layout type of tree"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:135
-#, fuzzy
 msgid "Tree orientation"
-msgstr "Azione"
+msgstr "Tree orientation"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:138
 msgid "Left to Right"
@@ -9209,26 +9197,23 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:159
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:177
-#, fuzzy
 msgid "left"
-msgstr "Cancella"
+msgstr "left"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:160
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:178
 msgid "top"
-msgstr ""
+msgstr "top"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:161
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:179
-#, fuzzy
 msgid "right"
-msgstr "Altezza"
+msgstr "right"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:162
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:180
-#, fuzzy
 msgid "bottom"
-msgstr "dttm"
+msgstr "bottom"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:164
 msgid "Position of intermidiate node label on tree"
@@ -9283,18 +9268,16 @@ msgid "Diamond"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:235
-#, fuzzy
 msgid "Pin"
-msgstr "Min"
+msgstr "Pin"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:239
 msgid "Arrow"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:256
-#, fuzzy
 msgid "Symbol size"
-msgstr "Grandezza della bolla"
+msgstr "Symbol size"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:262
 msgid "Size of edge symbols"
@@ -9306,9 +9289,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:39
-#, fuzzy
 msgid "Tree Chart"
-msgstr "Esplora grafico"
+msgstr "Tree Chart"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:84
 msgid "Show Upper Labels"
@@ -9325,9 +9307,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts:56
-#, fuzzy
 msgid "Treemap v2"
-msgstr "Treemap"
+msgstr "Treemap v2"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/consts.ts:24
 #: superset-frontend/plugins/plugin-chart-table/src/consts.ts:26
@@ -9350,9 +9331,8 @@ msgstr ""
 
 # | msgid "Delete Template?"
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/handlebarTemplate.tsx:60
-#, fuzzy
 msgid "Handlebars Template"
-msgstr "Template CSS"
+msgstr "Handlebars Template"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/handlebarTemplate.tsx:61
 msgid "A handlebars template that is applied to the data"
@@ -9370,9 +9350,8 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/metrics.tsx:33
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:126
-#, fuzzy
 msgid "Percentage metrics"
-msgstr "Mostra metrica"
+msgstr "Percentage metrics"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/metrics.tsx:34
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:127
@@ -9421,9 +9400,8 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/queryMode.tsx:29
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:91
-#, fuzzy
 msgid "Query mode"
-msgstr "Ricerca Query"
+msgstr "Query mode"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/shared.ts:59
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:85
@@ -9432,9 +9410,8 @@ msgstr ""
 
 # | msgid "CSS templates"
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/style.tsx:59
-#, fuzzy
 msgid "CSS Styles"
-msgstr "Template CSS"
+msgstr "CSS Styles"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/style.tsx:60
 msgid "CSS applied to the chart"
@@ -9455,18 +9432,16 @@ msgid "Columns to group by on the rows"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:118
-#, fuzzy
 msgid "Apply metrics on"
-msgstr "Metrica"
+msgstr "Apply metrics on"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:124
 msgid "Use metrics as a top level group for columns or for rows"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:138
-#, fuzzy
 msgid "Cell limit"
-msgstr "Grandezza della bolla"
+msgstr "Cell limit"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:139
 msgid "Limits the number of cells that get retrieved."
@@ -9504,9 +9479,8 @@ msgid "Swap rows and columns"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:250
-#, fuzzy
 msgid "Combine metrics"
-msgstr "Mostra metrica"
+msgstr "Combine metrics"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:285
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:390
@@ -9529,15 +9503,13 @@ msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:300
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:328
-#, fuzzy
 msgid "value ascending"
-msgstr "Importa"
+msgstr "value ascending"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:301
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:329
-#, fuzzy
 msgid "value descending"
-msgstr "Importa"
+msgstr "value descending"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:306
 msgid "Change order of rows."
@@ -9558,9 +9530,8 @@ msgid "By value: use metric values as sorting key"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:322
-#, fuzzy
 msgid "Sort columns by"
-msgstr "Visualizza colonne"
+msgstr "Sort columns by"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:334
 msgid "Change order of columns."
@@ -9604,9 +9575,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/index.ts:54
-#, fuzzy
 msgid "Pivot Table v2"
-msgstr "Vista Pivot"
+msgstr "Pivot Table v2"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/react-pivottable/utilities.js:842
 msgid "Unknown input format"
@@ -9629,27 +9599,24 @@ msgid "Totals"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:385
-#, fuzzy
 msgid "Timestamp format"
-msgstr "Formato Datetime"
+msgstr "Timestamp format"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:401
 msgid "Page length"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:416
-#, fuzzy
 msgid "Search box"
-msgstr "Cerca"
+msgstr "Search box"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:419
 msgid "Whether to include a client-side search box"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:426
-#, fuzzy
 msgid "Cell bars"
-msgstr "Grafico a Proiettile"
+msgstr "Cell bars"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:443
 msgid ""
@@ -9668,9 +9635,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:480
-#, fuzzy
 msgid "Customize columns"
-msgstr "Visualizza colonne"
+msgstr "Customize columns"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:481
 msgid "Further customize how to display each column"
@@ -9708,9 +9674,8 @@ msgid "Font size for the biggest value in the list"
 msgstr ""
 
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:84
-#, fuzzy
 msgid "Word Rotation"
-msgstr "Azione"
+msgstr "Word Rotation"
 
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:93
 msgid "Rotation to apply to words in the cloud"
@@ -9804,11 +9769,12 @@ msgid "An error occurred while fetching tab state"
 msgstr "Errore nel recupero dei metadati della tabella"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:765
-#, fuzzy
 msgid ""
 "An error occurred while hiding the left bar. Please contact your "
 "administrator."
-msgstr "Errore nel creare il datasource"
+msgstr ""
+"An error occurred while hiding the left bar. Please contact your "
+"administrator."
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:787
 msgid ""
@@ -9852,11 +9818,12 @@ msgstr ""
 # | "administrator."
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:938
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:1062
-#, fuzzy
 msgid ""
 "An error occurred while setting the tab name. Please contact your "
 "administrator."
-msgstr "Errore nel creare il datasource"
+msgstr ""
+"An error occurred while setting the tab name. Please contact your "
+"administrator."
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:970
 msgid "Your query could not be saved"
@@ -9864,9 +9831,8 @@ msgstr "La tua query non può essere salvata"
 
 # | msgid "Your query was saved"
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:985
-#, fuzzy
 msgid "Your query was not properly saved"
-msgstr "La tua query è stata salvata"
+msgstr "Your query was not properly saved"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:988
 msgid "Your query was saved"
@@ -9943,9 +9909,8 @@ msgid "An error occurred while creating the data source"
 msgstr "Errore nel creare il datasource"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:1512
-#, fuzzy
 msgid "An error occurred while fetching function names."
-msgstr "Errore nel recupero dei metadati della tabella"
+msgstr "An error occurred while fetching function names."
 
 #: superset-frontend/src/SqlLab/components/App/index.jsx:89
 #, python-format
@@ -9987,18 +9952,16 @@ msgid "Explore the result set in the data exploration view"
 msgstr ""
 
 #: superset-frontend/src/SqlLab/components/ExploreResultsButton/index.tsx:49
-#, fuzzy
 msgid "Create Chart"
-msgstr "Esplora grafico"
+msgstr "Create Chart"
 
 #: superset-frontend/src/SqlLab/components/HighlightedSql/index.tsx:76
 msgid "Source SQL"
 msgstr ""
 
 #: superset-frontend/src/SqlLab/components/HighlightedSql/index.tsx:82
-#, fuzzy
 msgid "Executed SQL"
-msgstr "query condivisa"
+msgstr "Executed SQL"
 
 #: superset-frontend/src/SqlLab/components/QueryHistory/index.tsx:74
 msgid "Run a query to display query history"
@@ -10089,9 +10052,8 @@ msgstr "Modifica"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:237
 #: superset-frontend/src/views/CRUD/alert/AlertList.tsx:386
-#, fuzzy
 msgid "View"
-msgstr "Importa"
+msgstr "View"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:240
 msgid "Data preview"
@@ -10135,9 +10097,8 @@ msgid "Download to CSV"
 msgstr ""
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:263
-#, fuzzy
 msgid "Copy to Clipboard"
-msgstr "copia URL in appunti"
+msgstr "Copy to Clipboard"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:278
 msgid "Too many columns to filter"
@@ -10199,26 +10160,24 @@ msgstr ""
 
 # | msgid "Saved queries"
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:400
-#, fuzzy
 msgid "See query details"
-msgstr "Query salvate"
+msgstr "See query details"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:410
-#, fuzzy
 msgid "Query was stopped"
-msgstr "La query è stata fermata."
+msgstr "Query was stopped"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:417
 msgid "Database error"
-msgstr "Espressione del Database"
+msgstr "Database error"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:446
 msgid "was created"
-msgstr "è stata creata"
+msgstr "was created"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:453
 msgid "Query in a new tab"
-msgstr "Query in un nuovo tab"
+msgstr "Query in a new tab"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:507
 msgid "The query returned no data"
@@ -10295,9 +10254,8 @@ msgstr ""
 
 # | msgid "Edit Dataset "
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:148
-#, fuzzy
 msgid "Untitled Dataset"
-msgstr "Mostra database"
+msgstr "Untitled Dataset"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:317
 msgid "An error occurred saving dataset"
@@ -10305,30 +10263,26 @@ msgstr "Errore nel creare il datasource"
 
 # | msgid "Save (Overwrite)"
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:350
-#, fuzzy
 msgid "Save or Overwrite Dataset"
-msgstr "Query salvate"
+msgstr "Save or Overwrite Dataset"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:394
 #: superset-frontend/src/SqlLab/components/SaveQuery/index.tsx:214
 msgid "Save as new"
-msgstr "Salva una slice"
+msgstr "Save as new"
 
 # | msgid "Overwrite"
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:404
-#, fuzzy
 msgid "Overwrite existing"
-msgstr "Sovrascrivi la slice %s"
+msgstr "Overwrite existing"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:410
-#, fuzzy
 msgid "Select or type dataset name"
-msgstr "Testa la Connessione"
+msgstr "Select or type dataset name"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:411
-#, fuzzy
 msgid "Existing dataset"
-msgstr "Seleziona una destinazione"
+msgstr "Existing dataset"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:426
 msgid "Are you sure you want to overwrite this dataset?"
@@ -10341,9 +10295,8 @@ msgstr ""
 
 # | msgid "Change dataset"
 #: superset-frontend/src/SqlLab/components/SaveQuery/index.tsx:106
-#, fuzzy
 msgid "Save dataset"
-msgstr "Seleziona una destinazione"
+msgstr "Save dataset"
 
 #: superset-frontend/src/SqlLab/components/SaveQuery/index.tsx:199
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:309
@@ -10420,20 +10373,20 @@ msgstr ""
 #: superset-frontend/src/views/CRUD/data/common.ts:32
 #: superset-frontend/src/views/CRUD/data/query/QueryList.tsx:89
 msgid "Query history"
-msgstr "Ricerca Query"
+msgstr "Query history"
 
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:248
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:258
 msgid "Run query"
-msgstr "Esegui query"
+msgstr "Run query"
 
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:268
 msgid "New tab"
-msgstr ""
+msgstr "New tab"
 
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:276
 msgid "Stop query"
-msgstr "Stoppa query"
+msgstr "Stop query"
 
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:285
 msgid "Previous Line"
@@ -10482,9 +10435,8 @@ msgstr ""
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:695
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:704
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/Footer.tsx:96
-#, fuzzy
 msgid "Create"
-msgstr "Creato il"
+msgstr "Crea"
 
 #: superset-frontend/src/SqlLab/components/SqlEditorLeftBar/index.tsx:197
 msgid "Collapse table preview"
@@ -10503,9 +10455,8 @@ msgid "There are no databases available"
 msgstr ""
 
 #: superset-frontend/src/SqlLab/components/SqlEditorLeftBar/index.tsx:222
-#, fuzzy
 msgid "Manage your databases"
-msgstr "Database"
+msgstr "Manage your databases"
 
 #: superset-frontend/src/SqlLab/components/SqlEditorLeftBar/index.tsx:223
 #: superset-frontend/src/components/ImportModal/ErrorAlert.tsx:60
@@ -10555,9 +10506,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/SqlLab/components/TabbedSqlEditors/index.jsx:279
-#, fuzzy
 msgid "Add a new tab"
-msgstr "Aggiungi filtro"
+msgstr "Add a new tab"
 
 #: superset-frontend/src/SqlLab/components/TabbedSqlEditors/index.jsx:285
 #: superset-frontend/src/SqlLab/components/TabbedSqlEditors/index.jsx:327
@@ -10615,9 +10565,8 @@ msgid "Edit template parameters"
 msgstr ""
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:112
-#, fuzzy
 msgid "Parameters "
-msgstr "Parametri"
+msgstr "Parametri "
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:118
 msgid "Invalid JSON"
@@ -10640,9 +10589,8 @@ msgstr ""
 
 # | msgid "Add dataset"
 #: superset-frontend/src/addSlice/AddSliceContainer.tsx:340
-#, fuzzy
 msgid "Add a dataset"
-msgstr "Aggiungi Database"
+msgstr "Add a dataset"
 
 #: superset-frontend/src/addSlice/AddSliceContainer.tsx:370
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:168
@@ -10668,9 +10616,8 @@ msgid "Dataset"
 msgstr "Database"
 
 #: superset-frontend/src/addSlice/AddSliceContainer.tsx:393
-#, fuzzy
 msgid "Choose chart type"
-msgstr "Grafici"
+msgstr "Choose chart type"
 
 #: superset-frontend/src/addSlice/AddSliceContainer.tsx:410
 msgid "Please select both a Dataset and a Chart type to proceed"
@@ -10804,9 +10751,8 @@ msgstr ""
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailModal.tsx:44
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:205
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:407
-#, fuzzy
 msgid "Edit chart"
-msgstr "Modifica grafico"
+msgstr "Edit chart"
 
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailModal.tsx:52
 #: superset-frontend/src/components/ErrorMessage/ErrorAlert.tsx:209
@@ -10833,16 +10779,14 @@ msgstr ""
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailPane.tsx:234
 #: superset-frontend/src/explore/components/DataTablesPane/components/SamplesPane.tsx:137
 #: superset-frontend/src/explore/components/DataTablesPane/components/SingleQueryResultPane.tsx:64
-#, fuzzy
 msgid "No results"
-msgstr "visualizza risultati"
+msgstr "No results"
 
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailPane.tsx:263
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:191
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:195
-#, fuzzy
 msgid "Not available"
-msgstr "descrizione"
+msgstr "Not available"
 
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailPane.tsx:310
 msgid "There was an error loading the dataset metadata"
@@ -10860,9 +10804,8 @@ msgstr ""
 #: superset-frontend/src/components/CopyToClipboard/index.jsx:77
 #: superset-frontend/src/dashboard/components/menu/ShareMenuItems/index.tsx:68
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:167
-#, fuzzy
 msgid "Copied to clipboard!"
-msgstr "copia URL in appunti"
+msgstr "Copied to clipboard!"
 
 #: superset-frontend/src/components/CopyToClipboard/index.jsx:81
 msgid "Sorry, your browser does not support copying. Use Ctrl / Cmd + C!"
@@ -10898,9 +10841,8 @@ msgid "every hour"
 msgstr ""
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:34
-#, fuzzy
 msgid "every minute"
-msgstr "mese"
+msgstr "every minute"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:36
 msgid "year"
@@ -10957,9 +10899,8 @@ msgid ":"
 msgstr ""
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:51
-#, fuzzy
 msgid "minute(s)"
-msgstr "minuto"
+msgstr "minute(s)"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:52
 msgid "Invalid cron expression"
@@ -11200,19 +11141,17 @@ msgstr "Tipo"
 # | msgid "Advanced analytics"
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:281
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:353
-#, fuzzy
 msgid "Advanced data type"
-msgstr "Analytics avanzate"
+msgstr "Advanced data type"
 
 # | msgid "Advanced analytics"
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:285
-#, fuzzy
 msgid "Advanced Data type"
-msgstr "Analytics avanzate"
+msgstr "Advanced Data type"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:294
 msgid "Datetime format"
-msgstr "Formato Datetime"
+msgstr "Datetime format"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:298
 msgid "The pattern of timestamp format. For strings use "
@@ -11249,9 +11188,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:326
-#, fuzzy
 msgid "Certified By"
-msgstr "Modificato"
+msgstr "Certified By"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:327
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1218
@@ -11265,7 +11203,7 @@ msgstr ""
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:267
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:268
 msgid "Certified by"
-msgstr "Modificato"
+msgstr "Certified by"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:337
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:342
@@ -11289,19 +11227,17 @@ msgstr ""
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:357
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:365
-#, fuzzy
 msgid "Default datetime"
-msgstr "Valore del filtro"
+msgstr "Default datetime"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:358
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:366
 msgid "Is filterable"
-msgstr "Filtrabile"
+msgstr "Is filterable"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:555
-#, fuzzy
 msgid "Select owners"
-msgstr "Seleziona una colonna"
+msgstr "Select owners"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:766
 #, python-format
@@ -11795,9 +11731,8 @@ msgid "Weekly Report for %s"
 msgstr ""
 
 #: superset-frontend/src/components/ReportModal/index.tsx:120
-#, fuzzy
 msgid "Weekly Report"
-msgstr "Template CSS"
+msgstr "Weekly Report"
 
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:216
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:251
@@ -11806,9 +11741,8 @@ msgid "Edit email report"
 msgstr ""
 
 #: superset-frontend/src/components/ReportModal/index.tsx:206
-#, fuzzy
 msgid "Schedule a new email report"
-msgstr "Importa"
+msgstr "Schedule a new email report"
 
 #: superset-frontend/src/components/ReportModal/index.tsx:223
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1054
@@ -11854,9 +11788,8 @@ msgstr ""
 
 # | msgid "Failed at retrieving results"
 #: superset-frontend/src/components/ReportModal/index.tsx:337
-#, fuzzy
 msgid "Failed to create report"
-msgstr "Errore nel recupero dei dati dal backend"
+msgstr "Failed to create report"
 
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:212
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:241
@@ -11865,15 +11798,13 @@ msgstr ""
 
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:219
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:257
-#, fuzzy
 msgid "Delete email report"
-msgstr "Importa"
+msgstr "Delete email report"
 
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:228
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:232
-#, fuzzy
 msgid "Set up an email report"
-msgstr "Importa"
+msgstr "Set up an email report"
 
 #: superset-frontend/src/components/ReportModal/HeaderReportDropdown/index.tsx:284
 msgid "Schedule email report"
@@ -11912,36 +11843,30 @@ msgstr "Nessun filtro"
 
 # | msgid "Select parent filters"
 #: superset-frontend/src/components/Table/index.tsx:175
-#, fuzzy
 msgid "Select all items"
-msgstr "Seleziona data finale"
+msgstr "Select all items"
 
 # | msgid "Search / Filter"
 #: superset-frontend/src/components/Table/index.tsx:176
-#, fuzzy
 msgid "Search in filters"
-msgstr "Cerca / Filtra"
+msgstr "Search in filters"
 
 # | msgid "Select parent filters"
 #: superset-frontend/src/components/Table/index.tsx:178
-#, fuzzy
 msgid "Select current page"
-msgstr "Seleziona data finale"
+msgstr "Select current page"
 
 #: superset-frontend/src/components/Table/index.tsx:179
-#, fuzzy
 msgid "Invert current page"
-msgstr "Ultima Modifica"
+msgstr "Invert current page"
 
 #: superset-frontend/src/components/Table/index.tsx:180
-#, fuzzy
 msgid "Clear all data"
-msgstr "Grafico a Proiettile"
+msgstr "Clear all data"
 
 #: superset-frontend/src/components/Table/index.tsx:181
-#, fuzzy
 msgid "Select all data"
-msgstr "Importa dashboard"
+msgstr "Select all data"
 
 #: superset-frontend/src/components/Table/index.tsx:183
 msgid "Expand row"
@@ -11952,20 +11877,17 @@ msgid "Collapse row"
 msgstr ""
 
 #: superset-frontend/src/components/Table/index.tsx:185
-#, fuzzy
 msgid "Click to sort descending"
-msgstr "Importa"
+msgstr "Click to sort descending"
 
 #: superset-frontend/src/components/Table/index.tsx:186
-#, fuzzy
 msgid "Click to sort ascending"
-msgstr "Importa"
+msgstr "Click to sort ascending"
 
 # | msgid "Click to change visualization type"
 #: superset-frontend/src/components/Table/index.tsx:187
-#, fuzzy
 msgid "Click to cancel sorting"
-msgstr "Seleziona un tipo di visualizzazione"
+msgstr "Click to cancel sorting"
 
 #: superset-frontend/src/components/TableLoader/index.tsx:91
 msgid "Access to user activity data is restricted"
@@ -12354,9 +12276,8 @@ msgstr ""
 
 # | msgid "Add to dashboard"
 #: superset-frontend/src/dashboard/components/Header/index.jsx:516
-#, fuzzy
 msgid "Add the name of the dashboard"
-msgstr "Aggiungi ad una nuova dashboard"
+msgstr "Add the name of the dashboard"
 
 # | msgid "Dashboard Emails"
 #: superset-frontend/src/dashboard/components/Header/index.jsx:517
@@ -12379,9 +12300,8 @@ msgstr "Scarta"
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:631
 #: superset-frontend/src/dashboard/components/Header/index.jsx:633
-#, fuzzy
 msgid "Edit dashboard"
-msgstr "Aggiungi ad una nuova dashboard"
+msgstr "Edit dashboard"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:133
 msgid "An error occurred while fetching available CSS templates"
@@ -12439,25 +12359,21 @@ msgstr ""
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:332
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:481
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:308
-#, fuzzy
 msgid "Copy permalink to clipboard"
-msgstr "copia URL in appunti"
+msgstr "Copy permalink to clipboard"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:333
-#, fuzzy
 msgid "Share permalink by email"
-msgstr "Esplora grafico"
+msgstr "Share permalink by email"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:347
-#, fuzzy
 msgid "Embed dashboard"
-msgstr "Aggiungi ad una nuova dashboard"
+msgstr "Embed dashboard"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:354
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:336
-#, fuzzy
 msgid "Manage email report"
-msgstr "Importa"
+msgstr "Manage email report"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:383
 msgid "Set filter mapping"
@@ -12469,9 +12385,8 @@ msgstr ""
 
 # | msgid "Overwrite"
 #: superset-frontend/src/dashboard/components/OverwriteConfirm/OverwriteConfirmModal.tsx:132
-#, fuzzy
 msgid "Confirm overwrite"
-msgstr "Sovrascrivi la slice %s"
+msgstr "Confirm overwrite"
 
 #: superset-frontend/src/dashboard/components/OverwriteConfirm/OverwriteConfirmModal.tsx:135
 msgid "Scroll down to the bottom to enable overwriting changes. "
@@ -12488,9 +12403,9 @@ msgstr ""
 
 # | msgid "Last modified by %s"
 #: superset-frontend/src/dashboard/components/OverwriteConfirm/OverwriteConfirmModal.tsx:182
-#, fuzzy, python-format
+#, python-format
 msgid "Last Updated %s by %s"
-msgstr "Ultima Modifica"
+msgstr "Last Updated %s by %s"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:103
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:826
@@ -12694,7 +12609,7 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:484
 msgid "Check out this chart: "
-msgstr "Guarda questo grafico: "
+msgstr "Check out this chart: "
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:493
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:269
@@ -12704,14 +12619,12 @@ msgstr ""
 # | msgid "Export CSV"
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:498
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:293
-#, fuzzy
 msgid "Export to .CSV"
-msgstr "Esporta CSV"
+msgstr "Esporta in formato .CSV"
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:509
-#, fuzzy
 msgid "Export to full .CSV"
-msgstr "Esporta nel formato .csv"
+msgstr "Esporta in formato .CSV completo"
 
 #: superset-frontend/src/dashboard/components/URLShortLinkButton/index.tsx:64
 msgid "Something went wrong."
@@ -12844,9 +12757,8 @@ msgstr "Pulisci tutto"
 
 # | msgid "Parent filter"
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterBarLocationSelect/index.tsx:65
-#, fuzzy
 msgid "Placement of filter bar"
-msgstr "Cerca / Filtra"
+msgstr "Rimpiazzo o barra filtri"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterBarLocationSelect/index.tsx:70
 msgid "Vertical (Left)"
@@ -12859,7 +12771,7 @@ msgstr ""
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterControls/FilterControls.tsx:152
 #, python-format
 msgid "Filters out of scope (%d)"
-msgstr ""
+msgstr "Filtri fuori contesto (%d)"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterControls/FilterValue.tsx:179
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:503
@@ -12912,9 +12824,8 @@ msgid "Filter metadata changed in dashboard. It will not be applied."
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/Footer.tsx:81
-#, fuzzy
 msgid "Please filter set name"
-msgstr "Inserisci un nome per la dashboard"
+msgstr "Please filter set name"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/Footer.tsx:111
 msgid "Create new filter set"
@@ -12951,7 +12862,7 @@ msgstr ""
 #: superset-frontend/src/dashboard/util/getFilterScopeNodesTree.js:85
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:127
 msgid "All charts"
-msgstr "Grafico a Proiettile"
+msgstr "All charts"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterCard/ScopeRow.tsx:72
 msgid "Scope"
@@ -12960,7 +12871,7 @@ msgstr ""
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterCard/TypeRow.tsx:31
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:761
 msgid "Filter type"
-msgstr "Tipo Filtro"
+msgstr "Filter type"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/DividerConfigForm.tsx:44
 msgid "Title is required"
@@ -12979,9 +12890,8 @@ msgid "Add filters and dividers"
 msgstr "Aggiungi filtri e divisori"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigModal.tsx:265
-#, fuzzy
 msgid "[untitled]"
-msgstr "%s - senza nome"
+msgstr "[untitled]"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigModal.tsx:435
 msgid "Cyclic dependency detected"
@@ -12989,43 +12899,37 @@ msgstr ""
 
 # | msgid "Add filter"
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigModal.tsx:571
-#, fuzzy
 msgid "Add and edit filters"
-msgstr "Aggiungi filtro"
+msgstr "Aggiungi e modifica filtri"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/ColumnSelect.tsx:129
-#, fuzzy
 msgid "Column select"
-msgstr "Seleziona una colonna"
+msgstr "Column select"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/ColumnSelect.tsx:132
-#, fuzzy
 msgid "Select a column"
-msgstr "Seleziona data finale"
+msgstr "Select a column"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/ColumnSelect.tsx:133
 msgid "No compatible columns found"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DefaultValue.tsx:75
-#, fuzzy
 msgid "Value is required"
-msgstr "Sorgente Dati"
+msgstr "Value is required"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:92
 msgid "(deleted or invalid type)"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:98
-#, fuzzy
 msgid "Limit type"
-msgstr "Valore del filtro"
+msgstr "Limit type"
 
 # | msgid "All filters"
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:148
-#, fuzzy
 msgid "No available filters."
-msgstr "Filtri"
+msgstr "Nessun filtro disponibile."
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:167
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterControl/index.jsx:355
@@ -13043,9 +12947,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:201
-#, fuzzy
 msgid "Values dependent on"
-msgstr "Importa"
+msgstr "Values dependent on"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:268
 msgid "Scoping"
@@ -13053,21 +12956,18 @@ msgstr ""
 
 # | msgid "Filter configuration"
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:275
-#, fuzzy
 msgid "Filter Configuration"
-msgstr "Controlli del filtro"
+msgstr "Filter Configuration"
 
 # | msgid "Filter List"
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:279
-#, fuzzy
 msgid "Filter Settings"
-msgstr "Filtri"
+msgstr "Filter Settings"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:302
 #: superset-frontend/src/filters/components/Select/index.ts:28
-#, fuzzy
 msgid "Select filter"
-msgstr "Seleziona data finale"
+msgstr "Select filter"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:302
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1200
@@ -13078,9 +12978,8 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:303
 #: superset-frontend/src/filters/components/Range/index.ts:28
-#, fuzzy
 msgid "Range filter"
-msgstr "Aggiungi filtro"
+msgstr "Range filter"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:303
 msgid "Numerical range"
@@ -13088,9 +12987,8 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:304
 #: superset-frontend/src/filters/components/Time/index.ts:27
-#, fuzzy
 msgid "Time filter"
-msgstr "Aggiungi filtro"
+msgstr "Time filter"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:304
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:926
@@ -13104,7 +13002,7 @@ msgstr ""
 #: superset-frontend/src/explore/constants.ts:127
 #: superset-frontend/src/filters/components/TimeColumn/index.ts:28
 msgid "Time column"
-msgstr "Colonna del Tempo"
+msgstr "Time column"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:306
 #: superset-frontend/src/explore/constants.ts:128
@@ -13114,50 +13012,45 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:307
 #: superset-frontend/src/filters/components/GroupBy/index.ts:28
-#, fuzzy
 msgid "Group By"
-msgstr "Raggruppa per"
+msgstr "Group By"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:307
 msgid "Group by"
-msgstr "Raggruppa per"
+msgstr "Group by"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:639
-#, fuzzy
 msgid "Pre-filter is required"
-msgstr "Sorgente Dati"
+msgstr "Pre-filter is required"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:747
 msgid "Filter name"
-msgstr "Valore del filtro"
+msgstr "Filter name"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:749
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:755
 msgid "Name is required"
-msgstr ""
+msgstr "Name is required"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:757
-#, fuzzy
 msgid "Filter Type"
-msgstr "Valore del filtro"
+msgstr "Filter Type"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:779
 msgid "Datasets do not contain a temporal column"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:813
-#, fuzzy
 msgid "Dataset is required"
-msgstr "Sorgente Dati"
+msgstr "Dataset is required"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:882
 msgid "Pre-filter available values"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:917
-#, fuzzy
 msgid "Pre-filter"
-msgstr "Cerca / Filtra"
+msgstr "Pre-filter"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:955
 msgid ""
@@ -13166,14 +13059,12 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:987
-#, fuzzy
 msgid "Sort filter values"
-msgstr "Filtrabile"
+msgstr "Sort filter values"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1001
-#, fuzzy
 msgid "Sort type"
-msgstr "Grafici"
+msgstr "Sort type"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1008
 #: superset-frontend/src/explore/components/controls/FilterBoxItemControl/index.jsx:205
@@ -13182,9 +13073,8 @@ msgid "Sort ascending"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1018
-#, fuzzy
 msgid "Sort Metric"
-msgstr "Mostra metrica"
+msgstr "Sort Metric"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1021
 msgid ""
@@ -13195,21 +13085,19 @@ msgstr ""
 #: superset-frontend/src/explore/components/controls/FilterBoxItemControl/index.jsx:184
 #: superset-frontend/src/explore/components/controls/FilterBoxItemControl/index.jsx:188
 msgid "Sort metric"
-msgstr "Mostra metrica"
+msgstr "Sort metric"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1054
-#, fuzzy
 msgid "Single Value"
-msgstr "Valore del filtro"
+msgstr "Single Value"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1071
 msgid "Single value type"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1080
-#, fuzzy
 msgid "Minimum"
-msgstr "minuto"
+msgstr "Minimum"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1083
 msgid "Exact"
@@ -13224,14 +13112,12 @@ msgid "Filter has default value"
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1134
-#, fuzzy
 msgid "Default Value"
-msgstr "Valore del filtro"
+msgstr "Default Value"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1163
-#, fuzzy
 msgid "Default value is required"
-msgstr "Sorgente Dati"
+msgstr "Default value is required"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1203
 msgid "Refresh the default values"
@@ -13246,14 +13132,12 @@ msgid "You have removed this filter."
 msgstr ""
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/RemovedFilter.tsx:46
-#, fuzzy
 msgid "Restore Filter"
-msgstr "Cerca / Filtra"
+msgstr "Restore Filter"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/getControlItemsMap.tsx:118
-#, fuzzy
 msgid "Column is required"
-msgstr "Sorgente Dati"
+msgstr "Column is required"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/getControlItemsMap.tsx:173
 msgid "Populate \"Default value\" to enable this control"
@@ -13322,9 +13206,8 @@ msgid "Transparent"
 msgstr ""
 
 #: superset-frontend/src/dashboard/util/backgroundStyleOptions.ts:30
-#, fuzzy
 msgid "White"
-msgstr "Titolo"
+msgstr "White"
 
 #: superset-frontend/src/dashboard/util/getFilterFieldNodesTree.js:44
 msgid "All filters"
@@ -13337,9 +13220,8 @@ msgstr ""
 
 #: superset-frontend/src/dashboard/util/getSliceHeaderTooltip.tsx:28
 #: superset-frontend/src/dashboard/util/getSliceHeaderTooltip.tsx:33
-#, fuzzy
 msgid "Click to edit chart."
-msgstr "Guarda questa slice: %s"
+msgstr "Click to edit chart."
 
 #: superset-frontend/src/dashboard/util/getSliceHeaderTooltip.tsx:32
 #, python-format
@@ -13348,9 +13230,9 @@ msgstr ""
 
 # | msgid "Query in a new tab"
 #: superset-frontend/src/dashboard/util/getSliceHeaderTooltip.tsx:34
-#, fuzzy, python-format
+#, python-format
 msgid "Use %s to open in a new tab."
-msgstr "Query in un nuovo tab"
+msgstr "Use %s to open in a new tab."
 
 #: superset-frontend/src/dashboard/util/headerStyleOptions.ts:30
 msgid "Medium"
@@ -13414,13 +13296,12 @@ msgstr ""
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:35
 #: superset-frontend/src/explore/controls.jsx:326
-#, fuzzy
 msgid "No filter"
-msgstr "Aggiungi filtro"
+msgstr "No filter"
 
 #: superset-frontend/src/explore/controls.jsx:415
 msgid "Bubble size"
-msgstr "Grandezza della bolla"
+msgstr "Bubble size"
 
 #: superset-frontend/src/explore/controls.jsx:434
 msgid ""
@@ -13437,14 +13318,13 @@ msgid "Color scheme"
 msgstr ""
 
 #: superset-frontend/src/explore/actions/exploreActions.ts:88
-#, fuzzy
 msgid "An error occurred while starring this chart"
-msgstr "Errore nel creare il datasource"
+msgstr "An error occurred while starring this chart"
 
 #: superset-frontend/src/explore/actions/saveModalActions.js:124
-#, fuzzy, python-format
+#, python-format
 msgid "Chart [%s] has been saved"
-msgstr "La tua query non può essere salvata"
+msgstr "Chart [%s] has been saved"
 
 #: superset-frontend/src/explore/actions/saveModalActions.js:127
 #, python-format
@@ -13497,9 +13377,8 @@ msgid "Continue"
 msgstr ""
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:577
-#, fuzzy
 msgid "Clear form"
-msgstr "Formato Datetime"
+msgstr "Clear form"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:582
 msgid "No form settings were maintained"
@@ -13519,14 +13398,12 @@ msgid "Generating link, please wait.."
 msgstr ""
 
 #: superset-frontend/src/explore/components/EmbedCodeContent.jsx:130
-#, fuzzy
 msgid "Chart height"
-msgstr "Grafici"
+msgstr "Chart height"
 
 #: superset-frontend/src/explore/components/EmbedCodeContent.jsx:139
-#, fuzzy
 msgid "Chart width"
-msgstr "Grafici"
+msgstr "Chart width"
 
 #: superset-frontend/src/explore/components/ExploreChartPanel.jsx:314
 msgid "Chart type requires a dataset"
@@ -13545,9 +13422,8 @@ msgstr ""
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:330
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:354
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:395
-#, fuzzy
 msgid "Create a dataset"
-msgstr "Seleziona una destinazione"
+msgstr "Create a dataset"
 
 #: superset-frontend/src/explore/components/ExploreChartPanel.jsx:332
 msgid " to visualize your data."
@@ -13559,9 +13435,8 @@ msgstr ""
 
 # | msgid "Your query could not be updated"
 #: superset-frontend/src/explore/components/ExploreChartPanel.jsx:342
-#, fuzzy
 msgid "Your chart is not up to date"
-msgstr "La tua query non può essere salvata"
+msgstr "Your chart is not up to date"
 
 #: superset-frontend/src/explore/components/ExploreChartPanel.jsx:349
 msgid ""
@@ -13575,9 +13450,8 @@ msgstr "Query salvate"
 
 # | msgid "Save as ..."
 #: superset-frontend/src/explore/components/SaveModal.tsx:310
-#, fuzzy
 msgid "Save as..."
-msgstr "Salva come"
+msgstr "Save as..."
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:314
 msgid "Chart name"
@@ -13585,9 +13459,8 @@ msgstr "Grafici"
 
 # | msgid "Dataset name"
 #: superset-frontend/src/explore/components/SaveModal.tsx:325
-#, fuzzy
 msgid "Dataset Name"
-msgstr "Database"
+msgstr "Dataset Name"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:327
 msgid "A reusable dataset will be saved with your chart."
@@ -13598,26 +13471,22 @@ msgid "Add to dashboard"
 msgstr "Aggiungi ad una nuova dashboard"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:347
-#, fuzzy
 msgid "Select a dashboard"
-msgstr "Importa dashboard"
+msgstr "Seleziona una dashboard"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:353
 #: superset-frontend/src/explore/components/controls/VizTypeControl/index.tsx:132
-#, fuzzy
 msgid "Select"
-msgstr "Seleziona %s"
+msgstr "Seleziona"
 
 # | msgid "Save dashboard"
 #: superset-frontend/src/explore/components/SaveModal.tsx:354
-#, fuzzy
 msgid " a dashboard OR "
-msgstr "Salva e vai alla dashboard"
+msgstr " a dashboard OR "
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:355
-#, fuzzy
 msgid "create"
-msgstr "Creato il"
+msgstr "create"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:356
 msgid " a new one"
@@ -13625,13 +13494,12 @@ msgstr ""
 
 # | msgid "Save & go to dashboard"
 #: superset-frontend/src/explore/components/SaveModal.tsx:382
-#, fuzzy
 msgid "Save & go to new dashboard"
-msgstr "Salva e vai alla dashboard"
+msgstr "Save & go to new dashboard"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:383
 msgid "Save & go to dashboard"
-msgstr "Salva e vai alla dashboard"
+msgstr "Save & go to dashboard"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:399
 msgid "Save as new chart"
@@ -13639,27 +13507,24 @@ msgstr ""
 
 # | msgid "Save dashboard"
 #: superset-frontend/src/explore/components/SaveModal.tsx:401
-#, fuzzy
 msgid "Save to new dashboard"
-msgstr "Salva e vai alla dashboard"
+msgstr "Save to new dashboard"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:419
 msgid "Save chart"
-msgstr "Grafico a torta"
+msgstr "Save chart"
 
 #: superset-frontend/src/explore/components/DataTableControl/index.tsx:84
 msgid "Copy"
 msgstr ""
 
 #: superset-frontend/src/explore/components/DataTableControl/index.tsx:142
-#, fuzzy
 msgid "Formatted date"
-msgstr "Formato D3"
+msgstr "Formatted date"
 
 #: superset-frontend/src/explore/components/DataTableControl/index.tsx:194
-#, fuzzy
 msgid "Column Formatting"
-msgstr "Formato Datetime"
+msgstr "Column Formatting"
 
 #: superset-frontend/src/explore/components/DataTableControl/index.tsx:239
 msgid "N/A"
@@ -13671,15 +13536,14 @@ msgstr ""
 
 # | msgid "Edit database"
 #: superset-frontend/src/explore/components/DataTablesPane/DataTablesPane.tsx:167
-#, fuzzy
 msgid "Expand data panel"
-msgstr "Mostra database"
+msgstr "Expand data panel"
 
 #: superset-frontend/src/explore/components/DataTablesPane/DataTablesPane.tsx:212
 #: superset-frontend/src/explore/components/DataTablesPane/components/ResultsPaneOnDashboard.tsx:84
-#, fuzzy, python-format
+#, python-format
 msgid "Results %s"
-msgstr "visualizza risultati"
+msgstr "Results %s"
 
 #: superset-frontend/src/explore/components/DataTablesPane/DataTablesPane.tsx:231
 msgid "Samples"
@@ -13722,15 +13586,13 @@ msgstr ""
 
 # | msgid "Add to dashboard"
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:174
-#, fuzzy
 msgid "Added to 1 dashboard"
-msgstr "Aggiungi ad una nuova dashboard"
+msgstr "Added to 1 dashboard"
 
 # | msgid "Add to dashboard"
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:180
-#, fuzzy
 msgid "Not added to any dashboard"
-msgstr "Aggiungi ad una nuova dashboard"
+msgstr "Not added to any dashboard"
 
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:183
 msgid "You can preview the list of dashboards in the chart settings dropdown."
@@ -13741,9 +13603,8 @@ msgid "Add the name of the chart"
 msgstr ""
 
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:220
-#, fuzzy
 msgid "Chart title"
-msgstr "Grafici"
+msgstr "Chart title"
 
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:254
 msgid "Add required control values to save chart"
@@ -13759,23 +13620,20 @@ msgstr ""
 
 # | msgid "Data Source"
 #: superset-frontend/src/explore/components/ExploreViewContainer/index.jsx:611
-#, fuzzy
 msgid "Chart Source"
-msgstr "Sorgente Dati"
+msgstr "Chart Source"
 
 #: superset-frontend/src/explore/components/ExploreViewContainer/index.jsx:643
 msgid "Open Datasource tab"
-msgstr "Sorgente Dati"
+msgstr "Open Datasource tab"
 
 #: superset-frontend/src/explore/components/ExportToCSVDropdown/index.tsx:75
-#, fuzzy
 msgid "Original"
-msgstr "Login"
+msgstr "Original"
 
 #: superset-frontend/src/explore/components/ExportToCSVDropdown/index.tsx:81
-#, fuzzy
 msgid "Pivoted"
-msgstr "Modifica"
+msgstr "Pivoted"
 
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:69
 msgid "You do not have permission to edit this chart"
@@ -13783,15 +13641,13 @@ msgstr "Non hai i permessi per modificare questo grafico"
 
 # | msgid "Chart could not be updated."
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:165
-#, fuzzy
 msgid "Chart properties updated"
-msgstr "La tua query non può essere salvata"
+msgstr "Chart properties updated"
 
 # | msgid "Edit CSS template properties"
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:190
-#, fuzzy
 msgid "Edit Chart Properties"
-msgstr "Template CSS"
+msgstr "Edit Chart Properties"
 
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:211
 msgid "This chart is managed externally, and can't be edited in Superset"
@@ -13833,15 +13689,13 @@ msgstr ""
 
 # | msgid "Create new chart"
 #: superset-frontend/src/explore/components/RunQueryButton/index.tsx:54
-#, fuzzy
 msgid "Create chart"
-msgstr "Creato il"
+msgstr "Crea grafico"
 
 # | msgid "Save chart"
 #: superset-frontend/src/explore/components/RunQueryButton/index.tsx:54
-#, fuzzy
 msgid "Update chart"
-msgstr "Grafico a torta"
+msgstr "Update chart"
 
 #: superset-frontend/src/explore/components/controls/SpatialControl.jsx:82
 msgid "Invalid lat/long configuration."
@@ -13883,9 +13737,8 @@ msgstr ""
 
 # | msgid "Save as new"
 #: superset-frontend/src/explore/components/controls/ViewQueryModalFooter.tsx:37
-#, fuzzy
 msgid "Save as Dataset"
-msgstr "Salva una slice"
+msgstr "Save as Dataset"
 
 #: superset-frontend/src/explore/components/controls/ViewQueryModalFooter.tsx:38
 #: superset-frontend/src/views/CRUD/data/query/QueryPreviewModal.tsx:142
@@ -13900,21 +13753,19 @@ msgstr ""
 
 # | msgid "Annotation layers"
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:113
-#, fuzzy
 msgid "No annotation layers"
-msgstr "Azione"
+msgstr "No annotation layers"
 
 # | msgid "Add annotation layer"
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:116
-#, fuzzy
 msgid "Add an annotation layer"
-msgstr "Azione"
+msgstr "Add an annotation layer"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:416
 #: superset-frontend/src/views/CRUD/annotationlayers/AnnotationLayersList.tsx:264
 #: superset-frontend/src/views/CRUD/annotationlayers/AnnotationLayersList.tsx:321
 msgid "Annotation layer"
-msgstr "Azione"
+msgstr "Annotation layer"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:417
 msgid "Select the Annotation Layer you would like to use."
@@ -13936,19 +13787,16 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:437
-#, fuzzy
 msgid "Annotation layer value"
-msgstr "La tua query non può essere salvata"
+msgstr "Annotation layer value"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:467
-#, fuzzy
 msgid "Bad formula."
-msgstr "Formato Datetime"
+msgstr "Bad formula."
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:500
-#, fuzzy
 msgid "Annotation Slice Configuration"
-msgstr "Controlli del filtro"
+msgstr "Annotation Slice Configuration"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:501
 msgid ""
@@ -13957,19 +13805,16 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:507
-#, fuzzy
 msgid "Annotation layer time column"
-msgstr "La tua query non può essere salvata"
+msgstr "Annotation layer time column"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:512
-#, fuzzy
 msgid "Interval start column"
-msgstr "Controlli del filtro"
+msgstr "Interval start column"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:513
-#, fuzzy
 msgid "Event time column"
-msgstr "Colonna del Tempo"
+msgstr "Event time column"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:515
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:531
@@ -13977,38 +13822,32 @@ msgid "This column must contain date/time information."
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:527
-#, fuzzy
 msgid "Annotation layer interval end"
-msgstr "La tua query non può essere salvata"
+msgstr "Annotation layer interval end"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:530
-#, fuzzy
 msgid "Interval End column"
-msgstr "Controlli del filtro"
+msgstr "Interval End column"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:541
-#, fuzzy
 msgid "Annotation layer title column"
-msgstr "La tua query non può essere salvata"
+msgstr "Annotation layer title column"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:544
-#, fuzzy
 msgid "Title Column"
-msgstr "Colonna del Tempo"
+msgstr "Title Column"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:545
 msgid "Pick a title for you annotation."
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:552
-#, fuzzy
 msgid "Annotation layer description columns"
-msgstr "La tua query non può essere salvata"
+msgstr "Annotation layer description columns"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:555
-#, fuzzy
 msgid "Description Columns"
-msgstr "descrizione"
+msgstr "Description Columns"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:556
 msgid ""
@@ -14025,9 +13864,8 @@ msgid "Configure your how you overlay is displayed here."
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:654
-#, fuzzy
 msgid "Annotation layer stroke"
-msgstr "La tua query non può essere salvata"
+msgstr "Annotation layer stroke"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:656
 msgid "Style"
@@ -14040,9 +13878,8 @@ msgstr ""
 
 # | msgid "Dashboard"
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:660
-#, fuzzy
 msgid "Dashed"
-msgstr "Dashboard"
+msgstr "Dashed"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:661
 msgid "Long dashed"
@@ -14053,9 +13890,8 @@ msgid "Dotted"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:669
-#, fuzzy
 msgid "Annotation layer opacity"
-msgstr "La tua query non può essere salvata"
+msgstr "Annotation layer opacity"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:683
 msgid "Color"
@@ -14083,9 +13919,8 @@ msgid "Hide layer"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:773
-#, fuzzy
 msgid "Show label"
-msgstr "Mostra Tabelle"
+msgstr "Show label"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:776
 msgid "Whether to always show the annotation label"
@@ -14101,18 +13936,16 @@ msgid "Choose the annotation layer type"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:792
-#, fuzzy
 msgid "Annotation source type"
-msgstr "La tua query non può essere salvata"
+msgstr "Annotation source type"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:794
 msgid "Choose the source of your annotations"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:795
-#, fuzzy
 msgid "Annotation source"
-msgstr "Azione"
+msgstr "Annotation source"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:817
 msgid "Remove"
@@ -14129,14 +13962,12 @@ msgid "Add annotation layer"
 msgstr "Azione"
 
 #: superset-frontend/src/explore/components/controls/CollectionControl/index.jsx:59
-#, fuzzy
 msgid "Empty collection"
-msgstr "Testa la Connessione"
+msgstr "Empty collection"
 
 #: superset-frontend/src/explore/components/controls/CollectionControl/index.jsx:63
-#, fuzzy
 msgid "Add an item"
-msgstr "Aggiungi filtro"
+msgstr "Add an item"
 
 #: superset-frontend/src/explore/components/controls/CollectionControl/index.jsx:142
 msgid "Remove item"
@@ -14155,23 +13986,20 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/ColorSchemeControl/index.tsx:117
-#, fuzzy
 msgid "Dashboard scheme"
-msgstr "Elenco Dashboard"
+msgstr "Dashboard scheme"
 
 #: superset-frontend/src/explore/components/controls/ColorSchemeControl/index.tsx:177
-#, fuzzy
 msgid "Select color scheme"
-msgstr "Testa la Connessione"
+msgstr "Select color scheme"
 
 #: superset-frontend/src/explore/components/controls/ColorSchemeControl/index.tsx:183
 msgid "Select scheme"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/ConditionalFormattingControl.tsx:151
-#, fuzzy
 msgid "Edit formatter"
-msgstr "Formato D3"
+msgstr "Modifica formatter"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/ConditionalFormattingControl.tsx:169
 msgid "Add new formatter"
@@ -14183,16 +14011,15 @@ msgstr ""
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:42
 msgid "green"
-msgstr ""
+msgstr "verde"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:43
 msgid "yellow"
-msgstr ""
+msgstr "giallo"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:44
-#, fuzzy
 msgid "red"
-msgstr "Creato il"
+msgstr "rosso"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:80
 msgid "This value should be smaller than the right target value"
@@ -14211,14 +14038,12 @@ msgstr ""
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:126
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:130
-#, fuzzy
 msgid "Operator"
-msgstr "Seleziona operatore"
+msgstr "Operator"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:144
-#, fuzzy
 msgid "Left value"
-msgstr "Valore del filtro"
+msgstr "Left value"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:157
 msgid "Right value"
@@ -14231,9 +14056,8 @@ msgstr ""
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:208
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSqlTabContent/index.jsx:63
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:300
-#, fuzzy
 msgid "Select column"
-msgstr "Colonna del Tempo"
+msgstr "Select column"
 
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:282
 msgid "Edit dataset"
@@ -14261,15 +14085,13 @@ msgstr ""
 
 # | msgid "Choose a dataset"
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:337
-#, fuzzy
 msgid "Save as dataset"
-msgstr "Seleziona una destinazione"
+msgstr "Save as dataset"
 
 # | msgid "URL parameters"
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:390
-#, fuzzy
 msgid "Missing URL parameters"
-msgstr "Parametri"
+msgstr "Missing URL parameters"
 
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:395
 msgid "The URL is missing the dataset_id or slice_id parameters."
@@ -14416,23 +14238,20 @@ msgid "last day"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:40
-#, fuzzy
 msgid "last week"
-msgstr "settimana"
+msgstr "last week"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:41
-#, fuzzy
 msgid "last month"
-msgstr "mese"
+msgstr "last month"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:42
 msgid "last quarter"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:43
-#, fuzzy
 msgid "last year"
-msgstr "Cluster"
+msgstr "last year"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:50
 msgid "previous calendar week"
@@ -14452,48 +14271,47 @@ msgid "Seconds %s"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:63
-#, fuzzy, python-format
+#, python-format
 msgid "Minutes %s"
-msgstr "minuto"
+msgstr "Minutes %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:64
-#, fuzzy, python-format
+#, python-format
 msgid "Hours %s"
-msgstr "ora"
+msgstr "Hours %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:65
-#, fuzzy, python-format
+#, python-format
 msgid "Days %s"
-msgstr "giorno"
+msgstr "Days %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:66
-#, fuzzy, python-format
+#, python-format
 msgid "Weeks %s"
-msgstr "settimana"
+msgstr "Weeks %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:67
-#, fuzzy, python-format
+#, python-format
 msgid "Months %s"
-msgstr "mese"
+msgstr "Months %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:68
-#, fuzzy, python-format
+#, python-format
 msgid "Quarters %s"
-msgstr "Opzioni del grafico"
+msgstr "Quarters %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:69
-#, fuzzy, python-format
+#, python-format
 msgid "Years %s"
-msgstr "anno"
+msgstr "Years %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:75
 msgid "Before"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:82
-#, fuzzy
 msgid "After"
-msgstr "Aggiungi filtro"
+msgstr "After"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:87
 msgid "Specific Date/Time"
@@ -14512,9 +14330,8 @@ msgid "Midnight"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:247
-#, fuzzy
 msgid "Saved expressions"
-msgstr "Espressione SQL"
+msgstr "Saved expressions"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:263
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:358
@@ -14532,15 +14349,13 @@ msgstr "%s colonna/e"
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:290
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:308
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:343
-#, fuzzy
 msgid "No temporal columns found"
-msgstr "Colonna del Tempo"
+msgstr "No temporal columns found"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:291
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:309
-#, fuzzy
 msgid "No saved expressions found"
-msgstr "Espressione SQL"
+msgstr "No saved expressions found"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:295
 msgid "Add calculated temporal columns to dataset in \"Edit datasource\" modal"
@@ -14557,9 +14372,8 @@ msgstr ""
 
 # | msgid "Calculated columns"
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:332
-#, fuzzy
 msgid " to add calculated columns"
-msgstr "Visualizza colonne"
+msgstr " to add calculated columns"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:339
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopover/index.jsx:210
@@ -14581,9 +14395,8 @@ msgstr ""
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopoverTrigger.tsx:41
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndColumnSelectPopoverTitle.jsx:65
-#, fuzzy
 msgid "My column"
-msgstr "Colonna"
+msgstr "My column"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndAdhocFilterOption.tsx:72
 msgid "This filter might be incompatible with current dataset"
@@ -14710,9 +14523,8 @@ msgid "%s operator(s)"
 msgstr "%s operatore/i"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSimpleTabContent/index.tsx:363
-#, fuzzy
 msgid "Select operator"
-msgstr "Seleziona operatore"
+msgstr "Select operator"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSimpleTabContent/index.tsx:372
 msgid "Comparator option"
@@ -14728,9 +14540,8 @@ msgstr ""
 
 # | msgid "Failed at retrieving results"
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSimpleTabContent/useAdvancedDataTypes.ts:70
-#, fuzzy
 msgid "Failed to retrieve advanced type"
-msgstr "Errore nel recupero dei dati dal backend"
+msgstr "Failed to retrieve advanced type"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSqlTabContent/index.jsx:101
 msgid "choose WHERE or HAVING..."
@@ -14745,14 +14556,12 @@ msgid "Filters by metrics"
 msgstr "Lista Metriche"
 
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:149
-#, fuzzy
 msgid "Fixed"
-msgstr "Modificato"
+msgstr "Fixed"
 
 #: superset-frontend/src/explore/components/controls/FixedOrMetricControl/index.jsx:165
-#, fuzzy
 msgid "Based on a metric"
-msgstr "Seleziona una metrica"
+msgstr "Based on a metric"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopoverTitle.tsx:55
 msgid "My metric"
@@ -14772,9 +14581,8 @@ msgid "%s aggregates(s)"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:318
-#, fuzzy
 msgid "Select saved metrics"
-msgstr "Seleziona una metrica"
+msgstr "Select saved metrics"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:319
 #, python-format
@@ -14787,9 +14595,8 @@ msgstr "Seleziona una metrica"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:376
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:384
-#, fuzzy
 msgid "No saved metrics found"
-msgstr "Seleziona una metrica"
+msgstr "No saved metrics found"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:377
 msgid "Add metrics to dataset in \"Edit datasource\" modal"
@@ -14797,9 +14604,8 @@ msgstr ""
 
 # | msgid "Add metric"
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:397
-#, fuzzy
 msgid " to add metrics"
-msgstr "Aggiungi metrica"
+msgstr " to add metrics"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:408
 msgid "Simple ad-hoc metrics are not enabled for this dataset"
@@ -14818,9 +14624,9 @@ msgid "Custom SQL ad-hoc metrics are not enabled for this dataset"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/SelectAsyncControl/index.tsx:89
-#, fuzzy, python-format
+#, python-format
 msgid "Error while fetching data: %s"
-msgstr "Errore nel recupero dati"
+msgstr "Error while fetching data: %s"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:48
 #: superset-frontend/src/visualizations/TimeTable/controlPanel.js:38
@@ -14828,9 +14634,8 @@ msgid "Time series columns"
 msgstr "Colonna del Tempo"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/FastVizSwitcher.tsx:94
-#, fuzzy
 msgid "Select Viz Type"
-msgstr "Seleziona un tipo di visualizzazione"
+msgstr "Select Viz Type"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/FastVizSwitcher.tsx:131
 #, python-format
@@ -14839,9 +14644,8 @@ msgstr ""
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:125
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:769
-#, fuzzy
 msgid "Other"
-msgstr "mese"
+msgstr "Other"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:671
 msgid "Recommended tags"
@@ -14852,14 +14656,12 @@ msgid "Category"
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:777
-#, fuzzy
 msgid "Search all charts"
-msgstr "Grafico a Proiettile"
+msgstr "Search all charts"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:844
-#, fuzzy
 msgid "No description available."
-msgstr "descrizione"
+msgstr "No description available."
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:851
 #: superset-frontend/src/views/CRUD/welcome/ChartTable.tsx:183
@@ -14872,9 +14674,8 @@ msgid "This visualization type is not supported."
 msgstr ""
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/index.tsx:125
-#, fuzzy
 msgid "View all charts"
-msgstr "Grafico a Proiettile"
+msgstr "View all charts"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/index.tsx:131
 msgid "Select a visualization type"
@@ -14886,9 +14687,8 @@ msgid "No results found"
 msgstr "Nessun record trovato"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:117
-#, fuzzy
 msgid "Superset Chart"
-msgstr "Esplora grafico"
+msgstr "Superset Chart"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:200
 msgid "New chart"
@@ -14901,24 +14701,20 @@ msgstr ""
 # | msgid "Dashboards"
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:259
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:400
-#, fuzzy
 msgid "Dashboards added to"
-msgstr "Elenco Dashboard"
+msgstr "Dashboards added to"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:277
-#, fuzzy
 msgid "Export to original .CSV"
-msgstr "Esporta nel formato .csv"
+msgstr "Export to original .CSV"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:284
-#, fuzzy
 msgid "Export to pivoted .CSV"
-msgstr "Esporta nel formato .csv"
+msgstr "Export to pivoted .CSV"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:297
-#, fuzzy
 msgid "Export to .JSON"
-msgstr "Esporta nel formato .csv"
+msgstr "Export to .JSON"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:317
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:319
@@ -14963,17 +14759,16 @@ msgid "My beautiful colors"
 msgstr ""
 
 #: superset-frontend/src/filters/components/GroupBy/GroupByFilterPlugin.tsx:84
-#, fuzzy
 msgid "No columns"
-msgstr "Colonna"
+msgstr "No columns"
 
 #: superset-frontend/src/filters/components/GroupBy/GroupByFilterPlugin.tsx:85
 #: superset-frontend/src/filters/components/Select/SelectFilterPlugin.tsx:260
 #: superset-frontend/src/filters/components/TimeColumn/TimeColumnFilterPlugin.tsx:84
 #: superset-frontend/src/filters/components/TimeGrain/TimeGrainFilterPlugin.tsx:94
-#, fuzzy, python-format
+#, python-format
 msgid "%s option"
-msgstr "Seleziona operatore"
+msgstr "%s option"
 
 #: superset-frontend/src/filters/components/GroupBy/controlPanel.ts:51
 #: superset-frontend/src/filters/components/Range/controlPanel.ts:47
@@ -14981,9 +14776,8 @@ msgstr "Seleziona operatore"
 #: superset-frontend/src/filters/components/Time/controlPanel.ts:45
 #: superset-frontend/src/filters/components/TimeColumn/controlPanel.ts:25
 #: superset-frontend/src/filters/components/TimeGrain/controlPanel.ts:25
-#, fuzzy
 msgid "UI Configuration"
-msgstr "Controlli del filtro"
+msgstr "UI Configuration"
 
 #: superset-frontend/src/filters/components/GroupBy/controlPanel.ts:59
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:77
@@ -14996,9 +14790,8 @@ msgstr ""
 #: superset-frontend/src/filters/components/Time/controlPanel.ts:53
 #: superset-frontend/src/filters/components/TimeColumn/controlPanel.ts:33
 #: superset-frontend/src/filters/components/TimeGrain/controlPanel.ts:33
-#, fuzzy
 msgid "Filter value is required"
-msgstr "Sorgente Dati"
+msgstr "Filter value is required"
 
 #: superset-frontend/src/filters/components/GroupBy/controlPanel.ts:75
 #: superset-frontend/src/filters/components/Range/controlPanel.ts:58
@@ -15018,9 +14811,8 @@ msgid "Chosen non-numeric column"
 msgstr ""
 
 #: superset-frontend/src/filters/components/Range/controlPanel.ts:67
-#, fuzzy
 msgid "Single value"
-msgstr "Valore del filtro"
+msgstr "Single value"
 
 #: superset-frontend/src/filters/components/Range/controlPanel.ts:70
 msgid "Use only a single value."
@@ -15063,9 +14855,8 @@ msgid "Custom time filter plugin"
 msgstr ""
 
 #: superset-frontend/src/filters/components/TimeColumn/TimeColumnFilterPlugin.tsx:83
-#, fuzzy
 msgid "No time columns"
-msgstr "Colonna del Tempo"
+msgstr "No time columns"
 
 #: superset-frontend/src/filters/components/TimeColumn/index.ts:29
 msgid "Time column filter plugin"
@@ -15076,9 +14867,8 @@ msgid "Time grain filter plugin"
 msgstr ""
 
 #: superset-frontend/src/modules/AnnotationTypes.js:46
-#, fuzzy
 msgid "Time series"
-msgstr "Colonna del Tempo"
+msgstr "Time series"
 
 #: superset-frontend/src/profile/components/App.tsx:52
 msgid "Favorites"
@@ -15134,18 +14924,16 @@ msgstr ""
 
 # | msgid "Report failed"
 #: superset-frontend/src/reports/actions/reports.js:121
-#, fuzzy
 msgid "Report updated"
-msgstr "Nome Completo"
+msgstr "Report updated"
 
 #: superset-frontend/src/reports/actions/reports.js:136
 msgid "We were unable to active or deactivate this report."
 msgstr ""
 
 #: superset-frontend/src/reports/actions/reports.js:152
-#, fuzzy
 msgid "Your report could not be deleted"
-msgstr "La query non può essere caricata"
+msgstr "Your report could not be deleted"
 
 #: superset-frontend/src/reports/actions/reports.js:156
 #: superset-frontend/src/views/CRUD/alert/AlertList.tsx:184
@@ -15187,15 +14975,13 @@ msgstr ""
 
 # | msgid "Network error."
 #: superset-frontend/src/utils/getClientErrorObject.ts:101
-#, fuzzy
 msgid "Network error"
-msgstr "Errore di rete."
+msgstr "Network error"
 
 # | msgid "Cache timeout"
 #: superset-frontend/src/utils/getClientErrorObject.ts:113
-#, fuzzy
 msgid "Request timed out"
-msgstr "Cache Timeout"
+msgstr "Request timed out"
 
 #: superset-frontend/src/utils/getClientErrorObject.ts:122
 msgid "Issue 1000 - The dataset is too large to query."
@@ -15206,27 +14992,27 @@ msgid "Issue 1001 - The database is under an unusual load."
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/hooks.ts:103
-#, fuzzy, python-format
+#, python-format
 msgid "An error occurred while fetching %s info: %s"
-msgstr "Errore nel creare il datasource"
+msgstr "An error occurred while fetching %s info: %s"
 
 #: superset-frontend/src/views/CRUD/hooks.ts:171
 #: superset-frontend/src/views/CRUD/hooks.ts:258
 #: superset-frontend/src/views/CRUD/hooks.ts:346
-#, fuzzy, python-format
+#, python-format
 msgid "An error occurred while fetching %ss: %s"
-msgstr "Errore nel creare il datasource"
+msgstr "An error occurred while fetching %ss: %s"
 
 #: superset-frontend/src/views/CRUD/hooks.ts:301
-#, fuzzy, python-format
+#, python-format
 msgid "An error occurred while creating %ss: %s"
-msgstr "Errore nel creare il datasource"
+msgstr "An error occurred while creating %ss: %s"
 
 #: superset-frontend/src/views/CRUD/hooks.ts:456
 #: superset-frontend/src/views/CRUD/hooks.ts:472
-#, fuzzy, python-format
+#, python-format
 msgid "An error occurred while importing %s: %s"
-msgstr "Errore nel rendering della visualizzazione: %s"
+msgstr "An error occurred while importing %s: %s"
 
 #: superset-frontend/src/views/CRUD/hooks.ts:543
 #, python-format
@@ -15356,7 +15142,7 @@ msgstr "Azione"
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:600
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryList.tsx:169
 msgid "Bulk select"
-msgstr "Seleziona %s"
+msgstr "Selezione in blocco"
 
 #: superset-frontend/src/views/CRUD/alert/AlertList.tsx:440
 #, python-format
@@ -15372,9 +15158,9 @@ msgstr "Proprietario"
 
 # | msgid "An error occurred while fetching chart owners values: %s"
 #: superset-frontend/src/views/CRUD/alert/AlertList.tsx:463
-#, fuzzy, python-format
+#, python-format
 msgid "An error occurred while fetching owners values: %s"
-msgstr "Errore nel creare il datasource"
+msgstr "An error occurred while fetching owners values: %s"
 
 #: superset-frontend/src/views/CRUD/alert/AlertList.tsx:480
 #, python-format
@@ -15480,24 +15266,20 @@ msgid "%s updated"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1066
-#, fuzzy
 msgid "Edit Report"
-msgstr "Importa"
+msgstr "Edit Report"
 
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1068
-#, fuzzy
 msgid "Edit Alert"
-msgstr "Modifica Tabella"
+msgstr "Edit Alert"
 
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1070
-#, fuzzy
 msgid "Add Report"
-msgstr "Importa"
+msgstr "Add Report"
 
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1071
-#, fuzzy
 msgid "Add Alert"
-msgstr "Aggiungi grafico"
+msgstr "Add Alert"
 
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1079
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1087
@@ -15518,9 +15300,8 @@ msgid "Trigger Alert If..."
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1188
-#, fuzzy
 msgid "Condition"
-msgstr "Testa la Connessione"
+msgstr "Condition"
 
 #: superset-frontend/src/views/CRUD/alert/AlertReportModal.tsx:1202
 msgid "Threshold value should be double precision number"
@@ -15636,9 +15417,8 @@ msgid "Alert Triggered, In Grace Period"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/alert/components/NotificationMethod.tsx:124
-#, fuzzy
 msgid "Delivery method"
-msgstr "mese"
+msgstr "Delivery method"
 
 #: superset-frontend/src/views/CRUD/alert/components/NotificationMethod.tsx:127
 msgid "Select Delivery Method"
@@ -15678,9 +15458,9 @@ msgstr ""
 
 # | msgid "Annotation layers"
 #: superset-frontend/src/views/CRUD/annotation/AnnotationList.tsx:259
-#, fuzzy, python-format
+#, python-format
 msgid "Annotation Layer %s"
-msgstr "Azione"
+msgstr "Annotation Layer %s"
 
 #: superset-frontend/src/views/CRUD/annotation/AnnotationList.tsx:282
 #, python-format
@@ -15696,14 +15476,12 @@ msgid "Are you sure you want to delete the selected annotations?"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/annotation/AnnotationModal.tsx:152
-#, fuzzy
 msgid "The annotation has been updated"
-msgstr "La tua query non può essere salvata"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/annotation/AnnotationModal.tsx:168
-#, fuzzy
 msgid "The annotation has been saved"
-msgstr "La tua query non può essere salvata"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/annotation/AnnotationModal.tsx:282
 msgid "Add annotation"
@@ -15732,15 +15510,13 @@ msgstr ""
 
 # | msgid "Annotation layer name"
 #: superset-frontend/src/views/CRUD/annotationlayers/AnnotationLayerModal.tsx:139
-#, fuzzy
 msgid "Annotation template updated"
-msgstr "La tua query non può essere salvata"
+msgstr ""
 
 # | msgid "Annotation layer name"
 #: superset-frontend/src/views/CRUD/annotationlayers/AnnotationLayerModal.tsx:154
-#, fuzzy
 msgid "Annotation template created"
-msgstr "La tua query non può essere salvata"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/annotationlayers/AnnotationLayerModal.tsx:241
 msgid "Edit annotation layer properties"
@@ -15805,9 +15581,9 @@ msgstr ""
 #: superset-frontend/src/views/CRUD/chart/ChartCard.tsx:158
 #: superset-frontend/src/views/CRUD/dashboard/DashboardCard.tsx:163
 #: superset-frontend/src/views/CRUD/welcome/ActivityTable.tsx:129
-#, fuzzy, python-format
+#, python-format
 msgid "Modified %s"
-msgstr "Ultima Modifica"
+msgstr "Modificato/a %s"
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:89
 msgid ""
@@ -15825,9 +15601,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:217
-#, fuzzy
 msgid "Chart imported"
-msgstr "Grafici"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:252
 #, python-format
@@ -15855,9 +15630,8 @@ msgstr ""
 #: superset-frontend/src/views/CRUD/dashboard/DashboardList.tsx:516
 #: superset-frontend/src/views/CRUD/dashboard/DashboardList.tsx:530
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:574
-#, fuzzy
 msgid "Any"
-msgstr "giorno"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:580
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:602
@@ -15892,9 +15666,8 @@ msgstr "Grafici"
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:666
 #: superset-frontend/src/views/CRUD/dashboard/DashboardList.tsx:524
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:568
-#, fuzzy
 msgid "Certified"
-msgstr "Modificato"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:693
 #: superset-frontend/src/views/CRUD/dashboard/DashboardList.tsx:551
@@ -15903,20 +15676,17 @@ msgstr ""
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:699
 #: superset-frontend/src/views/CRUD/dashboard/DashboardList.tsx:557
-#, fuzzy
 msgid "Recently modified"
-msgstr "Ultima Modifica"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:705
 #: superset-frontend/src/views/CRUD/dashboard/DashboardList.tsx:563
-#, fuzzy
 msgid "Least recently modified"
-msgstr "Ultima Modifica"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:769
-#, fuzzy
 msgid "Import charts"
-msgstr "Grafici"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/chart/ChartList.tsx:794
 msgid "Are you sure you want to delete the selected charts?"
@@ -15999,9 +15769,8 @@ msgstr ""
 
 # | msgid "Dashboard properties"
 #: superset-frontend/src/views/CRUD/dashboard/DashboardList.tsx:150
-#, fuzzy
 msgid "Dashboard imported"
-msgstr "Elenco Dashboard"
+msgstr "Dashboard importata"
 
 #: superset-frontend/src/views/CRUD/dashboard/DashboardList.tsx:208
 #: superset-frontend/src/views/CRUD/welcome/DashboardTable.tsx:167
@@ -16056,24 +15825,21 @@ msgstr ""
 
 # | msgid "Edit database"
 #: superset-frontend/src/views/CRUD/data/database/DatabaseList.tsx:196
-#, fuzzy
 msgid "Upload file to database"
-msgstr "Mostra database"
+msgstr "Carica file nel database"
 
 # | msgid "Export CSV"
 #: superset-frontend/src/views/CRUD/data/database/DatabaseList.tsx:199
-#, fuzzy
 msgid "Upload CSV"
-msgstr "Esporta CSV"
+msgstr "Carica CSV"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseList.tsx:206
-#, fuzzy
 msgid "Upload columnar file"
-msgstr "Colonna"
+msgstr "Carica file a colonne"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseList.tsx:213
 msgid "Upload Excel file"
-msgstr ""
+msgstr "Carica file Excel"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseList.tsx:306
 #: superset-frontend/src/views/CRUD/data/database/DatabaseList.tsx:472
@@ -16189,28 +15955,24 @@ msgid "Enter duration in seconds"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:238
-#, fuzzy
 msgid "Schema cache timeout"
-msgstr "Cache Timeout"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:252
-#, fuzzy
 msgid ""
 "Duration (in seconds) of the metadata caching timeout for schemas of this "
 "database. If left unset, the cache never expires."
-msgstr "Durata (in secondi) per il timeout della cache per questa slice."
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:259
-#, fuzzy
 msgid "Table cache timeout"
-msgstr "Cache Timeout"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:273
-#, fuzzy
 msgid ""
 "Duration (in seconds) of the metadata caching timeout for tables of this "
 "database. If left unset, the cache never expires. "
-msgstr "Durata (in secondi) per il timeout della cache per questa slice."
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:289
 msgid ""
@@ -16280,9 +16042,8 @@ msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:441
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:450
-#, fuzzy
 msgid "Metadata Parameters"
-msgstr "Parametri"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:460
 msgid ""
@@ -16291,9 +16052,8 @@ msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:467
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:476
-#, fuzzy
 msgid "Engine Parameters"
-msgstr "Parametri"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ExtraOptions.tsx:486
 msgid ""
@@ -16322,20 +16082,17 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/ModalHeader.tsx:144
-#, fuzzy
 msgid "Select a database to connect"
-msgstr "Database"
+msgstr "Seleziona il database a cui collegarti"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:150
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/SqlAlchemyForm.tsx:55
-#, fuzzy
 msgid "Display Name"
-msgstr "Valore del filtro"
+msgstr "Nome visualizzato"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/SqlAlchemyForm.tsx:64
-#, fuzzy
 msgid "Name your database"
-msgstr "Database"
+msgstr "Dai un nome al tuo database"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/SqlAlchemyForm.tsx:69
 msgid "Pick a name to help you identify this database."
@@ -16346,9 +16103,8 @@ msgid "dialect+driver://username:password@host:port/database"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/SqlAlchemyForm.tsx:91
-#, fuzzy
 msgid "Refer to the"
-msgstr "mese"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/SqlAlchemyForm.tsx:99
 msgid "for more information on how to structure your URI."
@@ -16373,17 +16129,15 @@ msgstr ""
 
 # | msgid "Database could not be updated."
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:650
-#, fuzzy
 msgid "Database settings updated"
-msgstr "La tua query non può essere salvata"
+msgstr "Impostazioni database aggiornate"
 
 # | msgid "Database name"
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:666
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:685
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:962
-#, fuzzy
 msgid "Database connected"
-msgstr "Database"
+msgstr "Database collegato"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:700
 #, python-format
@@ -16395,14 +16149,12 @@ msgid "Or choose from a list of other databases we support:"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:751
-#, fuzzy
 msgid "Supported databases"
-msgstr "Database"
+msgstr "Database supportati"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:755
-#, fuzzy
 msgid "Choose a database..."
-msgstr "Seleziona una destinazione"
+msgstr "Seleziona un database"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:779
 msgid "Want to add a new database?"
@@ -16430,9 +16182,8 @@ msgstr ""
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1304
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1343
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1532
-#, fuzzy
 msgid "Connect"
-msgstr "Testa la Connessione"
+msgstr "Connetti"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:894
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:940
@@ -16469,15 +16220,13 @@ msgid "TYPE \"OVERWRITE\" TO CONFIRM"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1171
-#, fuzzy
 msgid "Database Creation Error"
-msgstr "Espressione del Database"
+msgstr "Errore nella creazione del database"
 
 # | msgid "CREATE TABLE AS"
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1199
-#, fuzzy
 msgid "CREATE DATASET"
-msgstr "Permetti CREATE TABLE AS"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1210
 msgid "QUERY DATA IN SQL LAB"
@@ -16486,9 +16235,8 @@ msgstr ""
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1308
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1348
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1536
-#, fuzzy
 msgid "Connect a database"
-msgstr "Database"
+msgstr "Collega database"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1348
 msgid "Edit database"
@@ -16512,9 +16260,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1587
-#, fuzzy
 msgid "Import database from file"
-msgstr "Mostra database"
+msgstr "Importa database da file"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/index.tsx:1665
 msgid "Connect this database with a SQLAlchemy URI string instead"
@@ -16549,9 +16296,8 @@ msgid "Copy the name of the database you are trying to connect to."
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:109
-#, fuzzy
 msgid "e.g. Analytics"
-msgstr "Analytics avanzate"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:130
 msgid "e.g. ********"
@@ -16566,9 +16312,8 @@ msgid "e.g. param1=value1&param2=value2"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:174
-#, fuzzy
 msgid "Additional Parameters"
-msgstr "Parametri"
+msgstr "Parametri addizionali"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:176
 msgid "Add additional custom parameters"
@@ -16637,9 +16382,8 @@ msgid "Paste the shareable Google Sheet URL here"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/DatabaseConnectionForm/TableCatalog.tsx:98
-#, fuzzy
 msgid "Add sheet"
-msgstr "Aggiungi Database"
+msgstr "Aggiungi sheet"
 
 #: superset-frontend/src/views/CRUD/data/database/DatabaseModal/DatabaseConnectionForm/ValidatedInputField.tsx:26
 msgid "Copy the account name of that database you are trying to connect to."
@@ -16654,9 +16398,8 @@ msgid "Add dataset"
 msgstr "Aggiungi Database"
 
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:183
-#, fuzzy
 msgid "Dataset imported"
-msgstr "Database"
+msgstr "Dataset importato"
 
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:226
 msgid "An error occurred while fetching dataset related data"
@@ -16679,9 +16422,8 @@ msgstr "Mostra database"
 
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:476
 #: superset-frontend/src/views/CRUD/data/dataset/DuplicateDatasetModal.tsx:64
-#, fuzzy
 msgid "Duplicate"
-msgstr "Creato il"
+msgstr "Duplica"
 
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:514
 #, python-format
@@ -16703,9 +16445,8 @@ msgid "An error occurred while fetching schema values: %s"
 msgstr "Errore nel rendering della visualizzazione: %s"
 
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:642
-#, fuzzy
 msgid "Import datasets"
-msgstr "Mostra database"
+msgstr "Importa datasets"
 
 #: superset-frontend/src/views/CRUD/data/dataset/DatasetList.tsx:697
 #, python-format
@@ -16757,15 +16498,13 @@ msgstr ""
 
 # | msgid "Edit dataset"
 #: superset-frontend/src/views/CRUD/data/dataset/DuplicateDatasetModal.tsx:61
-#, fuzzy
 msgid "Duplicate dataset"
-msgstr "Mostra database"
+msgstr "Duplica dataset"
 
 # | msgid "Dataset name"
 #: superset-frontend/src/views/CRUD/data/dataset/DuplicateDatasetModal.tsx:66
-#, fuzzy
 msgid "New dataset name"
-msgstr "Database"
+msgstr "Nuovo nome dataset"
 
 #: superset-frontend/src/views/CRUD/data/dataset/constants.ts:23
 msgid ""
@@ -16798,49 +16537,41 @@ msgstr ""
 
 # | msgid "Time column"
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/DatasetPanel/index.tsx:83
-#, fuzzy
 msgid "Table columns"
-msgstr "Colonna del Tempo"
+msgstr "Colonne della tabella"
 
 # | msgid "Data source"
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/DatasetPanel/index.tsx:88
-#, fuzzy
 msgid "Select dataset source"
-msgstr "Sorgente Dati"
+msgstr "Seleziona datasource"
 
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/Footer/index.tsx:83
-#, fuzzy
 msgid "Select a database table."
-msgstr "Database"
+msgstr "Seleziona una tabella del database."
 
 # | msgid "Change dataset"
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/Footer/index.tsx:114
-#, fuzzy
 msgid "Create Dataset"
-msgstr "Seleziona una destinazione"
+msgstr "Crea un dataset"
 
 # | msgid "Add dataset"
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/Header/index.tsx:35
-#, fuzzy
 msgid "New dataset"
-msgstr "Aggiungi Database"
+msgstr "Nuovo dataset"
 
 # | msgid "Select start and end date"
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/Header/index.tsx:38
-#, fuzzy
 msgid "Select a database table and create dataset"
-msgstr "Seleziona data iniziale"
+msgstr "Seleziona una tabella e crea un dataset"
 
 # | msgid "Dataset name"
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/Header/index.tsx:80
-#, fuzzy
 msgid "dataset name"
-msgstr "Database"
+msgstr "nome dataset"
 
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/LeftPanel/index.tsx:246
-#, fuzzy
 msgid "No database tables found"
-msgstr "Template CSS"
+msgstr "Nessuna tabella trovata nel database"
 
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/LeftPanel/index.tsx:247
 msgid "Try selecting a different schema"
@@ -16851,9 +16582,8 @@ msgid "Refresh table list"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/dataset/AddDataset/LeftPanel/index.tsx:273
-#, fuzzy
 msgid "Search tables"
-msgstr "Cerca"
+msgstr "Cerca tabelle"
 
 #: superset-frontend/src/views/CRUD/data/query/QueryList.tsx:109
 #, python-format
@@ -16886,9 +16616,9 @@ msgstr ""
 "Si è verificato un errore durante il caricamento dei valori del database: %s"
 
 #: superset-frontend/src/views/CRUD/data/query/QueryList.tsx:378
-#, fuzzy, python-format
+#, python-format
 msgid "An error occurred while fetching user values: %s"
-msgstr "Errore nel rendering della visualizzazione: %s"
+msgstr "Si è verificato un errore durante il caricamento dei valori utente: %s"
 
 #: superset-frontend/src/views/CRUD/data/query/QueryList.tsx:392
 msgid "Search by query text"
@@ -16924,9 +16654,8 @@ msgid ""
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryList.tsx:129
-#, fuzzy
 msgid "Query imported"
-msgstr "Ricerca Query"
+msgstr "Query importata"
 
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryList.tsx:152
 #, python-format
@@ -16934,9 +16663,8 @@ msgid "There was an issue previewing the selected query %s"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryList.tsx:190
-#, fuzzy
 msgid "Import queries"
-msgstr "Query vuota?"
+msgstr "Importa queries"
 
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryList.tsx:264
 #, python-format
@@ -16952,9 +16680,8 @@ msgid "Copy query URL"
 msgstr "Copia URL quei"
 
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryList.tsx:399
-#, fuzzy
 msgid "Export query"
-msgstr "condividi query"
+msgstr "Esporta query"
 
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryList.tsx:406
 msgid "Delete query"
@@ -16975,27 +16702,25 @@ msgid "Are you sure you want to delete the selected queries?"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryList.tsx:548
-#, fuzzy
 msgid "queries"
-msgstr "Query salvate"
+msgstr "queries"
 
 #: superset-frontend/src/views/CRUD/data/savedquery/SavedQueryPreviewModal.tsx:127
 msgid "Query name"
 msgstr "Ricerca Query"
 
 #: superset-frontend/src/views/CRUD/welcome/ActivityTable.tsx:93
-#, fuzzy
 msgid "[Untitled]"
-msgstr "%s - senza nome"
+msgstr "[Senza titolo]"
 
 #: superset-frontend/src/views/CRUD/welcome/ActivityTable.tsx:94
 msgid "Unknown"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/welcome/ActivityTable.tsx:123
-#, fuzzy, python-format
+#, python-format
 msgid "Viewed %s"
-msgstr "Cancella"
+msgstr "Visualizzato %s"
 
 #: superset-frontend/src/views/CRUD/welcome/ActivityTable.tsx:160
 msgid "Edited"
@@ -17022,23 +16747,20 @@ msgid "View All »"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/welcome/EmptyState.tsx:26
-#, fuzzy
 msgid "charts"
-msgstr "Grafici"
+msgstr "charts"
 
 #: superset-frontend/src/views/CRUD/welcome/EmptyState.tsx:27
-#, fuzzy
 msgid "dashboards"
-msgstr "Elenco Dashboard"
+msgstr "dashboards"
 
 #: superset-frontend/src/views/CRUD/welcome/EmptyState.tsx:28
 msgid "recents"
 msgstr ""
 
 #: superset-frontend/src/views/CRUD/welcome/EmptyState.tsx:29
-#, fuzzy
 msgid "saved queries"
-msgstr "Query salvate"
+msgstr "query salvate"
 
 #: superset-frontend/src/views/CRUD/welcome/EmptyState.tsx:74
 #, python-format
@@ -17078,7 +16800,7 @@ msgstr ""
 
 #: superset-frontend/src/views/CRUD/welcome/SavedQueries.tsx:130
 msgid "query"
-msgstr "condividi query"
+msgstr ""
 
 #: superset-frontend/src/views/CRUD/welcome/SavedQueries.tsx:319
 #, python-format
@@ -17089,46 +16811,44 @@ msgstr ""
 #, python-format
 msgid "There was an issue fetching your recent activity: %s"
 msgstr ""
+"Si è verificato un errore nel caricamento delle tue attività recenti: %s"
 
 # | msgid "An error occurred while fetching dashboards: %s"
 #: superset-frontend/src/views/CRUD/welcome/Welcome.tsx:233
-#, fuzzy, python-format
+#, python-format
 msgid "There was an issue fetching your dashboards: %s"
-msgstr "Errore nel creare il datasource"
+msgstr "Si è verificato un errore nel caricamento delle tue dashboards: %s"
 
 #: superset-frontend/src/views/CRUD/welcome/Welcome.tsx:244
-#, fuzzy, python-format
+#, python-format
 msgid "There was an issue fetching your chart: %s"
-msgstr "Errore nel recupero dati"
+msgstr "Si è verificato un errore nel caricamento del tuo grafico: %s"
 
 #: superset-frontend/src/views/CRUD/welcome/Welcome.tsx:255
 #, python-format
 msgid "There was an issues fetching your saved queries: %s"
-msgstr ""
+msgstr "Si è verificato un errore nel caricamento delle tue query salvate: %s"
 
 #: superset-frontend/src/views/CRUD/welcome/Welcome.tsx:309
 msgid "Recents"
-msgstr ""
+msgstr "Recenti"
 
 #: superset-frontend/src/views/components/RightMenu.tsx:173
-#, fuzzy
 msgid "Connect database"
-msgstr "Database"
+msgstr "Connetti database"
 
 # | msgid "Change dataset"
 #: superset-frontend/src/views/components/RightMenu.tsx:178
-#, fuzzy
 msgid "Create dataset"
-msgstr "Seleziona una destinazione"
+msgstr "Crea dataset"
 
 #: superset-frontend/src/views/components/RightMenu.tsx:183
 msgid "Connect Google Sheet"
-msgstr ""
+msgstr "Collega Google Sheet"
 
 #: superset-frontend/src/views/components/RightMenu.tsx:188
-#, fuzzy
 msgid "Upload CSV to database"
-msgstr "Mostra database"
+msgstr "Carica CSV nel database"
 
 #: superset-frontend/src/views/components/RightMenu.tsx:194
 msgid "Upload columnar file to database"
@@ -17152,14 +16872,12 @@ msgid "Powered by Apache Superset"
 msgstr ""
 
 #: superset-frontend/src/views/components/RightMenu.tsx:544
-#, fuzzy
 msgid "Documentation"
-msgstr "Azione"
+msgstr "Documentazione"
 
 #: superset-frontend/src/views/components/RightMenu.tsx:555
-#, fuzzy
 msgid "Report a bug"
-msgstr "Importa"
+msgstr ""
 
 #: superset-frontend/src/visualizations/FilterBox/FilterBox.jsx:304
 msgid "Select start and end date"
@@ -17171,9 +16889,8 @@ msgid "Type or Select [%s]"
 msgstr "Seleziona %s"
 
 #: superset-frontend/src/visualizations/FilterBox/FilterBoxChartPlugin.js:25
-#, fuzzy
 msgid "Tools"
-msgstr "Ruoli"
+msgstr "Strumenti"
 
 #: superset-frontend/src/visualizations/FilterBox/FilterBoxChartPlugin.js:26
 msgid "Filter box"
@@ -17226,9 +16943,8 @@ msgid "Check to include time grain dropdown"
 msgstr ""
 
 #: superset-frontend/src/visualizations/FilterBox/controlPanel.jsx:85
-#, fuzzy
 msgid "Show time column"
-msgstr "Colonna del Tempo"
+msgstr "Visualizza colonna tempo"
 
 #: superset-frontend/src/visualizations/FilterBox/controlPanel.jsx:87
 msgid "Check to include time column dropdown"
@@ -17254,20 +16970,21 @@ msgstr ""
 
 #: superset-frontend/src/visualizations/TimeTable/index.ts:26
 msgid "Time-series Table"
-msgstr "Serie Temporali - Stacked"
+msgstr ""
 
 #: superset-frontend/src/visualizations/TimeTable/index.ts:27
 msgid ""
 "Compare multiple time series charts (as sparklines) and related metrics "
 "quickly."
 msgstr ""
+"Compara serie temporali multiple (es. sparklines) e le relative metriche "
+"velocemente."
 
 #: superset-frontend/src/visualizations/TimeTable/index.ts:36
-#, fuzzy
 msgid "Text"
-msgstr "textarea"
+msgstr "Testo"
 
 #: superset-frontend/src/visualizations/dashboardComponents/ExampleComponent/ExampleComponent.tsx:29
 #, python-format
 msgid "We have the following keys: %s"
-msgstr ""
+msgstr "Abbiamo le seguenti chiavi: %s"
