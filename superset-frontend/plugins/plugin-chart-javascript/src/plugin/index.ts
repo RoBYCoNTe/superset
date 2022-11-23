@@ -35,7 +35,8 @@ export default class PluginChartJavascript extends ChartPlugin {
    */
   constructor() {
     const metadata = new ChartMetadata({
-      description: 'Basic workbench to test javascript charts with your custom code.',
+      description:
+        'Basic workbench to test javascript charts with your custom code.',
       name: t('Javascript'),
       thumbnail,
     });

@@ -29,7 +29,7 @@ import { debounceFunc } from '../../consts';
 
 interface CodeEditorControlProps {
   value: string;
-  height: number;
+  height: string;
 }
 
 const CodeEditorControl = (
@@ -60,7 +60,7 @@ export const jsConfig: ControlSetItem = {
     ...sharedControls.entity,
     type: CodeEditorControl,
     label: t('Config'),
-    height: 600,
+    height: '600px',
     description: t('Default highchart config to pass to the chart'),
     default: `const { data, element } = this;
 return {
@@ -82,7 +82,7 @@ export const jsInit: ControlSetItem = {
   config: {
     ...sharedControls.entity,
     type: CodeEditorControl,
-    height: 200,
+    height: '200px',
     label: t('Init'),
     description: t('Hook to initialize the chart'),
     default: `const { data, element } = this;

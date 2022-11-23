@@ -29,7 +29,7 @@ import { debounceFunc } from '../../consts';
 
 interface CodeEditorControlProps {
   value: string;
-  height: number;
+  height: string;
 }
 
 const CodeEditorControl = (
@@ -68,7 +68,7 @@ export const javascript: ControlSetItem = {
     `,
     isInt: false,
     renderTrigger: true,
-    height: 600,
+    height: '600px',
     validators: [validateNonEmpty],
     mapStateToProps: ({ controls }) => ({
       value: controls?.handlebars_template?.value,
@@ -85,7 +85,7 @@ export const libraries: ControlSetItem = {
     description: t('Array of libraries to load before execute javascript.'),
     default: `return [];`,
     isInt: false,
-    height: 200,
+    height: '200px',
     renderTrigger: true,
 
     validators: [validateNonEmpty],
