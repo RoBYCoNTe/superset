@@ -16,10 +16,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-import { ChartProps } from '@superset-ui/core';
+import { ChartProps, supersetTheme } from '@superset-ui/core';
 import transformProps from '../../src/plugin/transformProps';
 
-describe('PluginChartJavascript transformProps', () => {
+describe('PluginChartHighcharts transformProps', () => {
   const formData = {
     colorScheme: 'bnbColors',
     datasource: '3__table',
@@ -34,9 +34,12 @@ describe('PluginChartJavascript transformProps', () => {
     formData,
     width: 800,
     height: 600,
-    queriesData: [{
-      data: [{ name: 'Hulk', sum__num: 1 }],
-    }],
+    theme: supersetTheme,
+    queriesData: [
+      {
+        data: [{ name: 'Hulk', sum__num: 1 }],
+      },
+    ],
   });
 
   it('should transform chart props for viz', () => {
