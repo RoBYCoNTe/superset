@@ -9,10 +9,6 @@
       "name": "Frontend"
     },
     {
-      "path": "superset-frontend/plugins/plugin-chart-maps",
-      "name": "Maps"
-    },
-    {
       "path": "superset-frontend/plugins/legacy-plugin-chart-country-map",
       "name": "Country Map"
     },
