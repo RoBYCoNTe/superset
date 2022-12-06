@@ -30,6 +30,9 @@ const CountryMap = ({ className, ...otherProps }) => (
 
 export default styled(CountryMap)`
   ${({ theme }) => `
+    .superset-legacy-chart-country-map {
+      overflow: hidden;
+    }
     .superset-legacy-chart-country-map svg {
       background-color: ${theme.colors.grayscale.light5};
     }

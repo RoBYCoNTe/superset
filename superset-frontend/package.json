@@ -157,6 +157,7 @@
     "mustache": "^2.2.1",
     "plugin-chart-highcharts": "file:plugins/plugin-chart-highcharts",
     "plugin-chart-javascript": "file:plugins/plugin-chart-javascript",
+    "plugin-chart-maps": "file:plugins/plugin-chart-maps",
     "polished": "^3.7.2",
     "prop-types": "^15.7.2",
     "query-string": "^6.13.7",

@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "superset",
+      "name": "API"
+    },
+    {
+      "path": "superset-frontend",
+      "name": "Frontend"
+    },
+    {
+      "path": "superset-frontend/plugins/plugin-chart-maps",
+      "name": "Maps"
+    },
+    {
+      "path": "superset-frontend/plugins/legacy-plugin-chart-country-map",
+      "name": "Country Map"
+    },
+    {
+      "path": "superset-frontend/plugins/plugin-chart-javascript",
+      "name": "Javascript"
+    }
+  ],
+  "settings": {
+    "sort-imports.on-save": false
+  }
+}

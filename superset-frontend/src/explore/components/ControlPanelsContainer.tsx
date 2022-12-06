@@ -386,6 +386,7 @@ export const ControlPanelsContainer = (props: ControlPanelsContainerProps) => {
           undefined),
       name,
     };
+
     const {
       validationErrors,
       label: baseLabel,

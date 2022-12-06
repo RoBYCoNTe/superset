@@ -81,6 +81,7 @@ import { PivotTableChartPlugin as PivotTableChartPluginV2 } from '@superset-ui/p
 import { HandlebarsChartPlugin } from '@superset-ui/plugin-chart-handlebars';
 import { PluginChartHighcharts } from 'plugin-chart-highcharts';
 import { PluginChartJavascript } from 'plugin-chart-javascript';
+import { PluginChartMaps } from 'plugin-chart-maps';
 import FilterBoxChartPlugin from '../FilterBox/FilterBoxChartPlugin';
 import TimeTableChartPlugin from '../TimeTable';
 
@@ -170,6 +171,7 @@ export default class MainPreset extends Preset {
         new HandlebarsChartPlugin().configure({ key: 'handlebars' }),
         new PluginChartHighcharts().configure({ key: 'highcharts' }),
         new PluginChartJavascript().configure({ key: 'javascript' }),
+        new PluginChartMaps().configure({ key: 'maps' }),
         ...experimentalplugins,
       ],
     });
