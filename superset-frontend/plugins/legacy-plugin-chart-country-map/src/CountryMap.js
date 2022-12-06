@@ -186,6 +186,7 @@ function CountryMap(element, props) {
     }
     d3.select(this).style('fill', c);
     selectAndDisplayNameOfRegion(d);
+    console.info('data:', data);
     const result = data.filter(
       region => region.country_id === d.properties.ISO,
     );
@@ -243,6 +244,7 @@ function CountryMap(element, props) {
       data,
       width,
       height,
+      format,
       display: displayLegend,
       orientation: displayLegendOrientation,
       fontSize: displayLegendFontSize,

@@ -47,24 +47,27 @@ function legend({
     return;
   }
   const isHorizontal = orientation === 'Horizontal';
-  const mHeight = isHorizontal ? Math.max(60, height * 0.1) : height / 2;
-  const mWidth = width / (isHorizontal ? 2 : 4);
-  let mLeft = left;
-  let mTop = top;
+  const divider = isHorizontal ? 2 : 4;
+  const multiplier = isHorizontal ? 1 : 3;
+  const baseH = isHorizontal ? Math.max(60, height * 0.1) : height / 2;
+  const baseW =
+    ['Top', 'Bottom'].indexOf(display) !== -1 ? width : width / divider;
+  let baseLeft = left;
+  let baseTop = top;
 
   switch (display) {
     case 'TopRight':
-      mLeft = left + width / 2;
+      baseLeft = left + (width / divider) * multiplier;
       break;
     case 'Bottom':
-      mTop = height - mHeight;
+      baseTop = height - baseH;
       break;
     case 'BottomLeft':
-      mTop = height - mHeight;
+      baseTop = height - baseH;
       break;
     case 'BottomRight':
-      mTop = height - mHeight;
-      mLeft = left + width / 2;
+      baseTop = height - baseH;
+      baseLeft = left + (width / divider) * multiplier;
       break;
     default:
       break;
@@ -75,13 +78,17 @@ function legend({
   const colors = colorSchema.colors || [];
   const domainValues = d3.range(min, max, (max - min) / colors.length);
 
-  const textVSpace = fontSize + padding * 4;
-  const additionalTop = title ? textVSpace : 0;
+  const titleH = title ? fontSize + padding * 4 : 0;
 
-  const w = mWidth / (isHorizontal ? colors.length : 1);
-  const h =
-    (mHeight - additionalTop - (isHorizontal ? textVSpace : 0)) /
-    (isHorizontal ? 1 : colors.length);
+  const rectW = baseW / (isHorizontal ? colors.length : 1);
+  const rectH = Math.min(
+    fontSize + padding * 4,
+    (baseH - titleH - (isHorizontal ? titleH : 0)) /
+      (isHorizontal ? 1 : colors.length),
+  );
+  if (display.indexOf('Bottom') !== -1) {
+    baseTop += isHorizontal ? 0 : baseH - titleH - rectH * colors.length;
+  }
 
   if (title) {
     svg
@@ -90,8 +97,8 @@ function legend({
       .enter()
       .append('text')
       .attr('class', 'legend legend-title')
-      .attr('x', mLeft + mWidth / 2)
-      .attr('y', mTop + fontSize + padding * 2)
+      .attr('x', baseLeft + baseW / 2)
+      .attr('y', baseTop + fontSize + padding * 2)
       .attr('font-size', fontSize)
       .attr('text-anchor', 'middle')
       .attr('font-weight', 'bold')
@@ -104,13 +111,15 @@ function legend({
     .enter()
     .append('rect')
     .attr('class', 'legend legend-rect')
-    .attr('x', (_: any, i: number) => (isHorizontal ? mLeft + i * w : mLeft))
+    .attr('x', (_: any, i: number) =>
+      isHorizontal ? baseLeft + i * rectW : baseLeft,
+    )
     .attr('y', (_: any, i: number) =>
-      isHorizontal ? mTop + additionalTop : mTop + additionalTop + h * i,
+      isHorizontal ? baseTop + titleH : baseTop + titleH + rectH * i,
     )
     .attr('range', (d: any) => `${d}`)
-    .attr('width', w)
-    .attr('height', h)
+    .attr('width', rectW)
+    .attr('height', rectH)
     .attr('fill', (v: number) => colorScale(v))
     .attr('stroke', 'white')
     .attr('stroke-width', padding);
@@ -122,14 +131,14 @@ function legend({
     .append('text')
     .attr('class', 'legend legend-label')
     .attr('x', (d: any, i: number) =>
-      isHorizontal ? mLeft + (i * w + w / 2) : mWidth / 2,
+      isHorizontal ? baseLeft + (i * rectW + rectW / 2) : baseLeft + baseW / 2,
     )
     .attr('y', (d: any, i: number) =>
       isHorizontal
-        ? h + mTop + additionalTop + padding * 4
-        : mTop + additionalTop + h * i + padding * 5,
+        ? rectH + baseTop + titleH + padding * 4
+        : baseTop + titleH + rectH * i + padding * 5,
     )
-    .attr('width', w)
+    .attr('width', rectW)
     .attr('text-anchor', 'middle')
     .attr('dominant-baseline', 'middle')
     .text((d: any, i: number) => {
@@ -143,6 +152,33 @@ function legend({
     })
     .attr('font-size', fontSize)
     .attr('font-weight', 'normal')
+    // Dotted text when label is too long
+    .each(function () {
+      // Disable typescript for this function
+      // @ts-ignore
+      const text = d3.select(this);
+      // @ts-ignore
+      const textWidth = text.node().getComputedTextLength();
+      const textLength = text.text().length;
+      const textDots = '...';
+
+      if (textWidth > rectW) {
+        const dotsWidth = text
+          .append('text')
+          .text(textDots)
+          .attr('font-size', fontSize)
+          .attr('font-weight', 'normal')
+          .node()
+          // @ts-ignore
+          .getComputedTextLength();
+
+        const maxTextLength = Math.floor(
+          (rectW - dotsWidth) / (textWidth / textLength),
+        );
+        const textContent = text.text().slice(0, maxTextLength) + textDots;
+        text.text(textContent);
+      }
+    })
     .attr('fill', (d: any) => {
       if (isHorizontal) {
         return 'black';

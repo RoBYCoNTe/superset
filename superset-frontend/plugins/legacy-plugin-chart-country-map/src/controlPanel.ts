@@ -113,8 +113,10 @@ const config: ControlPanelConfig = {
               freeForm: true,
               label: t('Font Size'),
               renderTrigger: true,
-              default: '12',
-              choices: [10, 11, 12, 13, 14, 15, 16].map(v => [v, v]),
+              default: 10,
+              choices: [8, 9, 10, 11, 12, 13, 14].map(v => [v, v]),
+              visibility: ({ controls }: any) =>
+                controls.displayLegend.value !== 'None',
             },
           },
         ],
