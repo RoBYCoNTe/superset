@@ -186,10 +186,15 @@ function CountryMap(element, props) {
     }
     d3.select(this).style('fill', c);
     selectAndDisplayNameOfRegion(d);
-    console.info('data:', data);
+
     const result = data.filter(
-      region => region.country_id === d.properties.ISO,
+      region => region.country_id.toString() === d.properties.ISO.toString(),
     );
+    console.info({
+      result,
+      d,
+      data,
+    });
     updateMetrics(result);
   };
 
