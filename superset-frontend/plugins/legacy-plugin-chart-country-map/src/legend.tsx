@@ -45,7 +45,7 @@ function legend({
     svg.selectAll('.legend').remove();
     return;
   }
-  console.info('colorScheme', colorScheme);
+
   const isHorizontal = orientation === 'Horizontal';
   const divider = isHorizontal ? 2 : 4;
   const multiplier = isHorizontal ? 1 : 3;
