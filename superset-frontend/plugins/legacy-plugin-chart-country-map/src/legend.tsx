@@ -22,7 +22,7 @@ export type LegendProps = {
   orientation: 'Horizontal' | 'Vertical';
   format: (value: number) => any;
   colorScale: any;
-  colorSchema: any;
+  colorScheme: any;
 };
 
 function legend({
@@ -39,13 +39,13 @@ function legend({
   orientation = 'Horizontal',
   format = v => Math.ceil(v),
   colorScale,
-  colorSchema,
+  colorScheme,
 }: LegendProps): void {
   if (display === 'None') {
     svg.selectAll('.legend').remove();
-
     return;
   }
+  console.info('colorScheme', colorScheme);
   const isHorizontal = orientation === 'Horizontal';
   const divider = isHorizontal ? 2 : 4;
   const multiplier = isHorizontal ? 1 : 3;
@@ -75,7 +75,7 @@ function legend({
 
   const min = Math.min(...data.map((d: { metric: number }) => d.metric));
   const max = Math.max(...data.map((d: { metric: number }) => d.metric));
-  const colors = colorSchema.colors || [];
+  const colors = colorScheme.colors || [];
   const domainValues = d3.range(min, max, (max - min) / colors.length);
 
   const titleH = title ? fontSize + padding * 4 : 0;

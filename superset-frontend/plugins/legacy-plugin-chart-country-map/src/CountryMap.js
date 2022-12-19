@@ -64,7 +64,7 @@ function CountryMap(element, props) {
 
   const container = element;
   const format = getNumberFormatter(numberFormat);
-  const linearColorScaleSchema =
+  const linearColorScaleScheme =
     getSequentialSchemeRegistry().get(linearColorScheme);
 
   const linearColorScale = getSequentialSchemeRegistry()
@@ -238,6 +238,12 @@ function CountryMap(element, props) {
       .on('mouseout', mouseout)
       .on('click', clicked);
 
+    console.info({
+      colorScheme,
+      colorScale,
+      linearColorScale,
+      linearColorScaleScheme,
+    });
     legend({
       svg,
       title: displayLegendMetricLabel,
@@ -248,8 +254,10 @@ function CountryMap(element, props) {
       display: displayLegend,
       orientation: displayLegendOrientation,
       fontSize: displayLegendFontSize,
-      colorScale: linearColorScale,
-      colorSchema: linearColorScaleSchema,
+      colorScale: colorScheme ? colorScale : linearColorScale,
+      colorScheme: colorScheme
+        ? getSequentialSchemeRegistry().get(colorScheme)
+        : linearColorScaleScheme,
     });
   }
 
