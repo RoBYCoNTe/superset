@@ -556,7 +556,24 @@ THEME_OVERRIDES: Dict[str, Any] = {}
 #     }]
 
 # This is merely a default
-EXTRA_SEQUENTIAL_COLOR_SCHEMES: List[Dict[str, Any]] = []
+EXTRA_SEQUENTIAL_COLOR_SCHEMES: List[Dict[str, Any]] = [
+    {
+        "id": "AReSS 1",
+        "description": "AReSS 1",
+        "isDiverging": False,
+        "label": "AReSS 1",
+        "isDefault": False,
+        "colors": ['#c6858f', '#53565a', '#d9e1e2', '#75787b', '#d0d0ce']
+    },
+    {
+        "id": "AReSS 2",
+        "description": "AReSS 2",
+        "isDiverging": False,
+        "label": "AReSS 2",
+        "isDefault": False,
+        "colors": ['#ffeaf4', '#e4b8ba', '#bc2c4f', '#a4a4a4', '#747474']
+    }
+]
 
 # ---------------------------------------------------
 # Thumbnail config (behind feature flag)
