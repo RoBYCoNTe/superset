@@ -238,12 +238,6 @@ function CountryMap(element, props) {
       .on('mouseout', mouseout)
       .on('click', clicked);
 
-    console.info({
-      colorScheme,
-      colorScale,
-      linearColorScale,
-      linearColorScaleScheme,
-    });
     legend({
       svg,
       title: displayLegendMetricLabel,
