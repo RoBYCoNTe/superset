@@ -521,7 +521,22 @@ COMMON_BOOTSTRAP_OVERRIDES_FUNC: Callable[
 #     }]
 
 # This is merely a default
-EXTRA_CATEGORICAL_COLOR_SCHEMES: List[Dict[str, Any]] = []
+EXTRA_CATEGORICAL_COLOR_SCHEMES: List[Dict[str, Any]] = [
+    {
+        "id": "AReSS 1",
+        "description": "AReSS 1",
+        "label": "AReSS 1",
+        "isDefault": False,
+        "colors": ['#c6858f', '#53565a', '#d9e1e2', '#75787b', '#d0d0ce']
+    },
+    {
+        "id": "AReSS 2",
+        "description": "AReSS 2",
+        "label": "AReSS 2",
+        "isDefault": False,
+        "colors": ['#ffeaf4', '#e4b8ba', '#bc2c4f', '#a4a4a4', '#747474']
+    }
+]
 
 # THEME_OVERRIDES is used for adding custom theme to superset
 # example code for "My theme" custom scheme

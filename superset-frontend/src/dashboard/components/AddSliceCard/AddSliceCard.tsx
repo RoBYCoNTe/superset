@@ -174,8 +174,9 @@ const AddSliceCard: React.FC<{
   const showThumbnails = isFeatureEnabled(FeatureFlag.THUMBNAILS);
   const [sliceAddedBadge, setSliceAddedBadge] = useState<HTMLDivElement>();
   const { mountedPluginMetadata } = usePluginContext();
+
   const vizName = useMemo(
-    () => mountedPluginMetadata[visType].name,
+    () => mountedPluginMetadata[visType]?.name || visType,
     [mountedPluginMetadata, visType],
   );
 
