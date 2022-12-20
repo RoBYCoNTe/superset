@@ -11,5 +11,6 @@ export default function transformProps(chartProps: ChartProps) {
     data,
     config,
     init,
+    chartProps,
   };
 }

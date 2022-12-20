@@ -42,6 +42,7 @@ const Styles = styled.div<PluginChartHighchartsStylesProps>`
 `;
 
 export default function PluginHightcharts(props: PluginChartHighchartsProps) {
+  console.log('props:', props);
   const { height, width, config, init } = props;
   const [isReady, setIsReady] = React.useState(false);
   const rootElem = createRef<HTMLDivElement>();

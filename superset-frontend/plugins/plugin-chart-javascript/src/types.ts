@@ -16,7 +16,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-import { QueryFormData, TimeseriesDataRecord } from '@superset-ui/core';
+import {
+  QueryFormData,
+  TimeseriesDataRecord,
+  ChartProps,
+} from '@superset-ui/core';
 
 export interface PluginChartJavascriptStylesProps {
   height: number;
@@ -26,6 +30,7 @@ export interface PluginChartJavascriptStylesProps {
 interface PluginChartJavascriptCustomizeProps {
   javascript: string;
   libraries: string;
+  chartProps: ChartProps;
 }
 
 export type PluginChartJavascriptQueryFormData = QueryFormData &

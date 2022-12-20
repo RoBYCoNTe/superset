@@ -146,7 +146,7 @@ function legend({
         return `${format(d)} - ${format(domainValues[i + 1])}`;
       }
       if (i === domainValues.length - 1) {
-        return `${format(domainValues[i - 1])} - ${format(d)}`;
+        return `>= ${format(d)}`;
       }
       return `${format(domainValues[i])} - ${format(domainValues[i + 1])}`;
     })

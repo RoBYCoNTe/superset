@@ -61,7 +61,6 @@ function CountryMap(element, props) {
     displayLegendFontSize,
     displayLegendOrientation,
   } = props;
-
   const container = element;
   const format = getNumberFormatter(numberFormat);
   const linearColorScaleScheme =
