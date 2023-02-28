@@ -25,6 +25,7 @@ import {
   getStandardizedControls,
 } from '@superset-ui/chart-controls';
 import { countryOptions } from './countries';
+import { javascript, libraries } from './plugin/controls/code';
 
 const config: ControlPanelConfig = {
   controlPanelSections: [
@@ -121,6 +122,11 @@ const config: ControlPanelConfig = {
           },
         ],
       ],
+    },
+    {
+      label: t('Javascript'),
+      expanded: true,
+      controlSetRows: [[javascript]],
     },
   ],
   controlOverrides: {

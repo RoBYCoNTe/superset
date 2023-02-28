@@ -16,32 +16,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-export default function transformProps(chartProps) {
-  const { width, height, formData, queriesData } = chartProps;
-  const {
-    linearColorScheme,
-    numberFormat,
-    selectCountry,
-    colorScheme,
-    sliceId,
-    displayLegend,
-    displayLegendFontSize,
-    displayLegendOrientation,
-    javascript,
-  } = formData;
-  const fn = new Function(javascript);
-  return {
-    width,
-    height,
-    data: fn.call({ data: queriesData[0].data }),
-    country: selectCountry ? String(selectCountry).toLowerCase() : null,
-    linearColorScheme,
-    numberFormat,
-    colorScheme,
-    sliceId,
-    displayLegend,
-    displayLegendFontSize,
-    displayLegendMetricLabel: formData?.metric?.label,
-    displayLegendOrientation,
-  };
-}
+import { debounce } from 'lodash';
+import { SLOW_DEBOUNCE } from '@superset-ui/core';
+
+export const debounceFunc = debounce(
+  (func: (val: string) => void, source: string) => func(source),
+  SLOW_DEBOUNCE,
+);

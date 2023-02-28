@@ -61,33 +61,13 @@ export const javascript: ControlSetItem = {
     type: CodeEditorControl,
     label: t('Js Code'),
     description: t('Javascript code to be executed'),
-    default: `const { data, element } = this;
-// Do whatever you want with the data and element.
-// The element is the DOM element that the chart will be rendered to.
-// The data is the data that will be passed to the chart.
+    default: `const { data } = this;
+// Manipulate data here and return it.
+return data;
     `,
     isInt: false,
     renderTrigger: true,
     height: '600px',
-    validators: [validateNonEmpty],
-    mapStateToProps: ({ controls }) => ({
-      value: controls?.handlebars_template?.value,
-    }),
-  },
-};
-
-export const libraries: ControlSetItem = {
-  name: 'libraries',
-  config: {
-    ...sharedControls.entity,
-    type: CodeEditorControl,
-    label: t('Libraries'),
-    description: t('Array of libraries to load before execute javascript.'),
-    default: `[]`,
-    isInt: false,
-    height: '200px',
-    renderTrigger: true,
-
     validators: [validateNonEmpty],
     mapStateToProps: ({ controls }) => ({
       value: controls?.handlebars_template?.value,
