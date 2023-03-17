@@ -250,7 +250,7 @@ function ExploreViewContainer(props) {
 
   const defaultSidebarsWidth = {
     controls_width: 320,
-    datasource_width: 300,
+    datasource_width: 200,
   };
 
   const addHistory = useCallback(
@@ -659,7 +659,7 @@ function ExploreViewContainer(props) {
             height: '100%',
           }}
           minWidth={defaultSidebarsWidth[LocalStorageKeys.controls_width]}
-          maxWidth="33%"
+          maxWidth="70%"
           enable={{ right: true }}
           className="col-sm-3 explore-column controls-column"
         >

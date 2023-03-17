@@ -31,7 +31,7 @@ import legend from './legend';
 const propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
-      country_id: PropTypes.string,
+      country_id: PropTypes.string | PropTypes.number,
       metric: PropTypes.number,
     }),
   ),

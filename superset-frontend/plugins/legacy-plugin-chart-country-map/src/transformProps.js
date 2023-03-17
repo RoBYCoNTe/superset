@@ -31,6 +31,7 @@ export default function transformProps(chartProps) {
     javascript,
   } = formData;
   const fn = new Function(javascript);
+
   return {
     width,
     height,

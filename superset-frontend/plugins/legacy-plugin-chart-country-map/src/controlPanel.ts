@@ -23,6 +23,7 @@ import {
   D3_FORMAT_DOCS,
   sections,
   getStandardizedControls,
+  sharedControls,
 } from '@superset-ui/chart-controls';
 import { countryOptions } from './countries';
 import { javascript } from './plugin/controls/code';
@@ -47,8 +48,18 @@ const config: ControlPanelConfig = {
             },
           },
         ],
+        [
+          {
+            name: 'cols',
+            config: {
+              ...sharedControls.groupby,
+              label: t('Columns'),
+              description: t('Columns to group by'),
+            },
+          },
+        ],
         ['entity'],
-        ['metric'],
+        ['metrics'],
         ['orderby'],
         ['adhoc_filters'],
       ],

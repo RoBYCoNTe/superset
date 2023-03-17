@@ -2045,26 +2045,57 @@ class CountryMapViz(BaseViz):
     def query_obj(self) -> QueryObjectDict:
         query_obj = super().query_obj()
         metric = self.form_data.get("metric")
+        metrics = self.form_data.get("metrics")
+        if metrics:
+            metrics.append(metric)
+        else:
+            metrics = [metric]
+
         entity = self.form_data.get("entity")
-        if not self.form_data.get("select_country"):
-            raise QueryObjectValidationError("Must specify a country")
-        if not metric:
-            raise QueryObjectValidationError("Must specify a metric")
-        if not entity:
-            raise QueryObjectValidationError("Must provide ISO codes")
-        query_obj["metrics"] = [metric]
-        query_obj["groupby"] = [entity]
+        cols = self.form_data.get("cols")
+        if cols:
+            cols.append(entity)
+        else:
+            cols = [entity]
+
+
+        metrics = [m for m in metrics if m]
+        cols = [c for c in cols if c]
+
+        # if not self.form_data.get("select_country"):
+        #     raise QueryObjectValidationError("Must specify a country")
+        # if not metric:
+        #     raise QueryObjectValidationError("Must specify a metric")
+        # if not entity:
+        #     raise QueryObjectValidationError("Must provide ISO codes")
+        query_obj["metrics"] = metrics
+        query_obj["groupby"] = cols
+
         return query_obj
 
     def get_data(self, df: pd.DataFrame) -> VizData:
         if df.empty:
             return None
+        groupby = self.form_data.get("cols")
         cols = get_column_names([self.form_data.get("entity")])  # type: ignore
+
         metric = self.metric_labels[0]
+        additional = []
+
         cols += [metric]
+
+        for col in groupby:
+            if col not in cols:
+                additional.append(col)
+                cols.append(col)
+
+
         ndf = df[cols]
         df = ndf
-        df.columns = ["country_id", "metric"]
+
+        columns = ["country_id", "metric"] + additional
+
+        df.columns = columns
         return df.to_dict(orient="records")
 
 
