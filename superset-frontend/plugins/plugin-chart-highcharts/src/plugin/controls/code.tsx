@@ -68,7 +68,7 @@ return {
   // do something with data and pass it as configuration.
 }`,
     isInt: false,
-    renderTrigger: true,
+    renderTrigger: false,
 
     validators: [validateNonEmpty],
     mapStateToProps: ({ controls }) => ({
@@ -93,7 +93,7 @@ element.style.width = '100%';
 $(element).css('width', '100%');
 `,
     isInt: false,
-    renderTrigger: true,
+    renderTrigger: false,
 
     validators: [validateNonEmpty],
     mapStateToProps: ({ controls }) => ({

@@ -67,7 +67,7 @@ export const javascript: ControlSetItem = {
 // The data is the data that will be passed to the chart.
     `,
     isInt: false,
-    renderTrigger: true,
+    renderTrigger: false,
     height: '600px',
     validators: [validateNonEmpty],
     mapStateToProps: ({ controls }) => ({
@@ -86,7 +86,7 @@ export const libraries: ControlSetItem = {
     default: `[]`,
     isInt: false,
     height: '200px',
-    renderTrigger: true,
+    renderTrigger: false,
 
     validators: [validateNonEmpty],
     mapStateToProps: ({ controls }) => ({

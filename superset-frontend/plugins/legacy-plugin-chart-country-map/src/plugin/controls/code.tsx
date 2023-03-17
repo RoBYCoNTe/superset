@@ -66,7 +66,7 @@ export const javascript: ControlSetItem = {
 return data;
     `,
     isInt: false,
-    renderTrigger: true,
+    renderTrigger: false,
     height: '600px',
     validators: [validateNonEmpty],
     mapStateToProps: ({ controls }) => ({
