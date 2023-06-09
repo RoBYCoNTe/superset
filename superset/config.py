@@ -149,7 +149,7 @@ BUILD_NUMBER = None
 DEFAULT_VIZ_TYPE = "table"
 
 # default row limit when requesting chart data
-ROW_LIMIT = 50000
+ROW_LIMIT = 200000
 # default row limit when requesting samples from datasource in explore view
 SAMPLES_ROW_LIMIT = 1000
 # max rows retrieved by filter select auto complete
