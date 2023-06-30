@@ -102,6 +102,7 @@ import venezuela from './countries/venezuela.geojson';
 import vietnam from './countries/vietnam.geojson';
 import puglia from './countries/puglia.geojson';
 import puglia_asl from './countries/puglia_asl.geojson';
+import puglia_distretti from './countries/puglia_distretti.geojson';
 
 export const countries = {
   austria,
@@ -164,6 +165,7 @@ export const countries = {
   puerto_rico,
   puglia,
   puglia_asl,
+  puglia_distretti,
   qatar,
   russia,
   rwanda,
