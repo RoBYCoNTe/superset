@@ -11,7 +11,8 @@
       "properties": {
         "DISTRETTO": 1,
         "NUM_COMUNI": 2,
-        "DEN_DSS": "160114 - MOLFETTA"
+        "NAME_1": "Molfetta",
+        "ISO": "160114 - MOLFETTA"
       },
       "geometry": {
         "type": "Polygon",
@@ -197,7 +198,8 @@
       "properties": {
         "DISTRETTO": 2,
         "NUM_COMUNI": 3,
-        "DEN_DSS": "160114 - CORATO"
+        "NAME_1": "Corato",
+        "ISO": "160114 - CORATO"
       },
       "geometry": {
         "type": "Polygon",
@@ -464,7 +466,8 @@
       "properties": {
         "DISTRETTO": 3,
         "NUM_COMUNI": 2,
-        "DEN_DSS": "160114 - BITONTO"
+        "NAME_1": "Bitonto",
+        "ISO": "160114 - BITONTO"
       },
       "geometry": {
         "type": "Polygon",
@@ -659,7 +662,8 @@
       "properties": {
         "DISTRETTO": 4,
         "NUM_COMUNI": 4,
-        "DEN_DSS": "160114 - ALTAMURA"
+        "NAME_1": "Altamura",
+        "ISO": "160114 - ALTAMURA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1177,7 +1181,8 @@
       "properties": {
         "DISTRETTO": 5,
         "NUM_COMUNI": 6,
-        "DEN_DSS": "160114 - GRUMO APPULA"
+        "NAME_1": "Grumo Apula",
+        "ISO": "160114 - GRUMO APPULA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1589,7 +1594,8 @@
       "properties": {
         "DISTRETTO": 6,
         "NUM_COMUNI": 1,
-        "DEN_DSS": "160114 - BARI OVEST-CENTRO-EST"
+        "NAME_1": "Bari",
+        "ISO": "160114 - BARI OVEST-CENTRO-EST"
       },
       "geometry": {
         "type": "Polygon",
@@ -1857,7 +1863,8 @@
       "properties": {
         "DISTRETTO": 9,
         "NUM_COMUNI": 3,
-        "DEN_DSS": "160114 - MODUGNO"
+        "NAME_1": "Modugno",
+        "ISO": "160114 - MODUGNO"
       },
       "geometry": {
         "type": "Polygon",
@@ -1969,7 +1976,8 @@
       "properties": {
         "DISTRETTO": 10,
         "NUM_COMUNI": 5,
-        "DEN_DSS": "160114 - TRIGGIANO"
+        "NAME_1": "Triggiano",
+        "ISO": "160114 - TRIGGIANO"
       },
       "geometry": {
         "type": "Polygon",
@@ -2105,7 +2113,8 @@
       "properties": {
         "DISTRETTO": 11,
         "NUM_COMUNI": 3,
-        "DEN_DSS": "160114 - MOLA DI BARI"
+        "NAME_1": "Mola di Bari",
+        "ISO": "160114 - MOLA DI BARI"
       },
       "geometry": {
         "type": "Polygon",
@@ -2295,7 +2304,8 @@
       "properties": {
         "DISTRETTO": 12,
         "NUM_COMUNI": 3,
-        "DEN_DSS": "160114 - CONVERSANO"
+        "NAME_1": "Conversano",
+        "ISO": "160114 - CONVERSANO"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2654,7 +2664,8 @@
       "properties": {
         "DISTRETTO": 13,
         "NUM_COMUNI": 4,
-        "DEN_DSS": "160114 - GIOIA DEL COLLE"
+        "NAME_1": "Gioia del colle",
+        "ISO": "160114 - GIOIA DEL COLLE"
       },
       "geometry": {
         "type": "Polygon",
@@ -2999,7 +3010,8 @@
       "properties": {
         "DISTRETTO": 14,
         "NUM_COMUNI": 5,
-        "DEN_DSS": "160114 - PUTIGNANO"
+        "NAME_1": "Putignano",
+        "ISO": "160114 - PUTIGNANO"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3539,7 +3551,8 @@
       "properties": {
         "DISTRETTO": 15,
         "NUM_COMUNI": 3,
-        "DEN_DSS": "160113 - MARGHERITA DI SAVOIA"
+        "NAME_1": "Margherita di Savoia",
+        "ISO": "160113 - MARGHERITA DI SAVOIA"
       },
       "geometry": {
         "type": "Polygon",
@@ -3787,7 +3800,8 @@
       "properties": {
         "DISTRETTO": 16,
         "NUM_COMUNI": 1,
-        "DEN_DSS": "160113 - ANDRIA"
+        "NAME_1": "Andria",
+        "ISO": "160113 - ANDRIA"
       },
       "geometry": {
         "type": "Polygon",
@@ -4079,7 +4093,8 @@
       "properties": {
         "DISTRETTO": 17,
         "NUM_COMUNI": 3,
-        "DEN_DSS": "160113 - CANOSA DI PUGLIA"
+        "NAME_1": "Canosa di Puglia",
+        "ISO": "160113 - CANOSA DI PUGLIA"
       },
       "geometry": {
         "type": "Polygon",
@@ -4470,7 +4485,8 @@
       "properties": {
         "DISTRETTO": 18,
         "NUM_COMUNI": 1,
-        "DEN_DSS": "160113 - BARLETTA"
+        "NAME_1": "Barletta",
+        "ISO": "160113 - BARLETTA"
       },
       "geometry": {
         "type": "Polygon",
@@ -4824,7 +4840,8 @@
       "properties": {
         "DISTRETTO": 19,
         "NUM_COMUNI": 2,
-        "DEN_DSS": "160113 - TRANI"
+        "NAME_1": "Trani",
+        "ISO": "160113 - TRANI"
       },
       "geometry": {
         "type": "Polygon",
@@ -5041,7 +5058,8 @@
       "properties": {
         "DISTRETTO": 20,
         "NUM_COMUNI": 2,
-        "DEN_DSS": "160106 - BRINDISI"
+        "NAME_1": "Brindisi",
+        "ISO": "160106 - BRINDISI"
       },
       "geometry": {
         "type": "Polygon",
@@ -5472,7 +5490,8 @@
       "properties": {
         "DISTRETTO": 21,
         "NUM_COMUNI": 3,
-        "DEN_DSS": "160106 - FASANO"
+        "NAME_1": "Fasano",
+        "ISO": "160106 - FASANO"
       },
       "geometry": {
         "type": "Polygon",
@@ -5821,7 +5840,8 @@
       "properties": {
         "DISTRETTO": 22,
         "NUM_COMUNI": 6,
-        "DEN_DSS": "160106 - FRANCAVILLA FONTANA"
+        "NAME_1": "Francavilla Fontana",
+        "ISO": "160106 - FRANCAVILLA FONTANA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -6307,7 +6327,8 @@
       "properties": {
         "DISTRETTO": 23,
         "NUM_COMUNI": 9,
-        "DEN_DSS": "160106 - MESAGNE"
+        "NAME_1": "Mesagne",
+        "ISO": "160106 - MESAGNE"
       },
       "geometry": {
         "type": "Polygon",
@@ -6791,7 +6812,8 @@
       "properties": {
         "DISTRETTO": 24,
         "NUM_COMUNI": 1,
-        "DEN_DSS": "160115 - FOGGIA1-FOGGIA2"
+        "NAME_1": "Foggia",
+        "ISO": "160115 - FOGGIA1-FOGGIA2"
       },
       "geometry": {
         "type": "Polygon",
@@ -7289,7 +7311,8 @@
       "properties": {
         "DISTRETTO": 26,
         "NUM_COMUNI": 6,
-        "DEN_DSS": "160115 - CERIGNOLA"
+        "NAME_1": "Cerignola",
+        "ISO": "160115 - CERIGNOLA"
       },
       "geometry": {
         "type": "Polygon",
@@ -7772,7 +7795,8 @@
       "properties": {
         "DISTRETTO": 27,
         "NUM_COMUNI": 14,
-        "DEN_DSS": "160115 - LUCERA"
+        "NAME_1": "Lucera",
+        "ISO": "160115 - LUCERA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -8424,7 +8448,8 @@
       "properties": {
         "DISTRETTO": 28,
         "NUM_COMUNI": 4,
-        "DEN_DSS": "160115 - MANFREDONIA"
+        "NAME_1": "Manfredonia",
+        "ISO": "160115 - MANFREDONIA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9167,7 +9192,8 @@
       "properties": {
         "DISTRETTO": 29,
         "NUM_COMUNI": 4,
-        "DEN_DSS": "160115 - SAN MARCO IN LAMIS"
+        "NAME_1": "San Marco in Lamis",
+        "ISO": "160115 - SAN MARCO IN LAMIS"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -9831,7 +9857,8 @@
       "properties": {
         "DISTRETTO": 30,
         "NUM_COMUNI": 8,
-        "DEN_DSS": "160115 - SAN SEVERO"
+        "NAME_1": "San Severo",
+        "ISO": "160115 - SAN SEVERO"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -10569,7 +10596,8 @@
       "properties": {
         "DISTRETTO": 31,
         "NUM_COMUNI": 16,
-        "DEN_DSS": "160115 - TROIA-ACCADIA"
+        "NAME_1": "Troia-Accadia",
+        "ISO": "160115 - TROIA-ACCADIA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11339,7 +11367,8 @@
       "properties": {
         "DISTRETTO": 32,
         "NUM_COMUNI": 8,
-        "DEN_DSS": "160115 - VICO DEL GARGANO"
+        "NAME_1": "Vico del Gargano",
+        "ISO": "160115 - VICO DEL GARGANO"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -11774,7 +11803,8 @@
       "properties": {
         "DISTRETTO": 33,
         "NUM_COMUNI": 10,
-        "DEN_DSS": "160116 - LECCE"
+        "NAME_1": "Lecce",
+        "ISO": "160116 - LECCE"
       },
       "geometry": {
         "type": "Polygon",
@@ -12096,7 +12126,8 @@
       "properties": {
         "DISTRETTO": 34,
         "NUM_COMUNI": 8,
-        "DEN_DSS": "160116 - CAMPI SALENTINA"
+        "NAME_1": "Campi Salentina",
+        "ISO": "160116 - CAMPI SALENTINA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -12389,7 +12420,8 @@
       "properties": {
         "DISTRETTO": 35,
         "NUM_COMUNI": 7,
-        "DEN_DSS": "160116 - CASARANO"
+        "NAME_1": "Casarano",
+        "ISO": "160116 - CASARANO"
       },
       "geometry": {
         "type": "Polygon",
@@ -12688,7 +12720,8 @@
       "properties": {
         "DISTRETTO": 36,
         "NUM_COMUNI": 15,
-        "DEN_DSS": "160116 - GAGLIANO DEL CAPO"
+        "NAME_1": "Gagliano del Capo",
+        "ISO": "160116 - GAGLIANO DEL CAPO"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13091,7 +13124,8 @@
       "properties": {
         "DISTRETTO": 37,
         "NUM_COMUNI": 6,
-        "DEN_DSS": "160116 - GALATINA"
+        "NAME_1": "Galatina",
+        "ISO": "160116 - GALATINA"
       },
       "geometry": {
         "type": "Polygon",
@@ -13338,7 +13372,8 @@
       "properties": {
         "DISTRETTO": 38,
         "NUM_COMUNI": 8,
-        "DEN_DSS": "160116 - GALLIPOLI"
+        "NAME_1": "Gallipoli",
+        "ISO": "160116 - GALLIPOLI"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -13705,7 +13740,8 @@
       "properties": {
         "DISTRETTO": 39,
         "NUM_COMUNI": 12,
-        "DEN_DSS": "160116 - MAGLIE"
+        "NAME_1": "Maglie",
+        "ISO": "160116 - MAGLIE"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -14316,7 +14352,8 @@
       "properties": {
         "DISTRETTO": 40,
         "NUM_COMUNI": 10,
-        "DEN_DSS": "160116 - MARTANO"
+        "NAME_1": "Martano",
+        "ISO": "160116 - MARTANO"
       },
       "geometry": {
         "type": "Polygon",
@@ -14648,7 +14685,8 @@
       "properties": {
         "DISTRETTO": 41,
         "NUM_COMUNI": 6,
-        "DEN_DSS": "160116 - NARDO'"
+        "NAME_1": "Nardo'",
+        "ISO": "160116 - NARDO'"
       },
       "geometry": {
         "type": "Polygon",
@@ -15034,7 +15072,8 @@
       "properties": {
         "DISTRETTO": 42,
         "NUM_COMUNI": 15,
-        "DEN_DSS": "160116 - POGGIARDO"
+        "NAME_1": "Poggiardo",
+        "ISO": "160116 - POGGIARDO"
       },
       "geometry": {
         "type": "Polygon",
@@ -15331,7 +15370,8 @@
       "properties": {
         "DISTRETTO": 43,
         "NUM_COMUNI": 4,
-        "DEN_DSS": "160112 - GINOSA"
+        "NAME_1": "Ginosa",
+        "ISO": "160112 - GINOSA"
       },
       "geometry": {
         "type": "Polygon",
@@ -15695,7 +15735,8 @@
       "properties": {
         "DISTRETTO": 44,
         "NUM_COMUNI": 4,
-        "DEN_DSS": "160112 - MASSAFRA"
+        "NAME_1": "Massafra",
+        "ISO": "160112 - MASSAFRA"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -16400,7 +16441,8 @@
       "properties": {
         "DISTRETTO": 45,
         "NUM_COMUNI": 1,
-        "DEN_DSS": "160112 - TARANTO1-TARANTO2"
+        "NAME_1": "Taranto",
+        "ISO": "160112 - TARANTO1-TARANTO2"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -17048,7 +17090,8 @@
       "properties": {
         "DISTRETTO": 47,
         "NUM_COMUNI": 2,
-        "DEN_DSS": "160112 - MARTINA FRANCA"
+        "NAME_1": "Martina Franca",
+        "ISO": "160112 - MARTINA FRANCA"
       },
       "geometry": {
         "type": "Polygon",
@@ -17763,7 +17806,8 @@
       "properties": {
         "DISTRETTO": 48,
         "NUM_COMUNI": 11,
-        "DEN_DSS": "160112 - GROTTAGLIE"
+        "NAME_1": "Grottaglie",
+        "ISO": "160112 - GROTTAGLIE"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -18254,7 +18298,8 @@
       "properties": {
         "DISTRETTO": 49,
         "NUM_COMUNI": 7,
-        "DEN_DSS": "160112 - MANDURIA"
+        "NAME_1": "Manduria",
+        "ISO": "160112 - MANDURIA"
       },
       "geometry": {
         "type": "Polygon",
