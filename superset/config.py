@@ -535,6 +535,13 @@ EXTRA_CATEGORICAL_COLOR_SCHEMES: List[Dict[str, Any]] = [
         "label": "AReSS 2",
         "isDefault": False,
         "colors": ['#ffeaf4', '#e4b8ba', '#bc2c4f', '#a4a4a4', '#747474']
+    },
+    {
+        "id": "AReSS 3",
+        "description": "AReSS 3",
+        "label": "AReSS 3",
+        "isDefault": False,
+        "colors": ['#fff5f0', '#ebc9cb', '#d397aa', '#c45773', '#bc2c4f']
     }
 ]
 
